@@ -1,0 +1,68 @@
+{
+  "id": "candidate-seedance-dialogue-claim",
+  "title": "母女对白工作流：版本说明待核",
+  "summary_zh": "作者帖子提供表演设计方法和少量示例句，但没有给出完整生成 Prompt，且页面内版本说明存在冲突。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/Seedance_AI/comments/1vrjlk3/seedance_25_acting_prompt_tutorial_how_i_built_a/",
+    "item_key": "main",
+    "locator": "正文与作者回复",
+    "published_at": null,
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Fun_Walk_4965",
+    "url": "https://www.reddit.com/user/Fun_Walk_4965/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [],
+  "category": "待分类",
+  "tags": [],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "该示例的视频生成指令",
+    "locator": "正文",
+    "notes": "教学概述不等于完整原始 Prompt；本条未收录猜测文本。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/Seedance_AI/comments/1vrjlk3/seedance_25_acting_prompt_tutorial_how_i_built_a/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/Seedance_AI/comments/1vrjlk3/seedance_25_acting_prompt_tutorial_how_i_built_a/"
+    ],
+    "ai_evidence": "作者自述使用 AI 视频与参考图工作流；具体版本暂不采信。",
+    "notes": [
+      "作者宣称使用 Seedance 2.5；同一页面的自动置顶评论称该版本尚未正式发布，二者存在矛盾。",
+      "只找到教学概述和 prompt idea，不是完整实际提交文本。",
+      "保留候选，待核对版本和实际 Prompt 后再决定发布；不将广告或模型发布宣称直接当作事实。"
+    ]
+  },
+  "review": {
+    "status": "pending",
+    "reviewed_at": null
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

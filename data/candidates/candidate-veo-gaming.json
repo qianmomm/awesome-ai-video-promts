@@ -1,0 +1,74 @@
+{
+  "id": "candidate-veo-gaming",
+  "title": "游戏主播获胜线索",
+  "summary_zh": "整理库收录的公开线索；原帖尚未完成核验。",
+  "platform": "X",
+  "source": {
+    "url": "https://x.com/mattshumer_/status/1925027354755109311",
+    "item_key": "main",
+    "locator": "正文与作者回复",
+    "published_at": null,
+    "access": "inaccessible"
+  },
+  "author": {
+    "name": "mattshumer_",
+    "url": "https://x.com/mattshumer_"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "Veo",
+      "version": "3",
+      "role": "video_generation",
+      "evidence_url": "https://github.com/jax-explorer/awesome-veo3-videos"
+    }
+  ],
+  "category": "待分类",
+  "tags": [],
+  "prompt": {
+    "status": "full",
+    "original": "Streamer getting a victory royale with just his pickaxe",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://github.com/jax-explorer/awesome-veo3-videos",
+    "scope": "整理库转录文本，尚未确认原作者披露范围",
+    "locator": "正文",
+    "notes": "原文仅在整理库读到，不视为作者原帖已核验。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://x.com/mattshumer_/status/1925027354755109311",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+  },
+  "verification": {
+    "level": "secondary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://github.com/jax-explorer/awesome-veo3-videos"
+    ],
+    "ai_evidence": "第三方整理库按该模型收录；尚需核对原作者。",
+    "notes": [
+      "本次打开 X 原帖失败，不能确认原帖状态、Prompt 对应关系或视频播放。",
+      "不进入正式目录或公开 catalog.json。"
+    ]
+  },
+  "review": {
+    "status": "pending",
+    "reviewed_at": null
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

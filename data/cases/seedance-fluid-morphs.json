@@ -1,0 +1,88 @@
+{
+  "id": "seedance-fluid-morphs",
+  "title": "多张照片之间的连续变形",
+  "summary_zh": "作者用多张风格参考图测试连续变形，公开了一句视频指令。",
+  "platform": "Blog",
+  "source": {
+    "url": "https://replicate.com/blog/seedance-2",
+    "item_key": "fluid-morphs",
+    "locator": "Reference anything 小节的多图变形示例",
+    "published_at": "2026-04-15",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "shridharathi",
+    "url": "https://replicate.com/shridharathi"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "Seedance",
+      "version": "2.0",
+      "role": "video_generation",
+      "evidence_url": "https://replicate.com/blog/seedance-2"
+    }
+  ],
+  "category": "图像动画与转场",
+  "tags": [
+    "图生视频",
+    "参考图缺失",
+    "简短指令",
+    "多图转场"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "Create fluid morphs between all of the photos",
+    "language": "en",
+    "translation_zh": "在所有照片之间创建流畅的变形过渡。",
+    "recreated": null,
+    "source_url": "https://replicate.com/blog/seedance-2",
+    "scope": "该示例的视频生成指令",
+    "locator": "Reference anything 小节的多图变形示例",
+    "notes": "作者披露的该条短指令完整收录；必须结合输入素材，不能只凭这一句话复现相同作品。"
+  },
+  "references": [
+    {
+      "kind": "image",
+      "url": null,
+      "status": "missing",
+      "notes": "参与变形的全部原始照片和排列顺序未取得。"
+    }
+  ],
+  "workflow_notes": [
+    "输入图片与视频 Prompt 共同决定结果。",
+    "原始输入文件、种子和完整参数未收齐。"
+  ],
+  "video": {
+    "page_url": "https://replicate.com/blog/seedance-2",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://replicate.com/blog/seedance-2"
+    ],
+    "ai_evidence": "作者在 Seedance 2.0 制作博客中把该视频示例与对应指令一同展示。",
+    "notes": [
+      "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

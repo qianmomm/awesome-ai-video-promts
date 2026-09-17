@@ -1,0 +1,113 @@
+{
+  "id": "pika-electric-fury",
+  "title": "Electric Fury：图像、视频与音乐的组合",
+  "summary_zh": "Alfredlua 发布的皮卡丘主题短片，作者说明用 Midjourney 做输入图、Pika 生成视频、Suno 做音乐并用 Screenflow 剪辑。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/",
+    "item_key": "main",
+    "locator": "正文与作者回复",
+    "published_at": "2023-12-30",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Alfredlua",
+    "url": "https://www.reddit.com/user/Alfredlua/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "Pika",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/"
+    },
+    {
+      "name": "Midjourney",
+      "version": null,
+      "role": "image_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/"
+    },
+    {
+      "name": "Suno",
+      "version": null,
+      "role": "audio_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/"
+    },
+    {
+      "name": "Screenflow",
+      "version": null,
+      "role": "editing",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/"
+    }
+  ],
+  "category": "音乐与动画",
+  "tags": [
+    "图生视频",
+    "文生视频",
+    "音乐",
+    "多工具",
+    "Prompt 未找到"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "整片的逐镜头 Prompt 未取得",
+    "locator": "正文",
+    "notes": "已找到作者工具清单；没有找到完整视频 Prompt 文本。工具清单不算 Prompt。"
+  },
+  "references": [
+    {
+      "kind": "image",
+      "url": null,
+      "status": "missing",
+      "notes": "作者提及的 Midjourney 输入图未取得完整独立文件。"
+    },
+    {
+      "kind": "audio",
+      "url": null,
+      "status": "missing",
+      "notes": "原作包含歌曲，但未取得音频生成输入与独立素材。"
+    }
+  ],
+  "workflow_notes": [
+    "作者评论列明 Pika 同时用于图生视频和文生视频。",
+    "先生成图像与视频，再制作歌曲并剪辑为作品；各环节分开记录。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/"
+    ],
+    "ai_evidence": "作者在自己的帖子回复中逐项说明了 Pika、Midjourney、Suno 和剪辑工具的用途。",
+    "notes": [
+      "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

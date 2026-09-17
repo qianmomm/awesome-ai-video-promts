@@ -1,0 +1,87 @@
+{
+  "id": "runway-video-restyling",
+  "title": "实拍镜头的四种视频改写",
+  "summary_zh": "作者把一次拍摄的原视频上传到 Runway，展示原片与四种生成版本。具体 Prompt 未在已读正文与作者回复中找到。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1fzuo8c/amazed_with_runwayml_video_to_video_original/",
+    "item_key": "main",
+    "locator": "正文与作者回复",
+    "published_at": "2024-10-09",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "andrebravado",
+    "url": "https://www.reddit.com/user/andrebravado/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "Runway",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1fzuo8c/amazed_with_runwayml_video_to_video_original/"
+    }
+  ],
+  "category": "视频重绘",
+  "tags": [
+    "视频生视频",
+    "风格改写",
+    "Prompt 未找到"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "具体视频改写指令未找到",
+    "locator": "正文",
+    "notes": "作者提到使用 Prompt 重新想象视频，但没有在已读作者回复中给出文本；归入灵感区。"
+  },
+  "references": [
+    {
+      "kind": "video",
+      "url": null,
+      "status": "missing",
+      "notes": "展示序列含原片，但未取得模型所用输入视频的独立文件。"
+    }
+  ],
+  "workflow_notes": [
+    "输入来自实际拍摄的视频片段。",
+    "作者回复明确说是 video-to-video，不是仅凭静图生成。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1fzuo8c/amazed_with_runwayml_video_to_video_original/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1fzuo8c/amazed_with_runwayml_video_to_video_original/"
+    ],
+    "ai_evidence": "作者在作品页面明确说明使用的 AI 视频模型。",
+    "notes": [
+      "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

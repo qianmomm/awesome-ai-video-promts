@@ -1,0 +1,19 @@
+{
+  "name": "awesome-ai-video-promts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "跨平台、跨模型的 AI 视频作品与原始 Prompt 案例库",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "validate": "node scripts/cli.mjs validate",
+    "build": "node scripts/cli.mjs build",
+    "check": "node scripts/cli.mjs check",
+    "test": "node --test",
+    "new": "node scripts/cli.mjs new",
+    "import": "node scripts/cli.mjs import",
+    "search": "node scripts/cli.mjs search",
+    "verify": "npm run validate && npm test && npm run check"
+  },
+  "license": "MIT"
+}

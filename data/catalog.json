@@ -1,0 +1,925 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "kling-car-combat-timeline",
+      "title": "双车追逐：按秒安排动作与声音",
+      "summary_zh": "作者分享由单张图驱动的车辆动作片段，并在正文给出分时段的镜头、动作和声音安排。",
+      "platform": "Reddit",
+      "source": {
+        "url": "https://www.reddit.com/r/KlingAI_Videos/comments/1w38ocs/have_a_bit_of_fun_with_twisted_metal_full_prompt/",
+        "item_key": "main",
+        "locator": "正文与作者回复",
+        "published_at": null,
+        "access": "accessible"
+      },
+      "author": {
+        "name": "UnluckyAdministrator",
+        "url": "https://www.reddit.com/user/UnluckyAdministrator/"
+      },
+      "collected_at": "2026-09-17",
+      "models": [
+        {
+          "name": "Kling",
+          "version": "Omni（作者未给出数字版本）",
+          "role": "video_generation",
+          "evidence_url": "https://www.reddit.com/r/KlingAI_Videos/comments/1w38ocs/have_a_bit_of_fun_with_twisted_metal_full_prompt/"
+        }
+      ],
+      "category": "动作与运镜",
+      "tags": [
+        "图生视频",
+        "时间线",
+        "动作分镜",
+        "参考图缺失"
+      ],
+      "prompt": {
+        "status": "excerpt",
+        "original": "Animate this image into a cinematic 15-second high-speed car combat sequence. Maintain exact car models, colors, and environment. Keep vehicles stable and realistic while simulating speed through motion blur and lighting.",
+        "language": "en",
+        "translation_zh": "将这张图变成 15 秒电影式高速车辆对战。保持车型、颜色和环境不变，车辆稳定且真实，通过动态模糊和光线表现速度。",
+        "recreated": null,
+        "source_url": "https://www.reddit.com/r/KlingAI_Videos/comments/1w38ocs/have_a_bit_of_fun_with_twisted_metal_full_prompt/",
+        "scope": "仅节选总指令；完整 0–15 秒时间线在作者原帖",
+        "locator": "正文 Find the full prompt 下方，从 Animate this image 开始",
+        "notes": "作者给出了更长的分秒脚本。本条仅引用开头，完整规则、动作、镜头与声音指令请到原帖查看。"
+      },
+      "references": [
+        {
+          "kind": "first_frame",
+          "url": null,
+          "status": "missing",
+          "notes": "作者使用的单张输入图未取得独立可复现文件。"
+        }
+      ],
+      "workflow_notes": [
+        "作者说明使用单图生成，并未使用第三方剪辑软件。",
+        "原帖按多个时间段组织动作、镜头与声音；整段文本未在本库全文转载。"
+      ],
+      "video": {
+        "page_url": "https://www.reddit.com/r/KlingAI_Videos/comments/1w38ocs/have_a_bit_of_fun_with_twisted_metal_full_prompt/",
+        "alternate_urls": [],
+        "playback": "unchecked",
+        "checked_at": null,
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+      },
+      "verification": {
+        "level": "primary",
+        "checked_at": "2026-09-17",
+        "evidence_urls": [
+          "https://www.reddit.com/r/KlingAI_Videos/comments/1w38ocs/have_a_bit_of_fun_with_twisted_metal_full_prompt/"
+        ],
+        "ai_evidence": "作者在作品页面明确说明使用的 AI 视频模型。",
+        "notes": [
+          "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+        ]
+      },
+      "review": {
+        "status": "approved",
+        "reviewed_at": "2026-09-17"
+      },
+      "rights": {
+        "status": "link_only",
+        "evidence_url": null,
+        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+      },
+      "reproduction": {
+        "status": "not_attempted",
+        "evidence_url": null,
+        "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+      }
+    },
+    {
+      "id": "kling-flapper-extension",
+      "title": "壁炉旁读书：续写片段的表情指令",
+      "summary_zh": "作者公开了后续延长片段的 Prompt，并在回复里更正视频实际使用 Kling，首帧来自 Leonardo。",
+      "platform": "Reddit",
+      "source": {
+        "url": "https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/",
+        "item_key": "main",
+        "locator": "正文与作者回复",
+        "published_at": "2024-10-03",
+        "access": "accessible"
+      },
+      "author": {
+        "name": "JeddakofThark",
+        "url": "https://www.reddit.com/user/JeddakofThark/"
+      },
+      "collected_at": "2026-09-17",
+      "models": [
+        {
+          "name": "Kling",
+          "version": null,
+          "role": "video_generation",
+          "evidence_url": "https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/"
+        },
+        {
+          "name": "Leonardo",
+          "version": null,
+          "role": "image_generation",
+          "evidence_url": "https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/"
+        }
+      ],
+      "category": "对白与表演",
+      "tags": [
+        "图生视频",
+        "视频延长",
+        "作者更正",
+        "部分 Prompt"
+      ],
+      "prompt": {
+        "status": "partial",
+        "original": "A pretty, forty year old flapper sits in her study reading a book next to a roaring fireplace, with realistic flames, 35mm film, warm, lots of lamps, in the second half of the video, she looks at the camera and smiles, cinematic and flirty, photoreal.",
+        "language": "en",
+        "translation_zh": "一位漂亮的四十岁摩登女郎坐在书房里，靠着熊熊燃烧的壁炉读书；火焰真实，35 毫米胶片，暖色，有许多灯。视频后半段，她看向镜头微笑；电影感、俏皮，写实。",
+        "recreated": null,
+        "source_url": "https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/",
+        "scope": "最后的延长片段；不是最初片段或整段视频的全部 Prompt",
+        "locator": "JeddakofThark 的作者评论，先说明实际是 Kling，再给出最后一次延长所用指令",
+        "notes": "作者不确定最初 5 秒使用的精确 Prompt；只把明确披露的最后一次延长文本收录为 partial。"
+      },
+      "references": [
+        {
+          "kind": "first_frame",
+          "url": null,
+          "status": "missing",
+          "notes": "作者提到 Leonardo 首帧，未取得对应原始输入文件。"
+        }
+      ],
+      "workflow_notes": [
+        "作者说明先生成 5 秒，再延长 10 秒；该记录仅收录最后延长所用指令。",
+        "作者明确更正实际是 Kling，不能由 r/runwayml 或帖子标题判断模型。"
+      ],
+      "video": {
+        "page_url": "https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/",
+        "alternate_urls": [],
+        "playback": "error",
+        "checked_at": "2026-09-17",
+        "notes": "本次网页读取显示媒体加载错误；未成功播放，未判定视频永久失效。"
+      },
+      "verification": {
+        "level": "primary",
+        "checked_at": "2026-09-17",
+        "evidence_urls": [
+          "https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/"
+        ],
+        "ai_evidence": "原作者在评论中明确纠正：该作品来自 Kling，并说明首帧与视频延长流程。",
+        "notes": [
+          "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+        ]
+      },
+      "review": {
+        "status": "approved",
+        "reviewed_at": "2026-09-17"
+      },
+      "rights": {
+        "status": "link_only",
+        "evidence_url": null,
+        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+      },
+      "reproduction": {
+        "status": "not_attempted",
+        "evidence_url": null,
+        "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+      }
+    },
+    {
+      "id": "pika-electric-fury",
+      "title": "Electric Fury：图像、视频与音乐的组合",
+      "summary_zh": "Alfredlua 发布的皮卡丘主题短片，作者说明用 Midjourney 做输入图、Pika 生成视频、Suno 做音乐并用 Screenflow 剪辑。",
+      "platform": "Reddit",
+      "source": {
+        "url": "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/",
+        "item_key": "main",
+        "locator": "正文与作者回复",
+        "published_at": "2023-12-30",
+        "access": "accessible"
+      },
+      "author": {
+        "name": "Alfredlua",
+        "url": "https://www.reddit.com/user/Alfredlua/"
+      },
+      "collected_at": "2026-09-17",
+      "models": [
+        {
+          "name": "Pika",
+          "version": null,
+          "role": "video_generation",
+          "evidence_url": "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/"
+        },
+        {
+          "name": "Midjourney",
+          "version": null,
+          "role": "image_generation",
+          "evidence_url": "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/"
+        },
+        {
+          "name": "Suno",
+          "version": null,
+          "role": "audio_generation",
+          "evidence_url": "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/"
+        },
+        {
+          "name": "Screenflow",
+          "version": null,
+          "role": "editing",
+          "evidence_url": "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/"
+        }
+      ],
+      "category": "音乐与动画",
+      "tags": [
+        "图生视频",
+        "文生视频",
+        "音乐",
+        "多工具",
+        "Prompt 未找到"
+      ],
+      "prompt": {
+        "status": "not_found",
+        "original": null,
+        "language": null,
+        "translation_zh": null,
+        "recreated": null,
+        "source_url": null,
+        "scope": "整片的逐镜头 Prompt 未取得",
+        "locator": "正文",
+        "notes": "已找到作者工具清单；没有找到完整视频 Prompt 文本。工具清单不算 Prompt。"
+      },
+      "references": [
+        {
+          "kind": "image",
+          "url": null,
+          "status": "missing",
+          "notes": "作者提及的 Midjourney 输入图未取得完整独立文件。"
+        },
+        {
+          "kind": "audio",
+          "url": null,
+          "status": "missing",
+          "notes": "原作包含歌曲，但未取得音频生成输入与独立素材。"
+        }
+      ],
+      "workflow_notes": [
+        "作者评论列明 Pika 同时用于图生视频和文生视频。",
+        "先生成图像与视频，再制作歌曲并剪辑为作品；各环节分开记录。"
+      ],
+      "video": {
+        "page_url": "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/",
+        "alternate_urls": [],
+        "playback": "unchecked",
+        "checked_at": null,
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+      },
+      "verification": {
+        "level": "primary",
+        "checked_at": "2026-09-17",
+        "evidence_urls": [
+          "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/"
+        ],
+        "ai_evidence": "作者在自己的帖子回复中逐项说明了 Pika、Midjourney、Suno 和剪辑工具的用途。",
+        "notes": [
+          "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+        ]
+      },
+      "review": {
+        "status": "approved",
+        "reviewed_at": "2026-09-17"
+      },
+      "rights": {
+        "status": "link_only",
+        "evidence_url": null,
+        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+      },
+      "reproduction": {
+        "status": "not_attempted",
+        "evidence_url": null,
+        "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+      }
+    },
+    {
+      "id": "runway-image-prompt-comparison",
+      "title": "同一静图的四种提示方式实验",
+      "summary_zh": "作者比较仅输入图片、图片加描述、图片加动作、图片加描述与动作的实验，并分享当时的观察。",
+      "platform": "Reddit",
+      "source": {
+        "url": "https://www.reddit.com/r/aivideo/comments/18wldce/my_notes_from_my_quick_runway_experiments/",
+        "item_key": "main",
+        "locator": "正文与作者回复",
+        "published_at": "2024-01-02",
+        "access": "accessible"
+      },
+      "author": {
+        "name": "Alfredlua",
+        "url": "https://www.reddit.com/user/Alfredlua/"
+      },
+      "collected_at": "2026-09-17",
+      "models": [
+        {
+          "name": "Runway",
+          "version": null,
+          "role": "video_generation",
+          "evidence_url": "https://www.reddit.com/r/aivideo/comments/18wldce/my_notes_from_my_quick_runway_experiments/"
+        },
+        {
+          "name": "Midjourney",
+          "version": null,
+          "role": "image_generation",
+          "evidence_url": "https://www.reddit.com/r/aivideo/comments/18wldce/my_notes_from_my_quick_runway_experiments/"
+        }
+      ],
+      "category": "提示方式实验",
+      "tags": [
+        "图生视频",
+        "对照实验",
+        "Prompt 未找到"
+      ],
+      "prompt": {
+        "status": "not_found",
+        "original": null,
+        "language": null,
+        "translation_zh": null,
+        "recreated": null,
+        "source_url": null,
+        "scope": "四种输入组合；未取得具体生成文本",
+        "locator": "正文",
+        "notes": "作者说明实验方法，但未找到可逐字引用的每次视频生成 Prompt；归入灵感区。"
+      },
+      "references": [
+        {
+          "kind": "image",
+          "url": null,
+          "status": "missing",
+          "notes": "对比实验输入静图未取得独立可复现文件。"
+        }
+      ],
+      "workflow_notes": [
+        "比较不同文字输入组合对静图动画的影响。",
+        "作者在回复中也讨论 Pika；本条对应 Runway 实验，Pika 作品另有独立记录。",
+        "观察来自当时作者的实验，不能推广为当前所有版本的性能结论。"
+      ],
+      "video": {
+        "page_url": "https://www.reddit.com/r/aivideo/comments/18wldce/my_notes_from_my_quick_runway_experiments/",
+        "alternate_urls": [],
+        "playback": "unchecked",
+        "checked_at": null,
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+      },
+      "verification": {
+        "level": "primary",
+        "checked_at": "2026-09-17",
+        "evidence_urls": [
+          "https://www.reddit.com/r/aivideo/comments/18wldce/my_notes_from_my_quick_runway_experiments/"
+        ],
+        "ai_evidence": "作者在作品页面明确说明使用的 AI 视频模型。",
+        "notes": [
+          "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+        ]
+      },
+      "review": {
+        "status": "approved",
+        "reviewed_at": "2026-09-17"
+      },
+      "rights": {
+        "status": "link_only",
+        "evidence_url": null,
+        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+      },
+      "reproduction": {
+        "status": "not_attempted",
+        "evidence_url": null,
+        "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+      }
+    },
+    {
+      "id": "runway-video-restyling",
+      "title": "实拍镜头的四种视频改写",
+      "summary_zh": "作者把一次拍摄的原视频上传到 Runway，展示原片与四种生成版本。具体 Prompt 未在已读正文与作者回复中找到。",
+      "platform": "Reddit",
+      "source": {
+        "url": "https://www.reddit.com/r/aivideo/comments/1fzuo8c/amazed_with_runwayml_video_to_video_original/",
+        "item_key": "main",
+        "locator": "正文与作者回复",
+        "published_at": "2024-10-09",
+        "access": "accessible"
+      },
+      "author": {
+        "name": "andrebravado",
+        "url": "https://www.reddit.com/user/andrebravado/"
+      },
+      "collected_at": "2026-09-17",
+      "models": [
+        {
+          "name": "Runway",
+          "version": null,
+          "role": "video_generation",
+          "evidence_url": "https://www.reddit.com/r/aivideo/comments/1fzuo8c/amazed_with_runwayml_video_to_video_original/"
+        }
+      ],
+      "category": "视频重绘",
+      "tags": [
+        "视频生视频",
+        "风格改写",
+        "Prompt 未找到"
+      ],
+      "prompt": {
+        "status": "not_found",
+        "original": null,
+        "language": null,
+        "translation_zh": null,
+        "recreated": null,
+        "source_url": null,
+        "scope": "具体视频改写指令未找到",
+        "locator": "正文",
+        "notes": "作者提到使用 Prompt 重新想象视频，但没有在已读作者回复中给出文本；归入灵感区。"
+      },
+      "references": [
+        {
+          "kind": "video",
+          "url": null,
+          "status": "missing",
+          "notes": "展示序列含原片，但未取得模型所用输入视频的独立文件。"
+        }
+      ],
+      "workflow_notes": [
+        "输入来自实际拍摄的视频片段。",
+        "作者回复明确说是 video-to-video，不是仅凭静图生成。"
+      ],
+      "video": {
+        "page_url": "https://www.reddit.com/r/aivideo/comments/1fzuo8c/amazed_with_runwayml_video_to_video_original/",
+        "alternate_urls": [],
+        "playback": "unchecked",
+        "checked_at": null,
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+      },
+      "verification": {
+        "level": "primary",
+        "checked_at": "2026-09-17",
+        "evidence_urls": [
+          "https://www.reddit.com/r/aivideo/comments/1fzuo8c/amazed_with_runwayml_video_to_video_original/"
+        ],
+        "ai_evidence": "作者在作品页面明确说明使用的 AI 视频模型。",
+        "notes": [
+          "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+        ]
+      },
+      "review": {
+        "status": "approved",
+        "reviewed_at": "2026-09-17"
+      },
+      "rights": {
+        "status": "link_only",
+        "evidence_url": null,
+        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+      },
+      "reproduction": {
+        "status": "not_attempted",
+        "evidence_url": null,
+        "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+      }
+    },
+    {
+      "id": "seedance-fluid-morphs",
+      "title": "多张照片之间的连续变形",
+      "summary_zh": "作者用多张风格参考图测试连续变形，公开了一句视频指令。",
+      "platform": "Blog",
+      "source": {
+        "url": "https://replicate.com/blog/seedance-2",
+        "item_key": "fluid-morphs",
+        "locator": "Reference anything 小节的多图变形示例",
+        "published_at": "2026-04-15",
+        "access": "accessible"
+      },
+      "author": {
+        "name": "shridharathi",
+        "url": "https://replicate.com/shridharathi"
+      },
+      "collected_at": "2026-09-17",
+      "models": [
+        {
+          "name": "Seedance",
+          "version": "2.0",
+          "role": "video_generation",
+          "evidence_url": "https://replicate.com/blog/seedance-2"
+        }
+      ],
+      "category": "图像动画与转场",
+      "tags": [
+        "图生视频",
+        "参考图缺失",
+        "简短指令",
+        "多图转场"
+      ],
+      "prompt": {
+        "status": "full",
+        "original": "Create fluid morphs between all of the photos",
+        "language": "en",
+        "translation_zh": "在所有照片之间创建流畅的变形过渡。",
+        "recreated": null,
+        "source_url": "https://replicate.com/blog/seedance-2",
+        "scope": "该示例的视频生成指令",
+        "locator": "Reference anything 小节的多图变形示例",
+        "notes": "作者披露的该条短指令完整收录；必须结合输入素材，不能只凭这一句话复现相同作品。"
+      },
+      "references": [
+        {
+          "kind": "image",
+          "url": null,
+          "status": "missing",
+          "notes": "参与变形的全部原始照片和排列顺序未取得。"
+        }
+      ],
+      "workflow_notes": [
+        "输入图片与视频 Prompt 共同决定结果。",
+        "原始输入文件、种子和完整参数未收齐。"
+      ],
+      "video": {
+        "page_url": "https://replicate.com/blog/seedance-2",
+        "alternate_urls": [],
+        "playback": "unchecked",
+        "checked_at": null,
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+      },
+      "verification": {
+        "level": "primary",
+        "checked_at": "2026-09-17",
+        "evidence_urls": [
+          "https://replicate.com/blog/seedance-2"
+        ],
+        "ai_evidence": "作者在 Seedance 2.0 制作博客中把该视频示例与对应指令一同展示。",
+        "notes": [
+          "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+        ]
+      },
+      "review": {
+        "status": "approved",
+        "reviewed_at": "2026-09-17"
+      },
+      "rights": {
+        "status": "link_only",
+        "evidence_url": null,
+        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+      },
+      "reproduction": {
+        "status": "not_attempted",
+        "evidence_url": null,
+        "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+      }
+    },
+    {
+      "id": "seedance-offroad-image",
+      "title": "越野车辆：一张图开始的运动",
+      "summary_zh": "作者将车辆场景静图交给模型，并以一句话启动图生视频。",
+      "platform": "Blog",
+      "source": {
+        "url": "https://replicate.com/blog/seedance-2",
+        "item_key": "offroad-image",
+        "locator": "Dealing with physics 小节中车辆与起伏地形示例",
+        "published_at": "2026-04-15",
+        "access": "accessible"
+      },
+      "author": {
+        "name": "shridharathi",
+        "url": "https://replicate.com/shridharathi"
+      },
+      "collected_at": "2026-09-17",
+      "models": [
+        {
+          "name": "Seedance",
+          "version": "2.0",
+          "role": "video_generation",
+          "evidence_url": "https://replicate.com/blog/seedance-2"
+        }
+      ],
+      "category": "图像动画与转场",
+      "tags": [
+        "图生视频",
+        "参考图缺失",
+        "简短指令"
+      ],
+      "prompt": {
+        "status": "full",
+        "original": "Animate this image",
+        "language": "en",
+        "translation_zh": "让这张图片动起来。",
+        "recreated": null,
+        "source_url": "https://replicate.com/blog/seedance-2",
+        "scope": "该示例的视频生成指令",
+        "locator": "Dealing with physics 小节中车辆与起伏地形示例",
+        "notes": "作者披露的该条短指令完整收录；必须结合输入素材，不能只凭这一句话复现相同作品。"
+      },
+      "references": [
+        {
+          "kind": "image",
+          "url": null,
+          "status": "missing",
+          "notes": "原始车辆场景图未取得可复现文件。"
+        }
+      ],
+      "workflow_notes": [
+        "输入图片与视频 Prompt 共同决定结果。",
+        "原始输入文件、种子和完整参数未收齐。"
+      ],
+      "video": {
+        "page_url": "https://replicate.com/blog/seedance-2",
+        "alternate_urls": [],
+        "playback": "unchecked",
+        "checked_at": null,
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+      },
+      "verification": {
+        "level": "primary",
+        "checked_at": "2026-09-17",
+        "evidence_urls": [
+          "https://replicate.com/blog/seedance-2"
+        ],
+        "ai_evidence": "作者在 Seedance 2.0 制作博客中把该视频示例与对应指令一同展示。",
+        "notes": [
+          "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+        ]
+      },
+      "review": {
+        "status": "approved",
+        "reviewed_at": "2026-09-17"
+      },
+      "rights": {
+        "status": "link_only",
+        "evidence_url": null,
+        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+      },
+      "reproduction": {
+        "status": "not_attempted",
+        "evidence_url": null,
+        "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+      }
+    },
+    {
+      "id": "seedance-oil-painting",
+      "title": "油画中的水流运动",
+      "summary_zh": "作者测试让油画画面动起来，说明初始图片由 Dreamina 3.1 生成。",
+      "platform": "Blog",
+      "source": {
+        "url": "https://replicate.com/blog/seedance-2",
+        "item_key": "oil-painting",
+        "locator": "Dealing with physics 小节中油画与水流示例",
+        "published_at": "2026-04-15",
+        "access": "accessible"
+      },
+      "author": {
+        "name": "shridharathi",
+        "url": "https://replicate.com/shridharathi"
+      },
+      "collected_at": "2026-09-17",
+      "models": [
+        {
+          "name": "Seedance",
+          "version": "2.0",
+          "role": "video_generation",
+          "evidence_url": "https://replicate.com/blog/seedance-2"
+        },
+        {
+          "name": "Dreamina",
+          "version": "3.1",
+          "role": "image_generation",
+          "evidence_url": "https://replicate.com/blog/seedance-2"
+        }
+      ],
+      "category": "图像动画与转场",
+      "tags": [
+        "图生视频",
+        "参考图缺失",
+        "简短指令"
+      ],
+      "prompt": {
+        "status": "full",
+        "original": "Animate this image",
+        "language": "en",
+        "translation_zh": "让这张图片动起来。",
+        "recreated": null,
+        "source_url": "https://replicate.com/blog/seedance-2",
+        "scope": "该示例的视频生成指令",
+        "locator": "Dealing with physics 小节中油画与水流示例",
+        "notes": "作者披露的该条短指令完整收录；必须结合输入素材，不能只凭这一句话复现相同作品。"
+      },
+      "references": [
+        {
+          "kind": "image",
+          "url": null,
+          "status": "missing",
+          "notes": "油画初始图片未取得可复现文件。"
+        }
+      ],
+      "workflow_notes": [
+        "作者说明先用 Dreamina 3.1 生成油画初始图。",
+        "输入图片与视频 Prompt 共同决定结果。",
+        "原始输入文件、种子和完整参数未收齐。"
+      ],
+      "video": {
+        "page_url": "https://replicate.com/blog/seedance-2",
+        "alternate_urls": [],
+        "playback": "unchecked",
+        "checked_at": null,
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+      },
+      "verification": {
+        "level": "primary",
+        "checked_at": "2026-09-17",
+        "evidence_urls": [
+          "https://replicate.com/blog/seedance-2"
+        ],
+        "ai_evidence": "作者在 Seedance 2.0 制作博客中把该视频示例与对应指令一同展示。",
+        "notes": [
+          "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+        ]
+      },
+      "review": {
+        "status": "approved",
+        "reviewed_at": "2026-09-17"
+      },
+      "rights": {
+        "status": "link_only",
+        "evidence_url": null,
+        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+      },
+      "reproduction": {
+        "status": "not_attempted",
+        "evidence_url": null,
+        "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+      }
+    },
+    {
+      "id": "veo-pharma-ad-opening",
+      "title": "广告式叙事：开场独白的镜头 Prompt",
+      "summary_zh": "作者分享由多个 Veo 3 镜头组成的虚构广告，并公开开场人物独白的 Prompt。",
+      "platform": "Reddit",
+      "source": {
+        "url": "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/",
+        "item_key": "main",
+        "locator": "正文与作者回复",
+        "published_at": "2025-05-22",
+        "access": "accessible"
+      },
+      "author": {
+        "name": "NightsRadiant",
+        "url": "https://www.reddit.com/user/NightsRadiant/"
+      },
+      "collected_at": "2026-09-17",
+      "models": [
+        {
+          "name": "Veo",
+          "version": "3",
+          "role": "video_generation",
+          "evidence_url": "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/"
+        },
+        {
+          "name": "Grok",
+          "version": null,
+          "role": "script_assistance",
+          "evidence_url": "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/"
+        },
+        {
+          "name": "ChatGPT",
+          "version": null,
+          "role": "script_assistance",
+          "evidence_url": "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/"
+        }
+      ],
+      "category": "广告与短片",
+      "tags": [
+        "文生视频",
+        "多镜头",
+        "开场独白",
+        "部分 Prompt"
+      ],
+      "prompt": {
+        "status": "partial",
+        "original": "Muted colors, somber muted lighting. A woman, SARAH (50s), sits on a couch in a cluttered living room.She speaks (melancholic, slightly trembling voice) “I tried everything for my depression, nothing worked.”",
+        "language": "en",
+        "translation_zh": "低饱和色彩，阴郁柔暗的灯光。五十多岁的 Sarah 坐在杂乱客厅的沙发上，以忧郁、略微颤抖的声音说：“为了我的抑郁，我什么都试过了，都没用。”",
+        "recreated": null,
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/",
+        "scope": "整片 13 个镜头中的开场镜头",
+        "locator": "正文说明 opening shot 后的英文段落",
+        "notes": "只有开场镜头文本在此公开；不要当作整支广告的完整 Prompt。保留原文 room.She 的连写。"
+      },
+      "references": [],
+      "workflow_notes": [
+        "作者描述先写剧本，再辅助生成镜头清单，逐镜头多次生成并挑选结果。",
+        "正文称有 13 个镜头；本库未核算成本、生成次数或实际耗时。",
+        "本条是虚构视频创作案例，引用人物台词用于说明对白提示方式。"
+      ],
+      "video": {
+        "page_url": "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/",
+        "alternate_urls": [],
+        "playback": "unchecked",
+        "checked_at": null,
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+      },
+      "verification": {
+        "level": "primary",
+        "checked_at": "2026-09-17",
+        "evidence_urls": [
+          "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/"
+        ],
+        "ai_evidence": "作者在作品页面明确说明使用的 AI 视频模型。",
+        "notes": [
+          "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+        ]
+      },
+      "review": {
+        "status": "approved",
+        "reviewed_at": "2026-09-17"
+      },
+      "rights": {
+        "status": "link_only",
+        "evidence_url": null,
+        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+      },
+      "reproduction": {
+        "status": "not_attempted",
+        "evidence_url": null,
+        "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+      }
+    },
+    {
+      "id": "veo-standup-fofr",
+      "title": "小剧场脱口秀：把笑话交给模型",
+      "summary_zh": "fofr 用简短指令指定小剧场脱口秀，并要求对白包含笑话。Prompt 在其共同署名的博客中再次公开。",
+      "platform": "X",
+      "source": {
+        "url": "https://x.com/fofrAI/status/1924924738494669011",
+        "item_key": "main",
+        "locator": "fofrAI 原帖；可读的作者再发布页见 Prompt 来源",
+        "published_at": "2025-05-20",
+        "access": "inaccessible"
+      },
+      "author": {
+        "name": "fofr",
+        "url": "https://x.com/fofrAI"
+      },
+      "collected_at": "2026-09-17",
+      "models": [
+        {
+          "name": "Veo",
+          "version": "3",
+          "role": "video_generation",
+          "evidence_url": "https://replicate.com/blog/veo-3"
+        }
+      ],
+      "category": "对白与表演",
+      "tags": [
+        "文生视频",
+        "对白",
+        "简短指令"
+      ],
+      "prompt": {
+        "status": "full",
+        "original": "a man doing stand up comedy in a small venue tells a joke (include the joke in the dialogue)",
+        "language": "en",
+        "translation_zh": "一名男子在小场地表演脱口秀并讲一个笑话（对白中包含笑话）。",
+        "recreated": null,
+        "source_url": "https://replicate.com/blog/veo-3",
+        "scope": "该示例的视频生成指令",
+        "locator": "博客中嵌入的 fofr 脱口秀示例",
+        "notes": "作者博客保留了这段短 Prompt；并未公开精确笑话、种子或全部生成设置。"
+      },
+      "references": [],
+      "workflow_notes": [
+        "通过文生视频指定人物、场地与对白任务。",
+        "作品原帖在 X；博客中的相同示例是本次可读入口。"
+      ],
+      "video": {
+        "page_url": "https://replicate.com/blog/veo-3",
+        "alternate_urls": [],
+        "playback": "unchecked",
+        "checked_at": null,
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+      },
+      "verification": {
+        "level": "primary_republication",
+        "checked_at": "2026-09-17",
+        "evidence_urls": [
+          "https://replicate.com/blog/veo-3"
+        ],
+        "ai_evidence": "共同署名作者 fofr 的博客嵌入了该 X 作品和 Veo 3 生成指令。",
+        "notes": [
+          "本次无法直接读取 X 原帖；核验依据是作者共同署名的 Replicate 博客，不声称原帖已读。",
+          "第三方整理库也有该作品记录，但不用于替代作者原始依据。"
+        ]
+      },
+      "review": {
+        "status": "approved",
+        "reviewed_at": "2026-09-17"
+      },
+      "rights": {
+        "status": "link_only",
+        "evidence_url": null,
+        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+      },
+      "reproduction": {
+        "status": "not_attempted",
+        "evidence_url": null,
+        "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+      }
+    }
+  ]
+}

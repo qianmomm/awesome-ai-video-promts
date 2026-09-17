@@ -1,0 +1,94 @@
+{
+  "id": "veo-pharma-ad-opening",
+  "title": "广告式叙事：开场独白的镜头 Prompt",
+  "summary_zh": "作者分享由多个 Veo 3 镜头组成的虚构广告，并公开开场人物独白的 Prompt。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/",
+    "item_key": "main",
+    "locator": "正文与作者回复",
+    "published_at": "2025-05-22",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "NightsRadiant",
+    "url": "https://www.reddit.com/user/NightsRadiant/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "Veo",
+      "version": "3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/"
+    },
+    {
+      "name": "Grok",
+      "version": null,
+      "role": "script_assistance",
+      "evidence_url": "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/"
+    },
+    {
+      "name": "ChatGPT",
+      "version": null,
+      "role": "script_assistance",
+      "evidence_url": "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/"
+    }
+  ],
+  "category": "广告与短片",
+  "tags": [
+    "文生视频",
+    "多镜头",
+    "开场独白",
+    "部分 Prompt"
+  ],
+  "prompt": {
+    "status": "partial",
+    "original": "Muted colors, somber muted lighting. A woman, SARAH (50s), sits on a couch in a cluttered living room.She speaks (melancholic, slightly trembling voice) “I tried everything for my depression, nothing worked.”",
+    "language": "en",
+    "translation_zh": "低饱和色彩，阴郁柔暗的灯光。五十多岁的 Sarah 坐在杂乱客厅的沙发上，以忧郁、略微颤抖的声音说：“为了我的抑郁，我什么都试过了，都没用。”",
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/",
+    "scope": "整片 13 个镜头中的开场镜头",
+    "locator": "正文说明 opening shot 后的英文段落",
+    "notes": "只有开场镜头文本在此公开；不要当作整支广告的完整 Prompt。保留原文 room.She 的连写。"
+  },
+  "references": [],
+  "workflow_notes": [
+    "作者描述先写剧本，再辅助生成镜头清单，逐镜头多次生成并挑选结果。",
+    "正文称有 13 个镜头；本库未核算成本、生成次数或实际耗时。",
+    "本条是虚构视频创作案例，引用人物台词用于说明对白提示方式。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/"
+    ],
+    "ai_evidence": "作者在作品页面明确说明使用的 AI 视频模型。",
+    "notes": [
+      "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

@@ -1,0 +1,65 @@
+name: 提交视频案例
+description: 提交任意模型、任意平台的 AI 视频与 Prompt
+title: "[案例] "
+body:
+  - type: input
+    id: source
+    attributes:
+      label: 作品原帖 URL
+      description: 请提供创作者的原始发布页
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: 原作者与主页
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: 发布平台
+      placeholder: 任意平台均可
+    validations:
+      required: true
+  - type: textarea
+    id: models
+    attributes:
+      label: 模型、负责环节与 AI 创作依据
+      description: 名称和版本未知可以写未公开；请附作者说明的位置，不凭画面推测
+    validations:
+      required: true
+  - type: dropdown
+    id: prompt-status
+    attributes:
+      label: Prompt 公开情况
+      options:
+        - 完整公开
+        - 只公开部分镜头或步骤
+        - 完整原文仅提供来源链接
+        - 暂时没有找到
+        - 作者明确未公开
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: 原始 Prompt 与独立来源 URL
+      description: 保留作者原文，注明对应镜头与出现位置；翻译和另拟文本另行注明
+  - type: textarea
+    id: references
+    attributes:
+      label: 参考素材、已知参数与工作流
+      description: 仅提供公开链接，缺失素材可以说明
+  - type: textarea
+    id: rights
+    attributes:
+      label: 署名或许可说明
+      description: 默认仅链接到作者页面，不推定视频或图片可以转载
+  - type: checkboxes
+    id: facts
+    attributes:
+      label: 信息检查
+      options:
+        - label: 已区分作者原文、个人理解和无法核实的信息
+          required: true

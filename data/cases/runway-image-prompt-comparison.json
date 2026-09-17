@@ -1,0 +1,94 @@
+{
+  "id": "runway-image-prompt-comparison",
+  "title": "同一静图的四种提示方式实验",
+  "summary_zh": "作者比较仅输入图片、图片加描述、图片加动作、图片加描述与动作的实验，并分享当时的观察。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/18wldce/my_notes_from_my_quick_runway_experiments/",
+    "item_key": "main",
+    "locator": "正文与作者回复",
+    "published_at": "2024-01-02",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Alfredlua",
+    "url": "https://www.reddit.com/user/Alfredlua/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "Runway",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/18wldce/my_notes_from_my_quick_runway_experiments/"
+    },
+    {
+      "name": "Midjourney",
+      "version": null,
+      "role": "image_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/18wldce/my_notes_from_my_quick_runway_experiments/"
+    }
+  ],
+  "category": "提示方式实验",
+  "tags": [
+    "图生视频",
+    "对照实验",
+    "Prompt 未找到"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "四种输入组合；未取得具体生成文本",
+    "locator": "正文",
+    "notes": "作者说明实验方法，但未找到可逐字引用的每次视频生成 Prompt；归入灵感区。"
+  },
+  "references": [
+    {
+      "kind": "image",
+      "url": null,
+      "status": "missing",
+      "notes": "对比实验输入静图未取得独立可复现文件。"
+    }
+  ],
+  "workflow_notes": [
+    "比较不同文字输入组合对静图动画的影响。",
+    "作者在回复中也讨论 Pika；本条对应 Runway 实验，Pika 作品另有独立记录。",
+    "观察来自当时作者的实验，不能推广为当前所有版本的性能结论。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/18wldce/my_notes_from_my_quick_runway_experiments/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/18wldce/my_notes_from_my_quick_runway_experiments/"
+    ],
+    "ai_evidence": "作者在作品页面明确说明使用的 AI 视频模型。",
+    "notes": [
+      "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

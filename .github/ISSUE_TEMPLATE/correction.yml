@@ -1,0 +1,22 @@
+name: 纠错或移除
+description: 修正署名、Prompt、模型、失效链接，或请求移除
+title: "[纠错] "
+body:
+  - type: input
+    id: case
+    attributes:
+      label: 案例 ID 或页面链接
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题与希望的处理
+      description: 请说明修正、改为仅链接或移除；不要上传私人证件
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 可公开的依据
+      description: 作者原帖、公开说明或正确链接

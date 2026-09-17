@@ -1,0 +1,88 @@
+{
+  "id": "kling-car-combat-timeline",
+  "title": "双车追逐：按秒安排动作与声音",
+  "summary_zh": "作者分享由单张图驱动的车辆动作片段，并在正文给出分时段的镜头、动作和声音安排。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/KlingAI_Videos/comments/1w38ocs/have_a_bit_of_fun_with_twisted_metal_full_prompt/",
+    "item_key": "main",
+    "locator": "正文与作者回复",
+    "published_at": null,
+    "access": "accessible"
+  },
+  "author": {
+    "name": "UnluckyAdministrator",
+    "url": "https://www.reddit.com/user/UnluckyAdministrator/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "Kling",
+      "version": "Omni（作者未给出数字版本）",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/KlingAI_Videos/comments/1w38ocs/have_a_bit_of_fun_with_twisted_metal_full_prompt/"
+    }
+  ],
+  "category": "动作与运镜",
+  "tags": [
+    "图生视频",
+    "时间线",
+    "动作分镜",
+    "参考图缺失"
+  ],
+  "prompt": {
+    "status": "excerpt",
+    "original": "Animate this image into a cinematic 15-second high-speed car combat sequence. Maintain exact car models, colors, and environment. Keep vehicles stable and realistic while simulating speed through motion blur and lighting.",
+    "language": "en",
+    "translation_zh": "将这张图变成 15 秒电影式高速车辆对战。保持车型、颜色和环境不变，车辆稳定且真实，通过动态模糊和光线表现速度。",
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/KlingAI_Videos/comments/1w38ocs/have_a_bit_of_fun_with_twisted_metal_full_prompt/",
+    "scope": "仅节选总指令；完整 0–15 秒时间线在作者原帖",
+    "locator": "正文 Find the full prompt 下方，从 Animate this image 开始",
+    "notes": "作者给出了更长的分秒脚本。本条仅引用开头，完整规则、动作、镜头与声音指令请到原帖查看。"
+  },
+  "references": [
+    {
+      "kind": "first_frame",
+      "url": null,
+      "status": "missing",
+      "notes": "作者使用的单张输入图未取得独立可复现文件。"
+    }
+  ],
+  "workflow_notes": [
+    "作者说明使用单图生成，并未使用第三方剪辑软件。",
+    "原帖按多个时间段组织动作、镜头与声音；整段文本未在本库全文转载。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/KlingAI_Videos/comments/1w38ocs/have_a_bit_of_fun_with_twisted_metal_full_prompt/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/KlingAI_Videos/comments/1w38ocs/have_a_bit_of_fun_with_twisted_metal_full_prompt/"
+    ],
+    "ai_evidence": "作者在作品页面明确说明使用的 AI 视频模型。",
+    "notes": [
+      "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

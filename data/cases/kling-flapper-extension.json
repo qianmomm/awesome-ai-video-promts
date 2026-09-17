@@ -1,0 +1,94 @@
+{
+  "id": "kling-flapper-extension",
+  "title": "壁炉旁读书：续写片段的表情指令",
+  "summary_zh": "作者公开了后续延长片段的 Prompt，并在回复里更正视频实际使用 Kling，首帧来自 Leonardo。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/",
+    "item_key": "main",
+    "locator": "正文与作者回复",
+    "published_at": "2024-10-03",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "JeddakofThark",
+    "url": "https://www.reddit.com/user/JeddakofThark/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "Kling",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/"
+    },
+    {
+      "name": "Leonardo",
+      "version": null,
+      "role": "image_generation",
+      "evidence_url": "https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/"
+    }
+  ],
+  "category": "对白与表演",
+  "tags": [
+    "图生视频",
+    "视频延长",
+    "作者更正",
+    "部分 Prompt"
+  ],
+  "prompt": {
+    "status": "partial",
+    "original": "A pretty, forty year old flapper sits in her study reading a book next to a roaring fireplace, with realistic flames, 35mm film, warm, lots of lamps, in the second half of the video, she looks at the camera and smiles, cinematic and flirty, photoreal.",
+    "language": "en",
+    "translation_zh": "一位漂亮的四十岁摩登女郎坐在书房里，靠着熊熊燃烧的壁炉读书；火焰真实，35 毫米胶片，暖色，有许多灯。视频后半段，她看向镜头微笑；电影感、俏皮，写实。",
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/",
+    "scope": "最后的延长片段；不是最初片段或整段视频的全部 Prompt",
+    "locator": "JeddakofThark 的作者评论，先说明实际是 Kling，再给出最后一次延长所用指令",
+    "notes": "作者不确定最初 5 秒使用的精确 Prompt；只把明确披露的最后一次延长文本收录为 partial。"
+  },
+  "references": [
+    {
+      "kind": "first_frame",
+      "url": null,
+      "status": "missing",
+      "notes": "作者提到 Leonardo 首帧，未取得对应原始输入文件。"
+    }
+  ],
+  "workflow_notes": [
+    "作者说明先生成 5 秒，再延长 10 秒；该记录仅收录最后延长所用指令。",
+    "作者明确更正实际是 Kling，不能由 r/runwayml 或帖子标题判断模型。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/",
+    "alternate_urls": [],
+    "playback": "error",
+    "checked_at": "2026-09-17",
+    "notes": "本次网页读取显示媒体加载错误；未成功播放，未判定视频永久失效。"
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/"
+    ],
+    "ai_evidence": "原作者在评论中明确纠正：该作品来自 Kling，并说明首帧与视频延长流程。",
+    "notes": [
+      "本次核对的是作者公开说明，未检查生成后台，也未实际生成复现。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}
