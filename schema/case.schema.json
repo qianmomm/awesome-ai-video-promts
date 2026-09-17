@@ -285,6 +285,46 @@
         "notes": {
           "type": "string",
           "minLength": 1
+        },
+        "display": {
+          "type": "object",
+          "description": "页面展示方式独立于作品来源、播放核验和转载许可。",
+          "properties": {
+            "embed_url": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "uri"
+            },
+            "poster_url": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "uri"
+            },
+            "evidence_url": {
+              "type": "string",
+              "format": "uri"
+            },
+            "checked_at": {
+              "type": "string",
+              "format": "date"
+            },
+            "notes": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "embed_url",
+            "poster_url",
+            "evidence_url",
+            "checked_at",
+            "notes"
+          ],
+          "additionalProperties": false
         }
       },
       "required": [

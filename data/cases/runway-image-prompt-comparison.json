@@ -64,7 +64,14 @@
     "alternate_urls": [],
     "playback": "unchecked",
     "checked_at": null,
-    "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+    "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/my-notes-from-my-quick-runway-experiments-v0-bnJidWZrbHN2ejljMZ5kndZiuAr5j_LmjleVZmJIphoXeUoFWkcd5e05HLbg.png?width=640&crop=smart&format=pjpg&auto=webp&s=36739bd46880523fd9835e4833d89575c6abcdb2",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/18wldce/my_notes_from_my_quick_runway_experiments/",
+      "checked_at": "2026-09-17",
+      "notes": "封面取自原帖主视频播放器的 poster 属性，点击后在 Reddit 播放含声音的原作；不使用广告素材，不保存临时签名的 HLS 地址。"
+    }
   },
   "verification": {
     "level": "primary",
@@ -84,7 +91,7 @@
   "rights": {
     "status": "link_only",
     "evidence_url": null,
-    "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频附件或原帖视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
   },
   "reproduction": {
     "status": "not_attempted",

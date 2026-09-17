@@ -61,7 +61,14 @@
         "alternate_urls": [],
         "playback": "unchecked",
         "checked_at": null,
-        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。",
+        "display": {
+          "embed_url": null,
+          "poster_url": "https://external-preview.redd.it/have-a-bit-of-fun-with-twisted-metal-full-prompt-included-v0-enlxMHRjMHlpb21oMdtBR9QCRrvM2AMe6w2Liq_2q_jVnkcxPmt8Qr_WBHQM.png?width=640&crop=smart&format=pjpg&auto=webp&s=c54964bf36e699ed43ef0fb5385e4f1fcc764dad",
+          "evidence_url": "https://www.reddit.com/r/KlingAI_Videos/comments/1w38ocs/have_a_bit_of_fun_with_twisted_metal_full_prompt/",
+          "checked_at": "2026-09-17",
+          "notes": "封面取自原帖主视频播放器的 poster 属性，点击后在 Reddit 播放含声音的原作；不使用广告素材，不保存临时签名的 HLS 地址。"
+        }
       },
       "verification": {
         "level": "primary",
@@ -81,7 +88,7 @@
       "rights": {
         "status": "link_only",
         "evidence_url": null,
-        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+        "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频附件或原帖视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
       },
       "reproduction": {
         "status": "not_attempted",
@@ -155,7 +162,14 @@
         "alternate_urls": [],
         "playback": "error",
         "checked_at": "2026-09-17",
-        "notes": "本次网页读取显示媒体加载错误；未成功播放，未判定视频永久失效。"
+        "notes": "本次网页读取显示媒体加载错误；未成功播放，未判定视频永久失效。",
+        "display": {
+          "embed_url": null,
+          "poster_url": "https://external-preview.redd.it/sometimes-im-not-sure-if-runway-is-taking-my-prompts-v0-MTFnZGVtY3k1a3NkMX2s-bqJdIvbR68mSkS2VY5yTJSER-BbeOE6t1PIiP2u.png?width=640&crop=smart&format=pjpg&auto=webp&s=0007ff956edaf8b7e1649fdfd4c0d9778bda3d0c",
+          "evidence_url": "https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/",
+          "checked_at": "2026-09-17",
+          "notes": "封面取自原帖主视频播放器的 poster 属性，点击后在 Reddit 播放含声音的原作；不使用广告素材，不保存临时签名的 HLS 地址。"
+        }
       },
       "verification": {
         "level": "primary",
@@ -175,7 +189,7 @@
       "rights": {
         "status": "link_only",
         "evidence_url": null,
-        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+        "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频附件或原帖视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
       },
       "reproduction": {
         "status": "not_attempted",
@@ -268,7 +282,14 @@
         "alternate_urls": [],
         "playback": "unchecked",
         "checked_at": null,
-        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。",
+        "display": {
+          "embed_url": null,
+          "poster_url": "https://external-preview.redd.it/my-first-ai-video-electric-fury-yes-its-about-pikachu-v0-bjdpM2MzNXFjZDljMWIw1t2l98fv4DOCQUamPbUPXvY8Z-rrFBQCia3IjiLn.png?width=640&crop=smart&format=pjpg&auto=webp&s=6b936ca6c504e1b9b5d3e3ca34d765855d29a2c1",
+          "evidence_url": "https://www.reddit.com/r/aivideo/comments/18u83o6/my_first_ai_video_electric_fury_yes_its_about/",
+          "checked_at": "2026-09-17",
+          "notes": "封面取自原帖主视频播放器的 poster 属性，点击后在 Reddit 播放含声音的原作；不使用广告素材，不保存临时签名的 HLS 地址。"
+        }
       },
       "verification": {
         "level": "primary",
@@ -288,7 +309,7 @@
       "rights": {
         "status": "link_only",
         "evidence_url": null,
-        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+        "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频附件或原帖视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
       },
       "reproduction": {
         "status": "not_attempted",
@@ -362,7 +383,14 @@
         "alternate_urls": [],
         "playback": "unchecked",
         "checked_at": null,
-        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。",
+        "display": {
+          "embed_url": null,
+          "poster_url": "https://external-preview.redd.it/my-notes-from-my-quick-runway-experiments-v0-bnJidWZrbHN2ejljMZ5kndZiuAr5j_LmjleVZmJIphoXeUoFWkcd5e05HLbg.png?width=640&crop=smart&format=pjpg&auto=webp&s=36739bd46880523fd9835e4833d89575c6abcdb2",
+          "evidence_url": "https://www.reddit.com/r/aivideo/comments/18wldce/my_notes_from_my_quick_runway_experiments/",
+          "checked_at": "2026-09-17",
+          "notes": "封面取自原帖主视频播放器的 poster 属性，点击后在 Reddit 播放含声音的原作；不使用广告素材，不保存临时签名的 HLS 地址。"
+        }
       },
       "verification": {
         "level": "primary",
@@ -382,7 +410,7 @@
       "rights": {
         "status": "link_only",
         "evidence_url": null,
-        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+        "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频附件或原帖视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
       },
       "reproduction": {
         "status": "not_attempted",
@@ -449,7 +477,14 @@
         "alternate_urls": [],
         "playback": "unchecked",
         "checked_at": null,
-        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。",
+        "display": {
+          "embed_url": null,
+          "poster_url": "https://external-preview.redd.it/amazed-with-runwayml-video-to-video-original-video-followed-v0-am9sZmFybmQ1cnRkMWNy9nkkbQjB48TR-nX9YzSysZYpPuuGlto2Ku1mY35E.png?format=pjpg&auto=webp&s=77f099473bda3bd769272d300083f6de19b28211",
+          "evidence_url": "https://www.reddit.com/r/aivideo/comments/1fzuo8c/amazed_with_runwayml_video_to_video_original/",
+          "checked_at": "2026-09-17",
+          "notes": "封面取自原帖主视频播放器的 poster 属性，点击后在 Reddit 播放含声音的原作；不使用广告素材，不保存临时签名的 HLS 地址。"
+        }
       },
       "verification": {
         "level": "primary",
@@ -469,7 +504,7 @@
       "rights": {
         "status": "link_only",
         "evidence_url": null,
-        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+        "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频附件或原帖视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
       },
       "reproduction": {
         "status": "not_attempted",
@@ -537,7 +572,14 @@
         "alternate_urls": [],
         "playback": "unchecked",
         "checked_at": null,
-        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。",
+        "display": {
+          "embed_url": "https://github.com/user-attachments/assets/0833cba8-86b3-4f09-ba2c-b435319d8cd7",
+          "poster_url": null,
+          "evidence_url": "https://github.com/ZeroLu/awesome-seedance#72-fluid-morphs-between-reference-photos",
+          "checked_at": "2026-09-17",
+          "notes": "引用整理仓库中与原作对应的现有 GitHub 视频附件；匹配依据为同一原帖或作者博客示例。附件由外部仓库维护，未另行下载或转载。"
+        }
       },
       "verification": {
         "level": "primary",
@@ -557,7 +599,7 @@
       "rights": {
         "status": "link_only",
         "evidence_url": null,
-        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+        "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频附件或原帖视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
       },
       "reproduction": {
         "status": "not_attempted",
@@ -624,7 +666,14 @@
         "alternate_urls": [],
         "playback": "unchecked",
         "checked_at": null,
-        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。",
+        "display": {
+          "embed_url": "https://github.com/user-attachments/assets/0b615e52-1eff-4892-8b78-205816bfb873",
+          "poster_url": null,
+          "evidence_url": "https://github.com/ZeroLu/awesome-seedance#74-image-to-video-physics-animation",
+          "checked_at": "2026-09-17",
+          "notes": "引用整理仓库中与原作对应的现有 GitHub 视频附件；匹配依据为同一原帖或作者博客示例。附件由外部仓库维护，未另行下载或转载。"
+        }
       },
       "verification": {
         "level": "primary",
@@ -644,7 +693,7 @@
       "rights": {
         "status": "link_only",
         "evidence_url": null,
-        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+        "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频附件或原帖视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
       },
       "reproduction": {
         "status": "not_attempted",
@@ -718,7 +767,14 @@
         "alternate_urls": [],
         "playback": "unchecked",
         "checked_at": null,
-        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。",
+        "display": {
+          "embed_url": "https://github.com/user-attachments/assets/99f1d923-b995-4bc7-ac6a-5fcf491ea7cd",
+          "poster_url": null,
+          "evidence_url": "https://github.com/ZeroLu/awesome-seedance#74-image-to-video-physics-animation",
+          "checked_at": "2026-09-17",
+          "notes": "引用整理仓库中与原作对应的现有 GitHub 视频附件；匹配依据为同一原帖或作者博客示例。附件由外部仓库维护，未另行下载或转载。"
+        }
       },
       "verification": {
         "level": "primary",
@@ -738,7 +794,7 @@
       "rights": {
         "status": "link_only",
         "evidence_url": null,
-        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+        "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频附件或原帖视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
       },
       "reproduction": {
         "status": "not_attempted",
@@ -812,7 +868,14 @@
         "alternate_urls": [],
         "playback": "unchecked",
         "checked_at": null,
-        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。",
+        "display": {
+          "embed_url": null,
+          "poster_url": "https://external-preview.redd.it/i-used-to-make-500k-pharmaceutical-commercial-ads-but-now-i-v0-ajIwY3BpcGRtYTJmMWGGDZHbWntSoSV-KxwwjzqC9V0_hF_Fu3GzZ2wJGZQw.png?width=640&crop=smart&format=pjpg&auto=webp&s=e7523d5f68ad59b8c3ff4f8e2cb0431d8c45b00b",
+          "evidence_url": "https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/",
+          "checked_at": "2026-09-17",
+          "notes": "封面取自原帖主视频播放器的 poster 属性，点击后在 Reddit 播放含声音的原作；不使用广告素材，不保存临时签名的 HLS 地址。"
+        }
       },
       "verification": {
         "level": "primary",
@@ -832,7 +895,7 @@
       "rights": {
         "status": "link_only",
         "evidence_url": null,
-        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+        "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频附件或原帖视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
       },
       "reproduction": {
         "status": "not_attempted",
@@ -892,7 +955,14 @@
         "alternate_urls": [],
         "playback": "unchecked",
         "checked_at": null,
-        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。"
+        "notes": "已读取作品所在页面及文字资料；未直接播放核对视频，不将页面可读等同于视频可播。",
+        "display": {
+          "embed_url": "https://github.com/user-attachments/assets/94932749-cf4c-4b8c-a6f5-4b0165aac0be",
+          "poster_url": null,
+          "evidence_url": "https://github.com/jax-explorer/awesome-veo3-videos#case-3",
+          "checked_at": "2026-09-17",
+          "notes": "引用整理仓库中与原作对应的现有 GitHub 视频附件；匹配依据为同一原帖或作者博客示例。附件由外部仓库维护，未另行下载或转载。"
+        }
       },
       "verification": {
         "level": "primary_republication",
@@ -913,7 +983,7 @@
       "rights": {
         "status": "link_only",
         "evidence_url": null,
-        "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+        "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频附件或原帖视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
       },
       "reproduction": {
         "status": "not_attempted",

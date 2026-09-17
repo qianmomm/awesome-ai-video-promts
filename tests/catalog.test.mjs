@@ -93,16 +93,41 @@ test('partial, excerpt and link-only prompts are not silently promoted to full p
   assert.ok(validateCases([c], schema).some(e => /cannot have a translation/.test(e)));
 });
 
-test('rendering keeps original bytes in JSON and escapes quoted HTML and Markdown', () => {
+test('copyable prompt fences preserve original bytes and contain embedded Markdown/HTML', () => {
   const c = clone();
   c.prompt.original = '<script>alert(1)</script>\n![x](https://example.com/tracker)\n```\n# malicious heading\n> nested';
   const before = c.prompt.original;
   const outputs = generateOutputs([c], readme);
   const page = outputs.get(`docs/cases/${c.id}.md`);
-  assert.doesNotMatch(page, /<script>|!\[x\]|^# malicious heading/m);
-  assert.match(page, /> &lt;script&gt;/);
+  assert.ok(page.includes('````text\n' + before + '\n````'));
+  const body = page.split('````text\n')[1].split('\n````')[0];
+  assert.equal(body, before);
   assert.equal(c.prompt.original, before);
   assert.equal(JSON.parse(outputs.get('data/catalog.json')).cases[0].prompt.original, before);
+});
+
+test('video display uses the same verified mapping on home and detail, with honest fallback', () => {
+  for (const c of cases.filter(c => c.review.status === 'approved')) {
+    const pages = generateOutputs([c], readme);
+    const home = pages.get('README.md'), page = pages.get(`docs/cases/${c.id}.md`);
+    const d = c.video.display;
+    assert.ok(d?.embed_url || d?.poster_url, `${c.id}: missing video display`);
+    for (const rendered of [home, page]) {
+      if (d.embed_url) assert.ok(rendered.includes('\n\n' + d.embed_url + '\n\n'));
+      else {
+        assert.match(rendered, /点击封面观看原视频/);
+        assert.ok(rendered.includes(d.poster_url.replace(/&/g, '&amp;')));
+      }
+    }
+    assert.ok(page.indexOf('## Prompt') < page.indexOf('<details>'));
+    assert.doesNotMatch(page, /<details open/);
+  }
+  const c = clone();
+  c.video.display.embed_url = 'https://example.com/watch?v=not-an-attachment';
+  assert.ok(validateCases([c], schema).some(e => /stable GitHub video attachment/.test(e)));
+  delete c.video.display;
+  assert.deepEqual(validateCases([c], schema), []);
+  assert.match(detail(c), /暂无可嵌入视频或封面/);
 });
 
 test('schema rejects invalid dates, unsafe URLs, traversal IDs and unsupported keywords', () => {

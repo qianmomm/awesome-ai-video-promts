@@ -23,7 +23,18 @@ export const json = value => JSON.stringify(value, null, 2) + '\n';
 const cmp = (a, b) => a < b ? -1 : a > b ? 1 : 0;
 export const md = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/[\\`*_{}\[\]()#!|~]/g, '\\$&').replace(/\r?\n/g, ' ');
 const link = (title, url) => `[${md(title)}](<${url}>)`;
-const quoted = text => text.split(/\r?\n/).map(line => `> ${md(line)}`).join('\n');
+const html = value => String(value).replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
+const fenced = text => {
+  const fence = '`'.repeat(Math.max(3, ...[...text.matchAll(/`+/g)].map(m => m[0].length + 1)));
+  return `${fence}text\n${text}\n${fence}`;
+};
+export const isVideoAttachment = url => /^https:\/\/github\.com\/user-attachments\/assets\/[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}$/.test(url);
+export function videoBlock(c) {
+  const display = c.video.display;
+  if (display?.embed_url && isVideoAttachment(display.embed_url)) return display.embed_url;
+  if (display?.poster_url) return `<a href="${html(c.video.page_url)}"><img src="${html(display.poster_url)}" alt="${html(c.title)} — 点击观看原视频" width="720"></a>\n\n${link('▶ 点击封面观看原视频', c.video.page_url)}`;
+  return `${link('▶ 观看原视频', c.video.page_url)} · 暂无可嵌入视频或封面。`;
+}
 export function keyFor(name) {
   const prefix = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 48) || 'group';
   return `${prefix}-${createHash('sha256').update(name).digest('hex').slice(0, 8)}`;
@@ -88,6 +99,12 @@ export function validateCases(cases, schema, today = new Date().toISOString().sl
       if (!c.summary_zh.trim()) fail('approved case needs a summary');
     }
     if (c.video.playback === 'verified' && (!c.video.checked_at || !c.video.notes.trim())) fail('playback verification requires a date and viewing notes');
+    if (c.video.display) {
+      const d = c.video.display;
+      if (!d.embed_url && !d.poster_url) fail('video display requires an embed or poster');
+      if (d.embed_url && !isVideoAttachment(d.embed_url)) fail('embed_url must be a stable GitHub video attachment URL');
+      if (d.checked_at > today) fail('video display date is in the future');
+    }
     if (c.reproduction.status === 'reproduced' && (!c.reproduction.evidence_url || !c.reproduction.notes.trim())) fail('reproduction needs output evidence and notes');
     if (c.rights.status === 'permission_granted' && !c.rights.evidence_url) fail('permission requires evidence');
     for (const m of c.models) if (c.review.status === 'approved' && !m.evidence_url) fail('each disclosed model needs evidence');
@@ -131,56 +148,65 @@ function groups(cases, dimension) {
   }
   return [...out.entries()].sort(([a], [b]) => cmp(a, b));
 }
+function modelVersion(c) {
+  return c.models.filter(m => m.role === 'video_generation').map(m => md(m.name + (m.version ? ` ${m.version}` : ''))).join(' · ') || '模型未公开';
+}
+function fold(title, body) {
+  return `<details>\n<summary>${html(title)}</summary>\n\n${body}\n\n</details>`;
+}
+function gallery(cases, prefix) {
+  const cards = cases.map(c => `\n\n### ${link(c.title, `${prefix}${c.id}.md`)}\n\n${videoBlock(c)}\n\n**${modelVersion(c)}** · ${md(c.platform)} · ${label(c.prompt.status)}\n\n${md(c.summary_zh)}\n\n${link(hasPrompt(c) ? '查看 Prompt →' : '查看制作说明 →', `${prefix}${c.id}.md`)}\n\n`);
+  const rows = [];
+  for (let i = 0; i < cards.length; i += 2) rows.push(`<tr>\n<td width="50%" valign="top">${cards[i]}</td>\n<td width="50%" valign="top">${cards[i + 1] ?? '\n\n'}</td>\n</tr>`);
+  return `<table>\n${rows.join('\n')}\n</table>`;
+}
 export function detail(c) {
-  const lines = [generated + `# ${md(c.title)}`, c.summary_zh ? md(c.summary_zh) : '',
-    `${link('返回目录', '../../README.md')} · ${link('观看原作 / 视频页面', c.video.page_url)} · ${link('作者', c.author.url)}`,
-    ['| 字段 | 记录 |\n|---|---|',
-    `| 平台 | ${md(c.platform)} |`, `| 原作者 | ${md(c.author.name)} |`,
-    `| 发布日期 | ${c.source.published_at ?? '未核定'} |`, `| 原帖读取 | ${label(c.source.access)} |`,
-    `| 证据 | ${label(c.verification.level)}；${c.verification.checked_at} |`,
-    `| 播放 | ${label(c.video.playback)} |`,
-    `| Prompt | ${label(c.prompt.status)} |`,
-    `| 实际复现 | ${c.reproduction.status === 'reproduced' ? '已复现（见证据）' : '未复现'} |`,
-    `| 分类 | ${md(c.category)} |`,
-    `| 标签 | ${c.tags.map(md).join(' · ')} |`].join('\n'),
-    '## 使用的模型与工具',
-    c.models.length ? '| 名称 | 版本 | 环节 | 依据 |\n|---|---|---|---|\n' + c.models.map(m => `| ${md(m.name)} | ${md(m.version ?? '未公开')} | ${md(label(m.role))} | ${m.evidence_url ? link('来源', m.evidence_url) : '未核实'} |`).join('\n') : '作者未公开模型名称。',
-    '## 原始 Prompt',
-    `状态：**${label(c.prompt.status)}**。适用范围：${md(c.prompt.scope)}`];
-  if (c.prompt.original) lines.push(`以下为${link(c.author.name, c.prompt.source_url)}公开文本的引用：`, quoted(c.prompt.original));
-  else lines.push(c.prompt.status === 'link_only' ? `${link('前往作者页面查看完整 Prompt', c.prompt.source_url)}` : '未收录原始 Prompt；请勿把下面的工作流摘要当作原文。');
-  if (c.prompt.source_url) lines.push(`${link('Prompt 来源', c.prompt.source_url)} · 定位：${md(c.prompt.locator)}`);
-  lines.push(md(c.prompt.notes));
-  if (c.prompt.translation_zh) lines.push('### 中文译文（整理者翻译）', md(c.prompt.translation_zh));
-  if (c.prompt.recreated) lines.push('### 整理者另拟 Prompt（非作者原文，未保证复现）', quoted(c.prompt.recreated));
-  lines.push('## 参考素材与复现条件');
-  lines.push(c.references.length ? c.references.map(r => `- ${md(label(r.kind))}：${r.url ? link('来源', r.url) : '未取得素材链接'}；${r.status === 'not_public' ? '作者未公开素材' : md(label(r.status))}。${md(r.notes)}`).join('\n') : '未披露额外参考素材；这不代表已取得全部生成参数。');
-  lines.push('## 工作流记录', c.workflow_notes.map(s => `- ${md(s)}`).join('\n') || '未披露。');
-  lines.push('## 核验记录', `AI 创作依据：${md(c.verification.ai_evidence)}`, `原帖定位：${md(c.source.locator)}`,
+  const lines = [generated + link('← 返回视频画廊', '../../README.md'), `# ${md(c.title)}`, videoBlock(c),
+    `**模型：** ${modelVersion(c)} · **来源：** ${link(c.author.name, c.source.url)} · ${md(c.platform)}`,
+    md(c.summary_zh), '## Prompt', `**${label(c.prompt.status)}** · ${md(c.prompt.scope)}`];
+  if (c.prompt.original) lines.push(fenced(c.prompt.original));
+  else lines.push(c.prompt.status === 'link_only' ? link('前往作者页面查看完整 Prompt', c.prompt.source_url) : '暂未收录作者的原始 Prompt。');
+  if (c.prompt.source_url) lines.push(link('查看 Prompt 原文 ↗', c.prompt.source_url));
+  if (c.prompt.translation_zh) lines.push(fold('中文译文（整理者翻译）', fenced(c.prompt.translation_zh)));
+  if (c.prompt.recreated) lines.push(fold('整理者另拟 Prompt（非作者原文）', fenced(c.prompt.recreated)));
+  const extra = [
+    '**使用说明**', md(c.prompt.notes),
+    '**模型与工具**', c.models.map(m => `- ${md(m.name)} ${md(m.version ?? '（版本未公开）')} · ${md(label(m.role))}`).join('\n'),
+    '**参考素材**', c.references.length ? c.references.map(r => `- ${md(label(r.kind))}：${r.url ? link('素材来源', r.url) : '未取得素材链接'}。${md(r.notes)}`).join('\n') : '未披露额外参考素材。',
+    '**制作过程**', c.workflow_notes.map(s => `- ${md(s)}`).join('\n') || '未披露。',
+    '**来源记录**', `${label(c.verification.level)} · ${c.verification.checked_at}。${md(c.verification.ai_evidence)}`,
     c.verification.evidence_urls.map(u => `- ${link('核验来源', u)}`).join('\n'),
-    c.verification.notes.map(s => `- ${md(s)}`).join('\n'), `播放记录：${md(c.video.notes)}`);
-  if (c.video.alternate_urls.length) lines.push('### 其他播放入口（未托管）', c.video.alternate_urls.map(u => `- ${link('原帖关联的其他入口', u)}`).join('\n'));
-  lines.push('## 权利与署名', md(c.rights.notes), c.rights.evidence_url ? link('许可依据', c.rights.evidence_url) : '未取得视频或图片的转载许可，本仓库只提供链接。',
-    md(c.reproduction.notes), c.reproduction.evidence_url ? link('复现记录', c.reproduction.evidence_url) : '',
-    `${link('机器可读原始记录', `../../data/cases/${c.id}.json`)} · ${link('纠错与移除说明', '../../RIGHTS.md')}`);
+    `Prompt 定位：${md(c.prompt.locator)}`, c.verification.notes.map(s => `- ${md(s)}`).join('\n'),
+    `播放记录：${label(c.video.playback)}。${md(c.video.notes)}`,
+    c.video.display ? `展示素材：${link('对应关系依据', c.video.display.evidence_url)} · ${c.video.display.checked_at}。${md(c.video.display.notes)}` : '',
+    md(c.rights.notes), md(c.reproduction.notes)
+  ];
+  lines.push(fold('制作过程、参考素材与来源记录', extra.filter(Boolean).join('\n\n')),
+    `${link('原始记录', `../../data/cases/${c.id}.json`)} · ${link('署名与移除', '../../RIGHTS.md')}`);
   return lines.filter(Boolean).join('\n\n') + '\n';
 }
 
 export function generateOutputs(cases, readme) {
   if (readme.split(START).length !== 2 || readme.split(END).length !== 2 || readme.indexOf(END) < readme.indexOf(START)) throw new Error('README must have exactly one ordered catalog marker pair');
   const live = published(cases), prompts = live.filter(hasPrompt), inspirations = live.filter(c => !hasPrompt(c));
-  const counts = ['full', 'partial', 'excerpt', 'link_only'].map(s => `${label(s)} ${prompts.filter(c => c.prompt.status === s).length}`).join(' · ');
-  const content = [`**${live.length} 条已核对来源的案例** · ${prompts.length} 条有 Prompt 资料 · ${inspirations.length} 条灵感案例`, counts,
-    `待审核线索：${cases.filter(c => c.review.status === 'pending').length} 条，不计入案例数量。来源核验与播放、实际复现分别记录。`,
-    '### 有 Prompt 的案例', prompts.length ? table(prompts, 'docs/cases/') : '暂无。',
-    '### 灵感与工作流（未找到原始 Prompt）', inspirations.length ? table(inspirations, 'docs/cases/') : '暂无。',
-    '### 浏览索引'];
+  const inline = live.filter(c => c.video.display?.embed_url).length;
+  const content = [
+    `<p align="center"><strong>${live.length} 个案例 · ${prompts.length} 份 Prompt 资料 · ${groups(live, 'model').length} 类视频模型</strong></p>`,
+    '<a name="browse"></a>\n\n## 🧭 按主题浏览'
+  ];
   const out = new Map();
-  for (const [dimension, title] of [['model', '视频模型'], ['category', '用途'], ['platform', '来源平台']]) {
+  for (const [dimension, title] of [['model', '视频模型'], ['category', '创作主题'], ['platform', '来源平台']]) {
     const index = groups(live, dimension);
-    content.push(`**${title}**：` + index.map(([name, entries]) => link(`${name} (${entries.length})`, `docs/by-${dimension}/${keyFor(name)}.md`)).join(' · '));
-    for (const [name, entries] of index) out.set(`docs/by-${dimension}/${keyFor(name)}.md`, generated + `# ${md(name)}\n\n${link('返回目录', '../../README.md')}\n\n${table(entries, '../cases/')}\n`);
+    content.push(`**${title}**：` + index.map(([name, entries]) => link(`${name} · ${entries.length}`, `docs/by-${dimension}/${keyFor(name)}.md`)).join(' / '));
+    for (const [name, entries] of index) out.set(`docs/by-${dimension}/${keyFor(name)}.md`, generated + `# ${md(name)}\n\n${link('← 返回视频画廊', '../../README.md')}\n\n${table(entries, '../cases/')}\n`);
   }
+  const order = entries => [...entries].sort((a, b) => Number(!!b.video.display?.embed_url) - Number(!!a.video.display?.embed_url) || cmp(a.id, b.id));
+  content.push('<a name="gallery"></a>\n\n## 🎬 视频与 Prompt',
+    `先看作品，再打开详情复制 Prompt。${inline} 个案例使用页内播放器；其余案例点击视频封面前往原帖播放。`,
+    prompts.length ? gallery(order(prompts), 'docs/cases/') : '暂无。',
+    '<a name="inspiration"></a>\n\n## 💡 灵感与制作过程',
+    '这些作品已披露使用的 AI 视频工具，暂未收录原始 Prompt。',
+    inspirations.length ? gallery(order(inspirations), 'docs/cases/') : '暂无。');
   const body = readme.slice(0, readme.indexOf(START) + START.length) + '\n\n' + content.join('\n\n') + '\n\n' + readme.slice(readme.indexOf(END));
   out.set('README.md', body);
   for (const c of live) out.set(`docs/cases/${c.id}.md`, detail(c));

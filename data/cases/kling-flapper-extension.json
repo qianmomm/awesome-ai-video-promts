@@ -64,7 +64,14 @@
     "alternate_urls": [],
     "playback": "error",
     "checked_at": "2026-09-17",
-    "notes": "本次网页读取显示媒体加载错误；未成功播放，未判定视频永久失效。"
+    "notes": "本次网页读取显示媒体加载错误；未成功播放，未判定视频永久失效。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/sometimes-im-not-sure-if-runway-is-taking-my-prompts-v0-MTFnZGVtY3k1a3NkMX2s-bqJdIvbR68mSkS2VY5yTJSER-BbeOE6t1PIiP2u.png?width=640&crop=smart&format=pjpg&auto=webp&s=0007ff956edaf8b7e1649fdfd4c0d9778bda3d0c",
+      "evidence_url": "https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/",
+      "checked_at": "2026-09-17",
+      "notes": "封面取自原帖主视频播放器的 poster 属性，点击后在 Reddit 播放含声音的原作；不使用广告素材，不保存临时签名的 HLS 地址。"
+    }
   },
   "verification": {
     "level": "primary",
@@ -84,7 +91,7 @@
   "rights": {
     "status": "link_only",
     "evidence_url": null,
-    "notes": "保留作者署名和作品链接；Prompt 作为来源引用，视频与图片未下载或托管。第三方作品不适用仓库代码许可。"
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频附件或原帖视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
   },
   "reproduction": {
     "status": "not_attempted",
