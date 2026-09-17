@@ -1,0 +1,96 @@
+{
+  "id": "ltx-city-foot-chase",
+  "title": "城市追逐：人物、运镜与环境声的完整约束",
+  "summary_zh": "用首帧约束两个人物，分别描述跑姿、追逐关系、后退跟拍和街道声音；作者也记录了脚步与面部失真。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1vo6bic/ltx_25_foot_chase_prompt_i_used_is_below_not_too/",
+    "item_key": "main-video",
+    "locator": "作者原帖：LTX 2.5 foot chase. Prompt I used is below. Not too bad. There's some stutter stepping during the characters running and the gal pursuing him, her face kind of distorts and then she runs out of frame even though she is supposed to pursue him.",
+    "published_at": "2026-08-14",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "call-lee-free",
+    "url": "https://www.reddit.com/user/call-lee-free/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "LTX",
+      "version": "2.5",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vo6bic/ltx_25_foot_chase_prompt_i_used_is_below_not_too/"
+    }
+  ],
+  "category": "动作与运镜",
+  "tags": [
+    "图生视频",
+    "追逐",
+    "运镜",
+    "生成缺陷"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "Use the provided image as the exact first frame and visual reference. Preserve both characters’ facial identity, body proportions, wardrobe, hairstyle, and overall appearance throughout the entire shot.\n\nThe man in the foreground is sprinting at full speed directly down the city street, fleeing from the woman behind him. He maintains a powerful, believable running stride with natural forward body lean, realistic footfalls, arms pumping, shoulders rotating slightly, and visible physical exertion. His expression remains tense, focused, and determined. His open black jacket reacts naturally to his speed, fluttering and snapping behind him.\n\nThe woman continues pursuing him several meters behind. She runs aggressively and athletically, clearly attempting to catch him. Her eyes remain focused on the man ahead rather than the camera. Her long black tactical coat streams dramatically behind her while still obeying realistic fabric physics. Her ponytail moves naturally with each stride. Over the course of the shot, she slowly begins gaining ground on him.\n\n**Camera:** fast stabilized tracking shot moving backward in front of the runners at approximately the same speed as the man. Maintain the man prominently in the right foreground while keeping the woman clearly visible behind him on the left. The camera remains low to medium height with a subtle action-film handheld vibration, creating urgency without becoming shaky. Introduce gentle horizontal drift and small framing corrections as the camera operator tracks their movement.\n\nStrong foreground-to-background parallax as storefronts, parked vehicles, streetlights, pedestrians, and buildings streak past both sides of the frame. Environmental motion blur increases toward the edges while the two runners remain relatively sharp.\n\nThe city remains alive around them. Cars continue moving naturally in the distance, headlights and traffic signals glow, pedestrians react subtly to the chase, and reflections shimmer across the damp pavement. Early-evening lighting remains consistent with the source image, with cool ambient daylight mixing with warmer storefront lights and vehicle headlights.\n\nMovement should feel fast, heavy, urgent, and physically grounded. Each stride should transfer believable weight into the pavement. Clothing and hair respond naturally to acceleration and airflow. Do not make the characters appear weightless or superhuman.\n\nNear the final seconds, the woman closes the gap slightly, increasing the tension, while the man pushes harder and accelerates.\n\nPhotorealistic live-action cinematic thriller. Natural human biomechanics, realistic cloth simulation, stable facial identity, realistic skin texture, cinematic depth of field, subtle motion blur, detailed city lighting, grounded action choreography.\n\n**Avoid:** slow motion, jogging, frozen background, sliding feet, floating characters, unnatural running cycles, facial morphing, identity changes, warped limbs, extra fingers, duplicated characters, costume changes, characters looking into the camera, sudden camera turns, camera cuts, excessive shaking, superhero movement, teleportation, or changes to the original city layout.\n\n**Audio:** no music and no dialogue. Only natural city ambience, rapid footsteps striking wet pavement, heavy breathing, jacket fabric flapping in the wind, distant engines, tires on pavement, occasional horns, and subtle pedestrian noise.",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vo6bic/ltx_25_foot_chase_prompt_i_used_is_below_not_too/",
+    "scope": "作者公开的单镜头动作指令",
+    "locator": "作者正文中的 Prompt 或制作说明",
+    "notes": "这是提示要求与实际结果的对照案例。作者指出跑步节奏、追逐者面部和出画行为存在问题，不应当作所有约束均已成功实现。"
+  },
+  "references": [
+    {
+      "kind": "first_frame",
+      "url": null,
+      "status": "missing",
+      "notes": "原始首帧未取得。"
+    }
+  ],
+  "workflow_notes": [
+    "固定人物身份与衣着后，分别描述两人的动作。",
+    "镜头后退跟拍，并单独列出禁止行为与音频要求。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1vo6bic/ltx_25_foot_chase_prompt_i_used_is_below_not_too/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/ltx-2-5-foot-chase-prompt-i-used-is-below-not-too-bad-v0-Z3kwY2s5dmQ2Y2poMcOGGBIhB67seylsznhdsKKVGkAhNQHp37qvk1RslacK.png?width=640&crop=smart&format=pjpg&auto=webp&s=633f8af8197dfafec1c32b028338894a879dfd45",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vo6bic/ltx_25_foot_chase_prompt_i_used_is_below_not_too/",
+      "checked_at": "2026-09-17",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1vo6bic/ltx_25_foot_chase_prompt_i_used_is_below_not_too/"
+    ],
+    "ai_evidence": "作者标题与本人回复明确使用 LTX 2.5，并在正文完整公开这段追逐视频的 Prompt。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

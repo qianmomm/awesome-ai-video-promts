@@ -16,9 +16,9 @@
 
 **局部 Prompt** · 整片 13 个镜头中的开场镜头
 
-```text
-Muted colors, somber muted lighting. A woman, SARAH (50s), sits on a couch in a cluttered living room.She speaks (melancholic, slightly trembling voice) “I tried everything for my depression, nothing worked.”
-```
+> ```text
+> Muted colors, somber muted lighting. A woman, SARAH (50s), sits on a couch in a cluttered living room.She speaks (melancholic, slightly trembling voice) “I tried everything for my depression, nothing worked.”
+> ```
 
 [查看 Prompt 原文 ↗](<https://www.reddit.com/r/ChatGPT/comments/1ksljfs/i_used_to_make_500k_pharmaceutical_commercial_ads/>)
 

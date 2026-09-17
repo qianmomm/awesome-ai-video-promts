@@ -1,0 +1,94 @@
+{
+  "id": "ltx-spaceship-dialogue-comparison",
+  "title": "飞船维修独白：LTX 2.3 与 2.5 对照",
+  "summary_zh": "用同一条短 Prompt 对比两个版本的独白生成，观察是否添加额外台词，以及人物视线是否偏离维修任务。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1vo55s5/ltx_23_and_25_comparison_dialogue_prompt_below/",
+    "item_key": "main-video",
+    "locator": "作者原帖：LTX 2.3 and 2.5 comparison - Dialogue. Prompt below and explanation.",
+    "published_at": "2026-08-14",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "call-lee-free",
+    "url": "https://www.reddit.com/user/call-lee-free/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "LTX",
+      "version": "2.3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vo55s5/ltx_23_and_25_comparison_dialogue_prompt_below/"
+    },
+    {
+      "name": "LTX",
+      "version": "2.5",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vo55s5/ltx_23_and_25_comparison_dialogue_prompt_below/"
+    }
+  ],
+  "category": "对白与表演",
+  "tags": [
+    "模型对照",
+    "对白",
+    "提示遵循"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "A handheld medium shot of Sam Winchester working on part of the warp engine. Ambient interior of the spaceship. Sam Winchester: \"I hope Dean gets that Holodeck running so we can do some more monster hunting..... Oh who am I kidding.... He's probably having coitus with Lisa...\" He continues to work on the warp engine.",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vo55s5/ltx_23_and_25_comparison_dialogue_prompt_below/",
+    "scope": "作者公开的对照测试指令",
+    "locator": "作者正文中的 Prompt 或制作说明",
+    "notes": "对结果差异的描述来自作者单次测试，不构成通用模型排名。作者在评论中说未开启 Prompt enhancer。"
+  },
+  "references": [],
+  "workflow_notes": [
+    "固定维修飞船引擎的场景和独白，用不同版本生成。",
+    "作者报告 2.5 输出增加了未指定的对白，2.3 在该次测试中较贴近原台词。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1vo55s5/ltx_23_and_25_comparison_dialogue_prompt_below/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/ltx-2-3-and-2-5-comparison-dialogue-prompt-below-and-v0-anQxaXl4YmF4YmpoMYBnTapgxLwzFFTW7j7cLNUMYU24497uGmUda6Bi7or_.png?width=640&crop=smart&format=pjpg&auto=webp&s=a20fd2b9c063b2e695bfc67c0276c3b7e8658ef2",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vo55s5/ltx_23_and_25_comparison_dialogue_prompt_below/",
+      "checked_at": "2026-09-17",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1vo55s5/ltx_23_and_25_comparison_dialogue_prompt_below/"
+    ],
+    "ai_evidence": "作者原帖明确对比 LTX 2.3 与 2.5，公开同一条对白 Prompt 并描述这次输出差异。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

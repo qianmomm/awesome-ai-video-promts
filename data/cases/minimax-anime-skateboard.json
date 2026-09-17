@@ -1,0 +1,102 @@
+{
+  "id": "minimax-anime-skateboard",
+  "title": "90 年代动画风：滑板少女的五镜头序列",
+  "summary_zh": "用四张参考图锁定人物、滑板、街巷和随身听，再用 15 秒时间轴安排跟拍、特写与跃过镜头。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1vxi7uv/minimax_h3_multishot_anime_sequence_workflow/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Minimax H3 Multishot Anime Sequence (Workflow + Prompt Included)",
+    "published_at": "2026-08-24",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Time-Ad-7720",
+    "url": "https://www.reddit.com/user/Time-Ad-7720/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "MiniMax",
+      "version": "H3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vxi7uv/minimax_h3_multishot_anime_sequence_workflow/"
+    }
+  ],
+  "category": "动作与运镜",
+  "tags": [
+    "多镜头",
+    "参考图",
+    "动画",
+    "时间轴"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "Create a **15-second multi-shot anime sequence (90s style 15fps hand drawn)** using the provided references:\n\nImage 1 = the girl character reference\n\nImage 2 = skateboard reference\n\nImage 3 = downhill Japanese alley / neighborhood background\n\nImage 4 = Walkman + headphones reference\n\nPreserve the girl’s exact character design, face, hair, outfit, proportions, and overall look from Image 1. Preserve the skateboard design from Image 2. Preserve the same downhill Japanese alley environment from Image 3. Add the Walkman and headphones from Image 4: the girl is wearing the headphones, and the **Walkman is clipped or hanging at her hip** while she skates.\n\nVisual style: authentic 1990s hand-drawn anime, traditional cel animation, painted backgrounds, visible linework, cel shading, slight brush/stroke texture, subtle analog feel. **Very important:** the houses and environment must stay **2D and hand-painted**, **not 3D**, **not CGI**, **not game-engine looking**, **not volumetric**. The buildings should look like classic anime background art with painted depth, not like 3D models.\n\nAnimation feel should be low frame rate, like 90s anime at around 15 fps, with controlled in-betweens and natural held-frame timing. No jittery morphing.\n\nNo dialogue, no text, no subtitles.\n\n### Shot 1 — 0s to 3s\n\n**Rear tracking shot** from behind. The girl is skateboarding fast downhill through the steep Japanese alley. Camera follows behind her at a low-to-medium height. She rides confidently and smoothly, hair and oversized clothing moving in the wind. The headphones are on her head, and the Walkman is visible attached at her hip. The alley rushes past with a strong sense of speed. Keep the environment clearly **2D anime background art**, not 3D.\n\n### Shot 2 — 3s to 6s\n\n**Close-up shot of the Walkman at her hip** while she continues skating. The camera stays focused on the Walkman and part of her side torso and arm. We can clearly see the **cassette tape reels spinning/rolling inside the Walkman window**. The headphone wire moves naturally with the motion. Background and street pass by in blurred motion.\n\n### Shot 3 — 6s to 9s\n\n**Medium profile tracking shot** of the girl skating. She is wearing the headphones, listening to music, with wind moving across her face and pushing her hair backward. She is **nodding her head subtly to the music** while riding. Her expression is relaxed, immersed, and unbothered. The background is blurred from motion, but it must still read as a **painted 2D Japanese neighborhood**, not 3D.\n\n### Shot 4 — 9s to 12s\n\n**Close-up shot of her feet and skateboard.** Her **right foot stays on the board**, while her **left foot pushes against the road** in a natural skating motion. Show one clean push cycle: left foot comes down, pushes backward against the pavement, then lifts. Wheels spin quickly. Asphalt and road markings streak by with motion blur.\n\n### Shot 5 — 12s to 15s\n\n**Ground-level fisheye shot** looking upward from the road. The skateboard approaches fast, and she **jumps over the camera**. The board and her body pass overhead in one clean motion. Hair, pants, and headphone wire react naturally during the jump. Keep the motion readable and stylish, with a strong sense of speed and a dynamic anime finish.\n\n### Important constraints\n\n* Keep the whole video in **classic 90s anime cel-animation style**\n\n* **15 fps feel**, smooth low-frame-rate animation\n\n* **No 3D-looking houses or background**\n\n* No photorealism\n\n* No modern glossy digital anime rendering\n\n* No character redesign\n\n* No extra accessories beyond the headphones and Walkman\n\n* Keep all motion natural and consistent across shots",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vxi7uv/minimax_h3_multishot_anime_sequence_workflow/",
+    "scope": "作者公开的五镜头视频生成指令",
+    "locator": "作者正文中的 Prompt 或制作说明",
+    "notes": "完整收录作者披露的文本；四张输入参考图未收齐。15 fps 是 Prompt 中的风格要求，不能据此判定文件实际帧率。"
+  },
+  "references": [
+    {
+      "kind": "image",
+      "url": null,
+      "status": "missing",
+      "notes": "人物、滑板、街巷、随身听四张原始参考图未取得。"
+    },
+    {
+      "kind": "workflow",
+      "url": "https://drive.google.com/file/d/1B4kODxXQgJ1QOKRsEIkxHbgYmdruPpTK/view?usp=sharing",
+      "status": "linked",
+      "notes": "作者在正文提供的工作流链接；未下载或运行。"
+    }
+  ],
+  "workflow_notes": [
+    "四张参考图分别约束人物、道具和环境。",
+    "依次安排后方跟拍、随身听特写、侧面跟拍、蹬板脚部特写和贴地鱼眼镜头。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1vxi7uv/minimax_h3_multishot_anime_sequence_workflow/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/minimax-h3-multishot-anime-sequence-workflow-prompt-included-v0-NGxreXdyY3ZqZWxoMRY317jjN-PzqO-gwNnz7jnKXzYYTxeLBB7ixf99N_2H.png?width=640&crop=smart&format=pjpg&auto=webp&s=bf1f16bfb08c9c03223b969d55808926cdbc4000",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vxi7uv/minimax_h3_multishot_anime_sequence_workflow/",
+      "checked_at": "2026-09-17",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1vxi7uv/minimax_h3_multishot_anime_sequence_workflow/"
+    ],
+    "ai_evidence": "原帖标题明确写明 MiniMax H3；作者正文同时提供视频、四张参考图的用途、五镜头 Prompt 和工作流链接。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

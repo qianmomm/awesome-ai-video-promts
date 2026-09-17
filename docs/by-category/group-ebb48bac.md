@@ -7,3 +7,4 @@
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
 | [实拍镜头的四种视频改写](<../cases/runway-video-restyling.md>) | Runway | Reddit | 未找到 Prompt |
+| [用深度图扩展视频画面](<../cases/wan-depth-video-outpainting.md>) | Wan | Reddit | 未找到 Prompt |

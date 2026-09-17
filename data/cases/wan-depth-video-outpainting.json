@@ -1,0 +1,120 @@
+{
+  "id": "wan-depth-video-outpainting",
+  "title": "用深度图扩展视频画面",
+  "summary_zh": "通过稳定原片、生成深度图和 Wan 2.2 Fun Control 扩画，再把原片叠回并处理边界。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1v6ns0v/expanding_video_with_wan_22_fun_control/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Expanding video with Wan 2.2 Fun Control",
+    "published_at": "2026-07-25",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "GdaTyler",
+    "url": "https://www.reddit.com/user/GdaTyler/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "Wan",
+      "version": "2.2 Fun Control",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1v6ns0v/expanding_video_with_wan_22_fun_control/"
+    },
+    {
+      "name": "ChatGPT",
+      "version": null,
+      "role": "image_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1v6ns0v/expanding_video_with_wan_22_fun_control/"
+    },
+    {
+      "name": "Photoshop",
+      "version": null,
+      "role": "editing",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1v6ns0v/expanding_video_with_wan_22_fun_control/"
+    },
+    {
+      "name": "After Effects",
+      "version": null,
+      "role": "editing",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1v6ns0v/expanding_video_with_wan_22_fun_control/"
+    },
+    {
+      "name": "Depth Anything",
+      "version": "V2",
+      "role": "depth_estimation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1v6ns0v/expanding_video_with_wan_22_fun_control/"
+    }
+  ],
+  "category": "视频重绘",
+  "tags": [
+    "视频扩画",
+    "深度控制",
+    "工作流"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "原帖公开了制作方法，未找到逐字视频 Prompt",
+    "locator": "作者正文中的 Prompt 或制作说明",
+    "notes": "只收录已披露的制作过程，不把作者的流程说明改写成原始 Prompt。"
+  },
+  "references": [
+    {
+      "kind": "video",
+      "url": null,
+      "status": "missing",
+      "notes": "原始片段和完整参考素材未取得。"
+    }
+  ],
+  "workflow_notes": [
+    "参考图结合 ChatGPT、Wan 2.2 首尾帧与 Photoshop 手工编辑。",
+    "使用 After Effects 稳定原片，以 Depth Anything V2 制作深度图。",
+    "用 Wan 2.2 Fun Control 扩展画面，最后叠回原片并模糊融合边界。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1v6ns0v/expanding_video_with_wan_22_fun_control/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/expanding-video-with-wan-2-2-fun-control-v0-Y2JiNXk5MHFxZ2ZoMYITQNsqUKHulk-I9N9XPCdnKSKjOzjnDZXm0Xu-1aCi.png?width=640&crop=smart&format=pjpg&auto=webp&s=d758ed8d5adb3d96f2523b5127ab18cd056e93cb",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1v6ns0v/expanding_video_with_wan_22_fun_control/",
+      "checked_at": "2026-09-17",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1v6ns0v/expanding_video_with_wan_22_fun_control/"
+    ],
+    "ai_evidence": "作者原帖标题明确使用 Wan 2.2 Fun Control，正文和本人回复说明深度控制、稳像及边界合成流程。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

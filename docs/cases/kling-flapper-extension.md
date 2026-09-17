@@ -16,9 +16,9 @@
 
 **局部 Prompt** · 最后的延长片段；不是最初片段或整段视频的全部 Prompt
 
-```text
-A pretty, forty year old flapper sits in her study reading a book next to a roaring fireplace, with realistic flames, 35mm film, warm, lots of lamps, in the second half of the video, she looks at the camera and smiles, cinematic and flirty, photoreal.
-```
+> ```text
+> A pretty, forty year old flapper sits in her study reading a book next to a roaring fireplace, with realistic flames, 35mm film, warm, lots of lamps, in the second half of the video, she looks at the camera and smiles, cinematic and flirty, photoreal.
+> ```
 
 [查看 Prompt 原文 ↗](<https://www.reddit.com/r/runwayml/comments/1fva7rd/sometimes_im_not_sure_if_runway_is_taking_my/>)
 

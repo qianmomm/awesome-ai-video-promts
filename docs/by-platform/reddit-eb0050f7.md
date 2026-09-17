@@ -6,9 +6,21 @@
 
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
+| [洗手动作：混元文生视频与 Hailuo 图生视频](<../cases/hunyuan-hailuo-hand-washing.md>) | HunyuanVideo · Hailuo | Reddit | 未找到 Prompt |
 | [双车追逐：按秒安排动作与声音](<../cases/kling-car-combat-timeline.md>) | Kling | Reddit | 原文节选 |
 | [壁炉旁读书：续写片段的表情指令](<../cases/kling-flapper-extension.md>) | Kling | Reddit | 局部 Prompt |
+| [城市追逐：人物、运镜与环境声的完整约束](<../cases/ltx-city-foot-chase.md>) | LTX | Reddit | 完整文本 |
+| [屋顶冷幽默：按时间码编排双人对话](<../cases/ltx-rooftop-multishot-dialogue.md>) | LTX | Reddit | 完整文本 |
+| [飞船维修独白：LTX 2.3 与 2.5 对照](<../cases/ltx-spaceship-dialogue-comparison.md>) | LTX | Reddit | 完整文本 |
+| [90 年代动画风：滑板少女的五镜头序列](<../cases/minimax-anime-skateboard.md>) | MiniMax | Reddit | 完整文本 |
+| [复古动画海报：人物入场与界面元素逐层出现](<../cases/minimax-retro-motion-poster.md>) | MiniMax | Reddit | 完整文本 |
+| [让分镜板直接驱动一段视频](<../cases/minimax-storyboard-reference.md>) | MiniMax | Reddit | 完整文本 |
 | [Electric Fury：图像、视频与音乐的组合](<../cases/pika-electric-fury.md>) | Pika | Reddit | 未找到 Prompt |
 | [同一静图的四种提示方式实验](<../cases/runway-image-prompt-comparison.md>) | Runway | Reddit | 未找到 Prompt |
 | [实拍镜头的四种视频改写](<../cases/runway-video-restyling.md>) | Runway | Reddit | 未找到 Prompt |
+| [海边手机日记：用跳切节奏保留随手拍质感](<../cases/seedance-beach-phone-montage.md>) | Seedance | Reddit | 完整文本 |
+| [清晨告别：人物准备出门与白猫的三个镜头](<../cases/seedance-morning-cat-farewell.md>) | Seedance | Reddit | 完整文本 |
 | [广告式叙事：开场独白的镜头 Prompt](<../cases/veo-pharma-ad-opening.md>) | Veo | Reddit | 局部 Prompt |
+| [用深度图扩展视频画面](<../cases/wan-depth-video-outpainting.md>) | Wan | Reddit | 未找到 Prompt |
+| [摇滚手势：Wan 与 HunyuanVideo 同题对照](<../cases/wan-hunyuan-rock-band-comparison.md>) | Wan · HunyuanVideo | Reddit | 完整文本 |
+| [从短序列取帧：探索跨镜头角色一致性](<../cases/wan-multishot-character-consistency.md>) | Wan | Reddit | 未找到 Prompt |

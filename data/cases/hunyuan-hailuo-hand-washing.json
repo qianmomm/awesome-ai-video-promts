@@ -1,0 +1,115 @@
+{
+  "id": "hunyuan-hailuo-hand-washing",
+  "title": "洗手动作：混元文生视频与 Hailuo 图生视频",
+  "summary_zh": "用水龙头下洗手这一动作比较两种生成路径，作者先在 Character Creator 4 中摆好角色和道具，再用 Flux 处理输入图。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1knyj2u/a_comparison_between_hunyuan_vs_hailuo_ai_with/",
+    "item_key": "main-video",
+    "locator": "作者原帖：A comparison between Hunyuan vs Hailuo Ai with the same prompt of a woman washing her hands under a water faucet. I had to adjust my prompt in Hailuo Ai to get the best result for Hailuo. Hunyuan is t2v and Hailuo is i2v. I set the scene up using Character Creator 4 props & character rendering img.",
+    "published_at": "2025-05-16",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Extension-Fee-8480",
+    "url": "https://www.reddit.com/user/Extension-Fee-8480/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "HunyuanVideo",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1knyj2u/a_comparison_between_hunyuan_vs_hailuo_ai_with/"
+    },
+    {
+      "name": "Hailuo",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1knyj2u/a_comparison_between_hunyuan_vs_hailuo_ai_with/"
+    },
+    {
+      "name": "Flux",
+      "version": null,
+      "role": "image_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1knyj2u/a_comparison_between_hunyuan_vs_hailuo_ai_with/"
+    },
+    {
+      "name": "Character Creator",
+      "version": "4",
+      "role": "scene_setup",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1knyj2u/a_comparison_between_hunyuan_vs_hailuo_ai_with/"
+    }
+  ],
+  "category": "动作与运镜",
+  "tags": [
+    "模型对照",
+    "图生视频",
+    "文生视频",
+    "工作流"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "原帖说明了任务与工作流，未找到逐字视频 Prompt",
+    "locator": "作者正文中的 Prompt 或制作说明",
+    "notes": "作者明确说为 Hailuo 调整过 Prompt，且混元使用文生视频、Hailuo 使用图生视频，因此不能视为严格同条件对照。"
+  },
+  "references": [
+    {
+      "kind": "first_frame",
+      "url": null,
+      "status": "missing",
+      "notes": "作者在评论展示 3D 渲染图和 Flux 结果；未取得可复用的完整输入文件。"
+    }
+  ],
+  "workflow_notes": [
+    "在 Character Creator 4 中设置角色姿态、道具与灯光。",
+    "使用 Forge 中的 Flux 渲染输入图。",
+    "混元为文生视频；Hailuo 为图生视频，Prompt 做过调整。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1knyj2u/a_comparison_between_hunyuan_vs_hailuo_ai_with/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/a-comparison-between-hunyuan-vs-hailuo-ai-with-the-same-v0-ZHpocml3YWdxNDFmMf9igo6bBebs3Cd_wyYeLdeI5F6O9hla6cFfgaiWN30i.png?width=640&crop=smart&format=pjpg&auto=webp&s=19161aeba0900384a253a48035064cd7e7648d86",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1knyj2u/a_comparison_between_hunyuan_vs_hailuo_ai_with/",
+      "checked_at": "2026-09-17",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1knyj2u/a_comparison_between_hunyuan_vs_hailuo_ai_with/"
+    ],
+    "ai_evidence": "作者标题明确区分 Hunyuan 文生视频和 Hailuo 图生视频，本人评论说明 Character Creator 4 与 Flux 处理输入图的步骤。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

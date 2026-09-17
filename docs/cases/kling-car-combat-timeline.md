@@ -16,9 +16,9 @@
 
 **原文节选** · 仅节选总指令；完整 0–15 秒时间线在作者原帖
 
-```text
-Animate this image into a cinematic 15-second high-speed car combat sequence. Maintain exact car models, colors, and environment. Keep vehicles stable and realistic while simulating speed through motion blur and lighting.
-```
+> ```text
+> Animate this image into a cinematic 15-second high-speed car combat sequence. Maintain exact car models, colors, and environment. Keep vehicles stable and realistic while simulating speed through motion blur and lighting.
+> ```
 
 [查看 Prompt 原文 ↗](<https://www.reddit.com/r/KlingAI_Videos/comments/1w38ocs/have_a_bit_of_fun_with_twisted_metal_full_prompt/>)
 

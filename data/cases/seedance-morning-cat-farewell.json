@@ -1,0 +1,96 @@
+{
+  "id": "seedance-morning-cat-farewell",
+  "title": "清晨告别：人物准备出门与白猫的三个镜头",
+  "summary_zh": "通过准备出门、与猫互动、窗边目送三个段落，练习柔和光线、角色连续性和 15 秒叙事。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/seedance2pro/comments/1uzj41r/how_to_create_a_soft_japanese_drama_scene_with/",
+    "item_key": "main-video",
+    "locator": "作者原帖：How to Create a Soft Japanese Drama Scene With Seedance 2.0? Prompt Below!",
+    "published_at": "2026-07-18",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "DataGirlTraining",
+    "url": "https://www.reddit.com/user/DataGirlTraining/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "Seedance",
+      "version": "2.0",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/seedance2pro/comments/1uzj41r/how_to_create_a_soft_japanese_drama_scene_with/"
+    }
+  ],
+  "category": "广告与短片",
+  "tags": [
+    "多镜头",
+    "日常叙事",
+    "角色一致性",
+    "时间轴"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "A young woman in her twenties, same person as — long dark wavy hair in low pigtails, navy cardigan over white shirt, green-striped school tie, plaid skirt. A fluffy white long-haired cat, same as <<<image_2>>>, sits on top of an ornate pink dollhouse. <<<image_3>>> — environment reference: cluttered pink bedroom, soft morning light through sheer curtains. — identity anchor for the young man revealed at the end: messy light-brown hair, plain white t-shirt. [00-07s] Shot 1: Getting-ready montage, quick match cuts. She presses pastel lip color onto her lips, then fastens the knot of her green-striped tie, then slings a solid pastel-pink backpack with a clean plain surface over one shoulder. Handheld, subtle sway, warm morning light. [07-11s] Shot 2: She steps to the white cat sitting on an ornate pink dollhouse, cups its cheek with one hand and strokes it once and playfully touches its nose, then turns and hurries toward the door. Gentle push-in, shallow depth of field. [11-15s] Shot 3: The cat leaps onto the window sill between sheer curtains; through the glass she walks away from home in a moody japanese street,only her back seen. . The cat lifts one front paw and waves it gently. Static locked-off frame, subject centered Warm Japanese drama romance aesthetic, Shunji Iwai soft natural window light, warm pastel pink palette, lifted blacks, fine 35mm film grain, 50mm lens feel, soft background bokeh. Maintain face and clothing consistency. High detail. Natural smooth movements. 4K Ultra HD. Sharp clarity. Stable lighting. Consistent frame rate. Clean picture. Avoid blurry motion. Generate video without subtitles. SFX only.",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/seedance2pro/comments/1uzj41r/how_to_create_a_soft_japanese_drama_scene_with/",
+    "scope": "作者正文公开的三镜头生成指令",
+    "locator": "作者正文中的 Prompt 或制作说明",
+    "notes": "保留原文中的参考图占位符和未展开的人物描述，不自行补齐。作者未提供完整输入图集；正文含工具推广链接，不能据此认定所有输出均满足其宣传描述。"
+  },
+  "references": [
+    {
+      "kind": "image",
+      "url": null,
+      "status": "missing",
+      "notes": "人物、猫和卧室的原始参考图集未取得。"
+    }
+  ],
+  "workflow_notes": [
+    "用 0–7、7–11、11–15 秒三个区间组织故事。",
+    "固定发型服饰、白猫和粉色卧室，再描述各段动作与镜头。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/seedance2pro/comments/1uzj41r/how_to_create_a_soft_japanese_drama_scene_with/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/how-to-create-a-soft-japanese-drama-scene-with-seedance-2-0-v0-NW1tZDEzdjZjd2RoMazFix160FOkqbQQQu6JJBY1ztllRoCIn4KYkdZIL0Bs.png?width=640&crop=smart&format=pjpg&auto=webp&s=30758ee6a05e33e2300c194dca9c5ea9ff4a75bb",
+      "evidence_url": "https://www.reddit.com/r/seedance2pro/comments/1uzj41r/how_to_create_a_soft_japanese_drama_scene_with/",
+      "checked_at": "2026-09-17",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/seedance2pro/comments/1uzj41r/how_to_create_a_soft_japanese_drama_scene_with/"
+    ],
+    "ai_evidence": "作者原帖标题说明使用 Seedance 2.0，正文同时提供成片、创作意图及三镜头 Prompt；该帖也包含工具推广内容。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

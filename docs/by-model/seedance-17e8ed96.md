@@ -6,6 +6,8 @@
 
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
+| [海边手机日记：用跳切节奏保留随手拍质感](<../cases/seedance-beach-phone-montage.md>) | Seedance | Reddit | 完整文本 |
 | [多张照片之间的连续变形](<../cases/seedance-fluid-morphs.md>) | Seedance | Blog | 完整文本 |
+| [清晨告别：人物准备出门与白猫的三个镜头](<../cases/seedance-morning-cat-farewell.md>) | Seedance | Reddit | 完整文本 |
 | [越野车辆：一张图开始的运动](<../cases/seedance-offroad-image.md>) | Seedance | Blog | 完整文本 |
 | [油画中的水流运动](<../cases/seedance-oil-painting.md>) | Seedance | Blog | 完整文本 |

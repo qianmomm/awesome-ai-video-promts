@@ -6,6 +6,7 @@
 
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
+| [复古动画海报：人物入场与界面元素逐层出现](<../cases/minimax-retro-motion-poster.md>) | MiniMax | Reddit | 完整文本 |
 | [多张照片之间的连续变形](<../cases/seedance-fluid-morphs.md>) | Seedance | Blog | 完整文本 |
 | [越野车辆：一张图开始的运动](<../cases/seedance-offroad-image.md>) | Seedance | Blog | 完整文本 |
 | [油画中的水流运动](<../cases/seedance-oil-painting.md>) | Seedance | Blog | 完整文本 |

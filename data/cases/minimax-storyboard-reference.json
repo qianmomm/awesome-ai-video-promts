@@ -1,0 +1,96 @@
+{
+  "id": "minimax-storyboard-reference",
+  "title": "让分镜板直接驱动一段视频",
+  "summary_zh": "把整张分镜板作为视觉参考，仅用一句指令生成视频。作者在评论中公开了这句 Prompt 和输入分镜图。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1vecz21/minimax_h3_can_use_a_storyboard_as_a_visual/",
+    "item_key": "main-video",
+    "locator": "作者原帖：MiniMax H3 can use a storyboard as a visual reference, this was my first one-shot test",
+    "published_at": "2026-08-03",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Kandoo85",
+    "url": "https://www.reddit.com/user/Kandoo85/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "MiniMax",
+      "version": "H3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vecz21/minimax_h3_can_use_a_storyboard_as_a_visual/"
+    }
+  ],
+  "category": "提示方式实验",
+  "tags": [
+    "分镜板",
+    "参考图",
+    "简短指令"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "Use the Storyboard as a Reference",
+    "language": "en",
+    "translation_zh": "把分镜板作为参考。",
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vecz21/comment/p1h4hor/",
+    "scope": "作者在评论中确认的完整视频指令",
+    "locator": "作者评论中的 Prompt",
+    "notes": "文字指令完整，但主要场景信息来自分镜图。其他读者反馈同图同词也可能得到不同结果，不能把短指令等同于稳定复现。"
+  },
+  "references": [
+    {
+      "kind": "image",
+      "url": "https://preview.redd.it/minimax-h3-can-use-a-storyboard-as-a-visual-reference-this-v0-jtvxjl6ws5hh1.png?width=1491&format=png&auto=webp&s=1114b66eb2b1b7c31e4c66b67790f7325ecb8222",
+      "status": "linked",
+      "notes": "作者在首条评论提供的分镜板。"
+    }
+  ],
+  "workflow_notes": [
+    "作者说明先用 GPT 做分镜图，未披露具体图像模型版本。",
+    "把分镜图作为 H3 的参考输入，使用一句视频指令。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1vecz21/minimax_h3_can_use_a_storyboard_as_a_visual/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/minimax-h3-can-use-a-storyboard-as-a-visual-reference-this-v0-bDU2ZjYzNHlyNWhoMdDj1dJ1Wwnf7H7ORnYWPoS7-h4DB5nM-mvdOASiHhQ0.png?width=640&crop=smart&format=pjpg&auto=webp&s=f22c545de8e307efdad3111b9af54ab8cd06b000",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vecz21/minimax_h3_can_use_a_storyboard_as_a_visual/",
+      "checked_at": "2026-09-17",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1vecz21/minimax_h3_can_use_a_storyboard_as_a_visual/",
+      "https://www.reddit.com/r/StableDiffusion/comments/1vecz21/comment/p1h4hor/"
+    ],
+    "ai_evidence": "作者正文说明用 MiniMax H3 读取分镜板；本人评论 p1h4hor 确认完整文字指令，并在首条评论提供分镜图。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

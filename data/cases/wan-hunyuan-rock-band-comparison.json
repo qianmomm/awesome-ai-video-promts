@@ -1,0 +1,102 @@
+{
+  "id": "wan-hunyuan-rock-band-comparison",
+  "title": "摇滚手势：Wan 与 HunyuanVideo 同题对照",
+  "summary_zh": "让乐队成员举起摇滚手势并呼喊，对比 Wan 2.2 与 HunyuanVideo 1.5 的图生视频结果。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1p4s2rn/updated_i2v_wan_22_vs_hunyuanvideo_15_with/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Updated I2V Wan 2.2 vs. HunyuanVideo 1.5 (with correct settings now)",
+    "published_at": "2025-11-23",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "CutLongjumping8",
+    "url": "https://www.reddit.com/user/CutLongjumping8/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "Wan",
+      "version": "2.2",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1p4s2rn/updated_i2v_wan_22_vs_hunyuanvideo_15_with/"
+    },
+    {
+      "name": "HunyuanVideo",
+      "version": "1.5",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1p4s2rn/updated_i2v_wan_22_vs_hunyuanvideo_15_with/"
+    }
+  ],
+  "category": "提示方式实验",
+  "tags": [
+    "模型对照",
+    "图生视频",
+    "简短指令"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "Members of the rock band raise their hands with the rocker 'horns' gesture and shout loudly, baring their teeth.",
+    "language": "en",
+    "translation_zh": "摇滚乐队成员举起双手，做出摇滚的“恶魔角”手势，露出牙齿大声呼喊。",
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1p4s2rn/updated_i2v_wan_22_vs_hunyuanvideo_15_with/",
+    "scope": "作者正文公开的对照测试指令",
+    "locator": "作者正文中的 Prompt 或制作说明",
+    "notes": "对照使用不同模型与采样设置，不是控制所有变量的性能测评。帖子中的耗时和硬件写法未独立核实，因此不做速度结论。"
+  },
+  "references": [
+    {
+      "kind": "first_frame",
+      "url": null,
+      "status": "missing",
+      "notes": "作者提供了输入图和工作流的外部共享入口，本次未下载原文件。"
+    }
+  ],
+  "workflow_notes": [
+    "HunyuanVideo 1.5 常规版：作者给出的设置为 CFG 6、20 步、Euler Normal。",
+    "HunyuanVideo 1.5 CFG distilled：作者给出的设置为 CFG 1、6 步、Res_2s Normal。",
+    "原帖同时展示 Wan 2.2 的结果。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1p4s2rn/updated_i2v_wan_22_vs_hunyuanvideo_15_with/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/updated-i2v-wan-2-2-vs-hunyuanvideo-1-5-with-correct-v0-eTJvcDVsOHNmMTNnMVy6QsCkoER2E_wJ8uS6nw3Sq-3FIJQGDIaSfmJN69-J.png?width=640&crop=smart&format=pjpg&auto=webp&s=f0f32ae77be6792afa311ed295415e18882c5e93",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1p4s2rn/updated_i2v_wan_22_vs_hunyuanvideo_15_with/",
+      "checked_at": "2026-09-17",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1p4s2rn/updated_i2v_wan_22_vs_hunyuanvideo_15_with/"
+    ],
+    "ai_evidence": "作者原帖标题与设置说明列明 Wan 2.2、HunyuanVideo 1.5 常规版和 CFG distilled 版，附同题视频与原始短 Prompt。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

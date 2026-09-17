@@ -131,7 +131,7 @@ export async function loadCases(root = ROOT) {
 
 const modelNames = c => c.models.filter(m => m.role === 'video_generation').map(m => m.name);
 function modelText(c) {
-  return modelNames(c).map(md).join(' · ') || '模型未公开';
+  return [...new Set(modelNames(c))].map(md).join(' · ') || '模型未公开';
 }
 function table(cases, prefix) {
   return '| 案例 | 视频模型 | 平台 | Prompt |\n|---|---|---|---|\n' + cases.map(c =>
@@ -164,7 +164,10 @@ export function detail(c) {
   const lines = [generated + link('← 返回视频画廊', '../../README.md'), `# ${md(c.title)}`, videoBlock(c),
     `**模型：** ${modelVersion(c)} · **来源：** ${link(c.author.name, c.source.url)} · ${md(c.platform)}`,
     md(c.summary_zh), '## Prompt', `**${label(c.prompt.status)}** · ${md(c.prompt.scope)}`];
-  if (c.prompt.original) lines.push(fenced(c.prompt.original));
+  if (c.prompt.original) {
+    const quote = fenced(c.prompt.original);
+    lines.push(c.platform === 'Reddit' ? quote.split('\n').map(line => `> ${line}`).join('\n') : quote);
+  }
   else lines.push(c.prompt.status === 'link_only' ? link('前往作者页面查看完整 Prompt', c.prompt.source_url) : '暂未收录作者的原始 Prompt。');
   if (c.prompt.source_url) lines.push(link('查看 Prompt 原文 ↗', c.prompt.source_url));
   if (c.prompt.translation_zh) lines.push(fold('中文译文（整理者翻译）', fenced(c.prompt.translation_zh)));

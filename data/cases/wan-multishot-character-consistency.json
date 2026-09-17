@@ -1,0 +1,115 @@
+{
+  "id": "wan-multishot-character-consistency",
+  "title": "从短序列取帧：探索跨镜头角色一致性",
+  "summary_zh": "从一张人物图出发，配合姿态参考生成短序列，再通过重绘、插帧和放大整理出更一致的人物镜头。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1oloosp/wan_22_multishot_scene_character_consistency_test/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Wan 2.2 multi-shot scene + character consistency test",
+    "published_at": "2025-11-01",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "jordek",
+    "url": "https://www.reddit.com/user/jordek/"
+  },
+  "collected_at": "2026-09-17",
+  "models": [
+    {
+      "name": "Wan",
+      "version": "2.2",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1oloosp/wan_22_multishot_scene_character_consistency_test/"
+    },
+    {
+      "name": "SeedVR2",
+      "version": null,
+      "role": "upscaling",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1oloosp/wan_22_multishot_scene_character_consistency_test/"
+    },
+    {
+      "name": "RIFE",
+      "version": "rife47（作者写法）",
+      "role": "frame_interpolation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1oloosp/wan_22_multishot_scene_character_consistency_test/"
+    }
+  ],
+  "category": "提示方式实验",
+  "tags": [
+    "角色一致性",
+    "多镜头",
+    "工作流"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "原帖公开流程和参数片段，未给出逐字视频 Prompt",
+    "locator": "作者正文中的 Prompt 或制作说明",
+    "notes": "作者只描述添加了随机镜头说明；不能还原成确切 Prompt。正文前后分别出现 81 和 87 帧，保留差异，不推断为统一配置。"
+  },
+  "references": [
+    {
+      "kind": "first_frame",
+      "url": null,
+      "status": "missing",
+      "notes": "起始人物图与完整姿态参考视频未下载。"
+    },
+    {
+      "kind": "video",
+      "url": null,
+      "status": "missing",
+      "notes": "作者称使用五段 Pexels 片段提供姿态，但本次未取得每段链接。"
+    }
+  ],
+  "workflow_notes": [
+    "先以 Wan 2.2 生成起始图，再用 Fun Control 与姿态参考制作短序列。",
+    "进行 Wan 2.2 v2v 重绘。",
+    "使用 rife47 从 16 插到 32 fps，再用 SeedVR2 放大到 1080p；这些是作者自述参数。",
+    "正文还包含中间结果；本案例封面对应最前面的最终结果视频。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1oloosp/wan_22_multishot_scene_character_consistency_test/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://preview.redd.it/k8xasv80fnyf1.jpg?vthumb=1&s=b6fd98681641c5ab47e5d9994d427ef5b883dd72",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1oloosp/wan_22_multishot_scene_character_consistency_test/",
+      "checked_at": "2026-09-17",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-17",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1oloosp/wan_22_multishot_scene_character_consistency_test/"
+    ],
+    "ai_evidence": "作者原帖说明 Wan 2.2 Fun Control、v2v、rife47 插帧和 SeedVR2 放大，按顺序展示最终结果与中间片段。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-17"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

@@ -6,4 +6,7 @@
 
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
+| [洗手动作：混元文生视频与 Hailuo 图生视频](<../cases/hunyuan-hailuo-hand-washing.md>) | HunyuanVideo · Hailuo | Reddit | 未找到 Prompt |
 | [双车追逐：按秒安排动作与声音](<../cases/kling-car-combat-timeline.md>) | Kling | Reddit | 原文节选 |
+| [城市追逐：人物、运镜与环境声的完整约束](<../cases/ltx-city-foot-chase.md>) | LTX | Reddit | 完整文本 |
+| [90 年代动画风：滑板少女的五镜头序列](<../cases/minimax-anime-skateboard.md>) | MiniMax | Reddit | 完整文本 |
