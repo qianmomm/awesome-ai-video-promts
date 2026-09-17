@@ -233,6 +233,6 @@ Alfredlua 发布的皮卡丘主题短片，作者说明用 Midjourney 做输入�
 
 ## 致谢与许可
 
-页面组织参考 [awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)。视频与 Prompt 的原作者在每条详情中署名；视频附件来源另在折叠区标注。
+视频与 Prompt 的原作者在每条详情中署名；视频附件来源另在折叠区标注。
 
 原创代码与文档采用 [MIT](LICENSE)。第三方视频、封面与引用文本的权利归原权利人，详见 [署名、引用与移除](RIGHTS.md)。
