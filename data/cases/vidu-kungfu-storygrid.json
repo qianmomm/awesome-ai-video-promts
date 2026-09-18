@@ -1,0 +1,90 @@
+{
+  "id": "vidu-kungfu-storygrid",
+  "title": "Vidu｜功夫分镜网格转视频",
+  "summary_zh": "发布者展示以 StoryGrid 分镜网格驱动的功夫视频案例。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1tnyj7b/vidu_just_changed_the_game_kungfu_storygridtovideo/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Vidu just changed the game, Kung-fu StoryGrid-to-Video",
+    "published_at": "2026-05-26",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Axulkui",
+    "url": "https://www.reddit.com/user/Axulkui/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Vidu",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1tnyj7b/vidu_just_changed_the_game_kungfu_storygridtovideo/"
+    }
+  ],
+  "category": "动作与运镜",
+  "tags": [
+    "动作与运动"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "本次可读原帖未取得对应视频的逐字生成 Prompt",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "模型和输入方式依据原帖标题；未找到逐字 Prompt 或可复用分镜原文件。"
+  },
+  "references": [
+    {
+      "kind": "input_material",
+      "url": null,
+      "status": "missing",
+      "notes": "StoryGrid 分镜图未随仓库保存。"
+    }
+  ],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1tnyj7b/vidu_just_changed_the_game_kungfu_storygridtovideo/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/vidu-just-changed-the-game-kung-fu-storygrid-to-video-v0-d3c5OGQ3ZjVlZjNoMfv4T1DwJ_1QRQZ0cQnZm-09iDCf49U90nfZbEUyCm0J.png?width=640&crop=smart&format=pjpg&auto=webp&s=0416f935657dcfe26ba24b400cfc7b4c72a45e00",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1tnyj7b/vidu_just_changed_the_game_kungfu_storygridtovideo/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1tnyj7b/vidu_just_changed_the_game_kungfu_storygridtovideo/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 模型和输入方式依据原帖标题；未找到逐字 Prompt 或可复用分镜原文件。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

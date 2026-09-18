@@ -1,0 +1,109 @@
+{
+  "id": "kling-luma-bleat-horror-film",
+  "title": "Kling 与 Luma｜Bleat 惊悚短片",
+  "summary_zh": "通过 Midjourney 场景图、Kling 和 Luma 动画、配音口型与调色，完成 Bleat 短片。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1jqsnzl/bleat_a_short_horror_film/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Bleat - A Short Horror Film",
+    "published_at": "2025-04-03",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "deathismyslut",
+    "url": "https://www.reddit.com/user/deathismyslut/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Kling",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1jqsnzl/bleat_a_short_horror_film/"
+    },
+    {
+      "name": "Luma",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1jqsnzl/bleat_a_short_horror_film/"
+    },
+    {
+      "name": "PixVerse",
+      "version": null,
+      "role": "lip_sync",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1jqsnzl/bleat_a_short_horror_film/"
+    },
+    {
+      "name": "Midjourney",
+      "version": null,
+      "role": "image_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1jqsnzl/bleat_a_short_horror_film/"
+    },
+    {
+      "name": "ElevenLabs",
+      "version": null,
+      "role": "audio_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1jqsnzl/bleat_a_short_horror_film/"
+    }
+  ],
+  "category": "广告与短片",
+  "tags": [
+    "叙事短片"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "本次可读原帖未取得对应视频的逐字生成 Prompt",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "模型按作者正文分工记录；PixVerse 仅注明口型同步用途，不计入本条视频生成模型。"
+  },
+  "references": [],
+  "workflow_notes": [
+    "Midjourney 生图；Kling 为主、Luma 辅助生成视频；ElevenLabs 配音与部分音效；PixVerse 对口型；Resolve 剪辑调色。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1jqsnzl/bleat_a_short_horror_film/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/bleat-a-short-horror-film-v0-bnhkdXdzczBmb3NlMe9I8vdh8xhw2oSOiWcMdcBv8VyqyomtXLDTjxHx5suH.png?width=640&crop=smart&format=pjpg&auto=webp&s=81c538e003f2ac3109a4944a4728bf1034f99653",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1jqsnzl/bleat_a_short_horror_film/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1jqsnzl/bleat_a_short_horror_film/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 模型按作者正文分工记录；PixVerse 仅注明口型同步用途，不计入本条视频生成模型。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

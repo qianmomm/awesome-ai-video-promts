@@ -1,0 +1,84 @@
+{
+  "id": "seedance-airliner-robot-transformation",
+  "title": "客机降落瞬间变成巨型机器人",
+  "summary_zh": "作者通过中文长提示词描述飞机机械变形、机器人奔跑和手持直播镜头，并在评论贴出实际使用的文本。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1rbkxti/just_with_a_single_prompt_and_this_result_is/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Just with a single prompt and this result is insane for first attempt",
+    "published_at": "2026-02-22",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "mhu99",
+    "url": "https://www.reddit.com/user/mhu99/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Seedance",
+      "version": "2.0",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1rbkxti/just_with_a_single_prompt_and_this_result_is/"
+    }
+  ],
+  "category": "动作与运镜",
+  "tags": [
+    "动作与运镜"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "9:16竖屏手机拍摄视角，真实路人直播录制画面，轻微手持抖动，自动曝光变化，对焦拉动，真实环境收音，远处城市天际线清晰可见。 一座靠近城市中心的机场跑道，背景是高楼林立的现代都市。一架大型双发宽体客运喷气式飞机正在低空进近准备降落，起落架已放下，引擎轰鸣声震撼。 就在即将触地瞬间，飞机机身开始出现机械结构重组—— 机翼折叠分解，机身板块滑动展开，复杂金属零件精准拼接，液压结构伸展旋转，齿轮与装甲片高速重构。 高度复杂工业级机械变形动画，真实金属材质，重量感十足，机械细节极其精密。 飞机完全变形成一台巨型金属机器人，落地瞬间震裂跑道，碎石飞溅，冲击波扩散。 机器人随后冲向城市，高速奔跑，脚步踩碎柏油路面，路灯倒塌，汽车被震翻，建筑玻璃破碎，烟尘弥漫。 超写实电影级画面，真实物理破坏系统，动态光影，粒子特效，震撼爆炸效果。 整体风格保持“手机实拍直播质感”，但拥有好莱坞级别视觉效果与IMAX级细节",
+    "language": "zh",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/aivideo/comments/1rbkxti/comment/o6rjiae/",
+    "scope": "作者公开的视频生成指令",
+    "locator": "原作者在原帖下公开的 Prompt 评论",
+    "notes": "作者确认用 ChatGPT 辅助写中文指令，再交给 Seedance 2.0；这是虚构特效场景。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1rbkxti/just_with_a_single_prompt_and_this_result_is/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/just-with-a-single-prompt-and-this-result-is-insane-for-v0-ODh3amxleGxrMWxnMTJ8b8xn2fFDhcLuEPDVd9G6x0kXvDTM4-QlT3JjzOyS.png?width=640&crop=smart&format=pjpg&auto=webp&s=d740b285f600475599a7c005b795209bc43a8d02",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1rbkxti/just_with_a_single_prompt_and_this_result_is/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1rbkxti/just_with_a_single_prompt_and_this_result_is/",
+      "https://www.reddit.com/r/aivideo/comments/1rbkxti/comment/o6rjiae/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 作者确认用 ChatGPT 辅助写中文指令，再交给 Seedance 2.0；这是虚构特效场景。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

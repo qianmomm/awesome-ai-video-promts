@@ -1,0 +1,83 @@
+{
+  "id": "minimax-digital-speedpaint-timelapse",
+  "title": "用参考图模拟数码绘画延时过程",
+  "summary_zh": "以成稿和首帧为参考，描述从白色画布逐步出现线稿的过程，再把四个片段拼接成模拟延时绘画。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1vzykd7/generating_fake_speedpaint_timelapse_with_minimax/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Generating \"fake\" speedpaint timelapse with MiniMax H3",
+    "published_at": "2026-08-27",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "arthan1011",
+    "url": "https://www.reddit.com/user/arthan1011/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "MiniMax",
+      "version": "H3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vzykd7/generating_fake_speedpaint_timelapse_with_minimax/"
+    }
+  ],
+  "category": "图像动画与转场",
+  "tags": [
+    "图像动画与转场"
+  ],
+  "prompt": {
+    "status": "partial",
+    "original": "subject_definitions:\n<Picture 1> is the reference digital drawing.\n<Picture 2> is the first frame of the target video\n\nsummary:\n[reference generation] The target video shows digital drawing timelapse process of drawing artwork from <Picture 1>. With pov moving hand removed - only canvas is visible\n\nretention_analysis:\n<Picture 2>: partially_preserved - first frame for the video.\n<Picture 1>: partially_preserved - last frame for the video.\n\ndetailed_description:\nThe target video is high qualiy digital drawing recorded timelapse.\n[Shot 1] starts from a white digital canvas and then draws the basic forms, shapes first starting from general (big) outline sketch of the pose. Then adding line after line to add new details on face, hair and clothes until a complete lineart sketch for the character is done.\n[Shot 2] At 00:11.000, shows final result that is <Picture 1>.\n\noverall_soundscape:\nSilence\n\nnon_diegetic_music:\nN/A\nRead more",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vzykd7/generating_fake_speedpaint_timelapse_with_minimax/",
+    "scope": "作者公开的一段生成指令，成片由四段视频拼接",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "这是 AI 模拟的绘画过程，不是真实作画记录。作者指出线稿较好、上色阶段与移除手部仍有困难。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1vzykd7/generating_fake_speedpaint_timelapse_with_minimax/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/generating-fake-speedpaint-timelapse-with-minimax-h3-v0-NHVuZ3NydTh6eGxoMVHlrF-KxQZ97PYMXm3hXkp2n6W5SOkOrJrZW9kgbv5L.png?format=pjpg&auto=webp&s=c4cf53ffbe9d7db5dfa3b4dac6e8ff807bd7b4ee",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vzykd7/generating_fake_speedpaint_timelapse_with_minimax/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1vzykd7/generating_fake_speedpaint_timelapse_with_minimax/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 这是 AI 模拟的绘画过程，不是真实作画记录。作者指出线稿较好、上色阶段与移除手部仍有困难。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

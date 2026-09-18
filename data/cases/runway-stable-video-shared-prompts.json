@@ -1,0 +1,89 @@
+{
+  "id": "runway-stable-video-shared-prompts",
+  "title": "把 Sora 示例提示词交给其他视频工具",
+  "summary_zh": "作者把已有 Sora 示例的提示词输入 Runway、Stable Video 等工具，制作同题比较，并提供更长的视频讲解。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1ascq3w/i_pasted_sora_prompts_in_runway_stable_video_more/",
+    "item_key": "main-video",
+    "locator": "作者原帖：I pasted Sora prompts in Runway, Stable Video, & more (full comparison linked in comments)",
+    "published_at": "2024-02-16",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "AIVideoSchool",
+    "url": "https://www.reddit.com/user/AIVideoSchool/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Runway",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1ascq3w/i_pasted_sora_prompts_in_runway_stable_video_more/"
+    },
+    {
+      "name": "Stable Video",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1ascq3w/i_pasted_sora_prompts_in_runway_stable_video_more/"
+    }
+  ],
+  "category": "提示方式实验",
+  "tags": [
+    "提示方式实验"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "本次可读原帖未取得对应视频的逐字生成 Prompt",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "本次未从视频逐帧转录提示词。Sora 是对照素材来源，不等于作者拥有 Sora 生成权限；这里只把作者标题明确提及的实际测试工具计入模型。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1ascq3w/i_pasted_sora_prompts_in_runway_stable_video_more/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/i-pasted-sora-prompts-in-runway-stable-video-more-full-v0-YWxqaDlqNGo0emljMQzRhP8XfroCz8DlVcNzwlMCfOuZGcYmTztB4A5ev0pt.png?width=640&crop=smart&format=pjpg&auto=webp&s=2da50be1dee4871a91a2d075c820789aef2478ce",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1ascq3w/i_pasted_sora_prompts_in_runway_stable_video_more/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1ascq3w/i_pasted_sora_prompts_in_runway_stable_video_more/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 本次未从视频逐帧转录提示词。Sora 是对照素材来源，不等于作者拥有 Sora 生成权限；这里只把作者标题明确提及的实际测试工具计入模型。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

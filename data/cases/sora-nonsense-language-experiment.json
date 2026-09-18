@@ -1,0 +1,84 @@
+{
+  "id": "sora-nonsense-language-experiment",
+  "title": "Sora｜无意义语言生成实验",
+  "summary_zh": "用刻意打乱语义的句子生成超现实画面，作者在评论公开准确输入。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1ql8j5o/feeding_nonsense_prompts_into_sora_just_to_see/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Feeding nonsense prompts into Sora just to see what it produces.",
+    "published_at": "2026-01-24",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "guysitsausername",
+    "url": "https://www.reddit.com/user/guysitsausername/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Sora",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1ql8j5o/feeding_nonsense_prompts_into_sora_just_to_see/"
+    }
+  ],
+  "category": "提示方式实验",
+  "tags": [
+    "抽象与实验"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "Camera banana sideways probably. Floor speaks Tuesday. Orange velocity wearing shoes. Suddenly chair yesterday louder. Handcloud repeats green while clocks argue milk. Perspective elbow rotates politely into thunder. Walking noun aggressively. Running adjective sleeps. Sky basement upward again never. The dog is a paragraph. The paragraph refuses. Photons happen but incorrectly, with taxes. Several many one situation unfolds backwards inside punctuation. Mouth window thinking stairs. Umami does not waterslide but continues anyway. Sound tastes like permission. Weather has opinions. Furniture denies them. A handbrake becomes plural accidentally. Hamster is optional but insists. Everything remains calm due to excessive panic. Underneath progresses sideways until finished before starting after. Audio exists but contains no speech, no language, no words, no phonemes. Only nonverbal environmental noise, abstract tones, or silence.",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/aivideo/comments/1ql8j5o/comment/o1h0mwi/",
+    "scope": "作者公开的视频生成指令",
+    "locator": "原作者在原帖下公开的 Prompt 评论",
+    "notes": "模型家族按原帖标题与分类记录，未披露版本；不将随机语义解释成可靠控制技巧。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1ql8j5o/feeding_nonsense_prompts_into_sora_just_to_see/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/feeding-nonsense-prompts-into-sora-just-to-see-what-it-v0-cWc3c2pmbmUyN2ZnMU1XkNSA_BrjPzLOKwXvDk-ULb36amE4QJjP5Q-IIr6z.png?width=640&crop=smart&format=pjpg&auto=webp&s=3e7e4ce6b4c7a8d5e9d9be4edd76744360ee44b4",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1ql8j5o/feeding_nonsense_prompts_into_sora_just_to_see/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1ql8j5o/feeding_nonsense_prompts_into_sora_just_to_see/",
+      "https://www.reddit.com/r/aivideo/comments/1ql8j5o/comment/o1h0mwi/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 模型家族按原帖标题与分类记录，未披露版本；不将随机语义解释成可靠控制技巧。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "minimax-circled-location-reference",
+  "title": "MiniMax H3｜用圈选地图指定场景",
+  "summary_zh": "在地图参考图上圈出位置，结合人脸和全身参考生成三镜头角色展示。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1wbs56o/amazing_minimax_h3_circle_on_the_reference_image/",
+    "item_key": "main-video",
+    "locator": "作者原帖：AMAZING Minimax H3 - Circle on the reference image WHERE you want your scene to be!!",
+    "published_at": "2026-09-09",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "TheDerminator1337",
+    "url": "https://www.reddit.com/user/TheDerminator1337/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "MiniMax",
+      "version": "H3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1wbs56o/amazing_minimax_h3_circle_on_the_reference_image/"
+    }
+  ],
+  "category": "图像动画与转场",
+  "tags": [
+    "角色与场景控制"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "subject_definitions:\n\n<Subject 1> is the character defined jointly by <Picture 1> and <Picture 2>. <Picture 1> provides her facial identity, hair, facial features, and expression design. <Picture 2> provides her full-body appearance, body proportions, outfit, silhouette, and overall character presentation. Preserve the combined identity so the target video clearly shows one coherent character.\n\n<Subject 2> is the location indicated by the red circle in <Picture 3>. <Picture 3> provides the spatial guide for where the scene should take place. The circled area determines the intended location. The red circle is only an annotation marking the desired area and should not appear in the final video.\n\nsummary:\n\n[reference generation] Create a 5-second character showcase of <Subject 1> placed within the exact area marked by the red circle in <Picture 3>. Use <Picture 1> for the face and head design, use <Picture 2> for the body and outfit design, and use <Picture 3> as the location-selection guide. Translate the selected map area into a natural ground-level scene while keeping the environment generally consistent with the reference and without over-specifying details beyond what the circled area implies.\n\nretention_analysis:\n\n<Subject 1> (appears throughout): fully_preserved - facial identity, hairstyle, facial design, body proportions, outfit, silhouette, and distinctive visual traits from <Picture 1> and <Picture 2> remain consistent throughout the video.\n\n<Picture 1>: attribute_transfer - its facial identity, hair, eyes, and face-specific features are transferred onto the full character throughout all shots.\n\n<Picture 2>: attribute_transfer - its body proportions, clothing, overall silhouette, and full-body design define the character’s visible appearance throughout all shots.\n\n<Picture 3> / <Subject 2> (environment throughout): partially_preserved - preserve the general environment, spatial placement, and surrounding location cues of the circled area while converting the map-style reference into a believable ground-level setting.\n\nThe red circle in <Picture 3>: attribute_transfer - use it only as a positional instruction identifying where the character should be placed. Do not render the red circle itself in the final video.\n\ndetailed_description:\n\n[Shot 1] A ground-level establishing shot within the exact area marked by the red circle in <Picture 3>. <Subject 1> is already present in that location, shown in a clear full-body or medium-full view. The shot immediately communicates both the character and the selected environment. She holds a calm, confident pose as her hair and clothing move subtly with the environment. The camera makes a gentle push-in to begin the showcase.\n\n[Shot 2] At 00:01.700, cut to a new angle within the same selected area. <Subject 1> takes a few relaxed steps, turns slightly, or shifts into a second pose so the viewer gets a better look at her full-body design and outfit. The environment remains visibly tied to the selected location from <Picture 3>. The camera moves smoothly to keep the shot dynamic without becoming chaotic.\n\n[Shot 3] At 00:03.400, cut to a closer shot, such as a waist-up or chest-up view, still clearly within the same location. <Subject 1> pauses and looks toward the camera with a composed, appealing expression. The camera makes a small arc or gentle drift to add motion while ending on a clean showcase pose that highlights both her face from <Picture 1> and her body styling from <Picture 2>.\n\noverall_soundscape:\n\nSoft environmental ambience appropriate to the selected location, with light wind, subtle movement in the surroundings, faint footstep sounds if she walks, and delicate cloth and hair motion sounds close to the character.\n\nnon_diegetic_music:\n\nA light, supportive instrumental underscore that enhances the showcase without overpowering it, with a gentle melodic line and restrained rhythm.",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1wbs56o/comment/p8vlvuh/",
+    "scope": "作者公开的视频生成指令",
+    "locator": "原作者在原帖下公开的 Prompt 评论",
+    "notes": "作者公开完整五秒指令，并说明由 ChatGPT 辅助编写；圈选精度仍有偏差。"
+  },
+  "references": [
+    {
+      "kind": "input_material",
+      "url": null,
+      "status": "missing",
+      "notes": "三张参考图是必要输入，未下载归档。"
+    }
+  ],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1wbs56o/amazing_minimax_h3_circle_on_the_reference_image/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/amazing-minimax-h3-circle-on-the-reference-image-where-you-v0-bDYwY2l2a2Y0am9oMSVOFQqrb3_gOpwbzzZ2nyngmlIuq99-ADO8KgfCHwgU.png?width=640&crop=smart&format=pjpg&auto=webp&s=d397bc71822b1418c807e5f78a855477e1a12113",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1wbs56o/amazing_minimax_h3_circle_on_the_reference_image/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1wbs56o/amazing_minimax_h3_circle_on_the_reference_image/",
+      "https://www.reddit.com/r/StableDiffusion/comments/1wbs56o/comment/p8vlvuh/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 作者公开完整五秒指令，并说明由 ChatGPT 辅助编写；圈选精度仍有偏差。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

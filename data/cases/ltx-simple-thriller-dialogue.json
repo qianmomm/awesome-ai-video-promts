@@ -1,0 +1,83 @@
+{
+  "id": "ltx-simple-thriller-dialogue",
+  "title": "一句短提示词的惊悚片对白",
+  "summary_zh": "作者用简短的人物、类型和对白指令，测试 LTX 2.5 的人物近景；这只是作者自己的提示方式实验。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1vly93b/the_simple_secret_to_better_ltx_25_results/",
+    "item_key": "main-video",
+    "locator": "作者原帖：THE SIMPLE SECRET TO BETTER LTX 2.5 RESULTS",
+    "published_at": "2026-08-11",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "b-totherent",
+    "url": "https://www.reddit.com/user/b-totherent/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "LTX",
+      "version": "2.5",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vly93b/the_simple_secret_to_better_ltx_25_results/"
+    }
+  ],
+  "category": "对白与表演",
+  "tags": [
+    "对白与表演"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "1990's gritty real big budget R-rated stylish thriller close-up, an age 30 blonde woman in a form fitting high end outfit walks up to the viewer and says seductively the words lingering \"I'll tell you the secret to LTX two point five\" she smiles as she says \"simple prompts\"",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vly93b/the_simple_secret_to_better_ltx_25_results/",
+    "scope": "作者公开的视频生成指令",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "作者未确认是否有内置 Prompt 增强；保留原始输入，不能认定模型内部未改写。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1vly93b/the_simple_secret_to_better_ltx_25_results/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/the-simple-secret-to-better-ltx-2-5-results-v0-amtqN215ejQzdWloMbHzz6w7UA89TntcFa8hiwulwjJ8CtI1bxw_QUlVf4AZ.png?width=640&crop=smart&format=pjpg&auto=webp&s=7e37fb43a45d435022085fbac70572e7b9c5bfa4",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vly93b/the_simple_secret_to_better_ltx_25_results/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1vly93b/the_simple_secret_to_better_ltx_25_results/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 作者未确认是否有内置 Prompt 增强；保留原始输入，不能认定模型内部未改写。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

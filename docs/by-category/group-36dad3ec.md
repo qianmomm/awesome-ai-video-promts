@@ -6,7 +6,15 @@
 
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
+| [Grok｜末帧循环的超现实演变](<../cases/grok-recursive-last-frame-animation.md>) | Grok Imagine | Reddit | 未找到 Prompt |
+| [MiniMax｜多人实时续写荒诞短片](<../cases/minimax-live-group-storytelling.md>) | MiniMax | Reddit | 未找到 Prompt |
+| [MiniMax 与 Seedance｜泳池派对 30 秒长镜头](<../cases/minimax-seedance-pool-longtake-comparison.md>) | MiniMax · Seedance | Reddit | 完整文本 |
 | [让分镜板直接驱动一段视频](<../cases/minimax-storyboard-reference.md>) | MiniMax | Reddit | 完整文本 |
 | [同一静图的四种提示方式实验](<../cases/runway-image-prompt-comparison.md>) | Runway | Reddit | 未找到 Prompt |
+| [把 Sora 示例提示词交给其他视频工具](<../cases/runway-stable-video-shared-prompts.md>) | Runway · Stable Video | Reddit | 未找到 Prompt |
+| [香蕉之歌：连续延长十次会怎样](<../cases/seedance-banana-song-extensions.md>) | Seedance | Reddit | 局部 Prompt |
+| [用荒诞场景测试 Sora 2 的物理理解](<../cases/sora-funny-physics-tests.md>) | Sora | Reddit | 未找到 Prompt |
+| [Sora｜无意义语言生成实验](<../cases/sora-nonsense-language-experiment.md>) | Sora | Reddit | 完整文本 |
+| [一句话尝试生成扬声器原理动画](<../cases/veo-speaker-educational-3d.md>) | Veo | Reddit | 完整文本 |
 | [摇滚手势：Wan 与 HunyuanVideo 同题对照](<../cases/wan-hunyuan-rock-band-comparison.md>) | Wan · HunyuanVideo | Reddit | 完整文本 |
 | [从短序列取帧：探索跨镜头角色一致性](<../cases/wan-multishot-character-consistency.md>) | Wan | Reddit | 未找到 Prompt |

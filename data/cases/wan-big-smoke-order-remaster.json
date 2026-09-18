@@ -1,0 +1,83 @@
+{
+  "id": "wan-big-smoke-order-remaster",
+  "title": "Wan｜Big Smoke 点餐场景重制",
+  "summary_zh": "作者把 Big Smoke 的游戏点餐场景制作成 AI 重制视频。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1qxxyh7/big_smokes_order_ai_remaster/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Big Smoke’s Order (Ai Remaster)",
+    "published_at": "2026-02-06",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "RedBizon",
+    "url": "https://www.reddit.com/user/RedBizon/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Wan",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1qxxyh7/big_smokes_order_ai_remaster/"
+    }
+  ],
+  "category": "视频重绘",
+  "tags": [
+    "视频编辑与重绘"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "本次可读原帖未取得对应视频的逐字生成 Prompt",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "本条模型按原帖 Wan 分类记录；同作者其他作品的版本与 Prompt 不自动套用到这条作品。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1qxxyh7/big_smokes_order_ai_remaster/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/big-smokes-order-ai-remaster-v0-aGFlYXFlNzlveWhnMUz7eeVP11kUXzdNTwFiyFK-XEuqRJKyjn40eBbztsKO.png?format=pjpg&auto=webp&s=fe87b9ae3cda97fae58047ce9587824c75083d04",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1qxxyh7/big_smokes_order_ai_remaster/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1qxxyh7/big_smokes_order_ai_remaster/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 本条模型按原帖 Wan 分类记录；同作者其他作品的版本与 Prompt 不自动套用到这条作品。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "minimax-multiverse-portal-arrival",
+  "title": "MiniMax H3｜多角色传送门集结",
+  "summary_zh": "用人物参考图固定身份，分别构建单人和三人从传送门登场的片段。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1vgf6qx/assemble_the_multiverse_minimax_h3_r2v_is_awesome/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Assemble The Multiverse | Minimax H3 R2V is awesome!",
+    "published_at": "2026-08-05",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Time-Ad-7720",
+    "url": "https://www.reddit.com/user/Time-Ad-7720/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "MiniMax",
+      "version": "H3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vgf6qx/assemble_the_multiverse_minimax_h3_r2v_is_awesome/"
+    }
+  ],
+  "category": "音乐与动画",
+  "tags": [
+    "动画与角色"
+  ],
+  "prompt": {
+    "status": "partial",
+    "original": "subject_definitions:\n\n<Subject 1> is [CHARACTER 1] from <Picture 1>, preserving the visual identity, costume, proportions, accessories, and visual style shown in the reference image.\n\n<Subject 2> is [CHARACTER 2] from <Picture 2>, preserving the visual identity, costume, proportions, accessories, and visual style shown in the reference image.\n\n<Subject 3> is [CHARACTER 3] from <Picture 3>, preserving the visual identity, costume, proportions, accessories, and visual style shown in the reference image.\n\nsummary:\n\n[reference generation] A 5-second cinematic multiverse portal arrival. Three characters emerge from a consistent amber-orange portal and take a calm, confident formation.\n\nretention_analysis:\n\n<Subject 1> (appears in [Shot 1]): fully_preserved - retains the identity, costume, proportions, accessories, and visual style shown in <Picture 1>.\n\n<Subject 2> (appears in [Shot 1]): fully_preserved - retains the identity, costume, proportions, accessories, and visual style shown in <Picture 2>.\n\n<Subject 3> (appears in [Shot 1]): fully_preserved - retains the identity, costume, proportions, accessories, and visual style shown in <Picture 3>.\n\ndetailed_description:\n\nA 5-second cinematic portal-arrival scene at dusk. One stable medium three-shot, framed from the knees up. No dialogue, no combat, no wide landscape, no camera movement, and no crowd.\n\nPortal continuity: a large circular amber-orange portal stands behind the characters. It has a bright rotating outer ring, a darker transparent centre, floating gold sparks, gentle smoke, and a low resonant hum. Keep its colour, size, brightness, particle density, and rotation speed consistent across every portal-arrival clip.\n\n[Shot 1] <Subject 1> steps through the portal first and takes the centre position with quiet confidence. <Subject 2> emerges on one side, naturally adjusts or lowers any item they are carrying if applicable, then gives a focused glance toward the unseen distance. <Subject 3> walks through last, takes position on the opposite side, and calmly surveys the scene. The three hold a poised, united stance as the portal flickers and golden particles drift around them. Their expressions and body language remain confident and appropriate to their individual character identities.\n\noverall_soundscape:\n\nLow portal hum, soft wind, subtle movement from clothing or equipment, and drifting golden sparks. No speech.\n\nnon_diegetic_music:\n\nA restrained cinematic rise builds across the shot and resolves on a calm, confident note.\n\nPrompt For single characters:\nsubject_definitions:\n\n<Subject 1> is [CHARACTER] from <Picture 1>, preserving the visual identity, costume, proportions, accessories, and visual style shown in the reference image.\n\nsummary:\n\n[reference generation] A 5-second cinematic multiverse portal arrival. One character walks through a consistent amber-orange portal, then takes a confident action stance with a subtle grin.\n\nretention_analysis:\n\n<Subject 1> (appears in [Shot 1] and [Shot 2]): fully_preserved - retains the identity, costume, proportions, accessories, and visual style shown in <Picture 1>.\n\ndetailed_description:\n\nA 5-second cinematic portal-arrival scene at dusk. No dialogue, no crowd, no wide landscape, and no combat.\n\nPortal continuity: a large circular amber-orange portal stands behind <Subject 1>. It has a bright fiery rotating outer ring, a darker transparent centre, floating gold sparks, gentle smoke, and a low resonant hum. Keep its colour, size, brightness, particle density, and rotation speed consistent across every portal-arrival clip.\n\n[Shot 1] Medium knee-up shot. <Subject 1> walks steadily through the portal toward the camera, then comes to a composed stop. Their costume, silhouette, movement style, and any character-specific accessories remain fully consistent with <Picture 1>. Golden sparks drift around them as the portal flickers behind.\n\n[Shot 2] Close-up of <Subject 1>. They shift into a distinctive, character-appropriate action stance, looking directly ahead with calm confidence. Their expression changes into a subtle smile and restrained grin. Keep the movement natural and controlled, with no exaggerated facial distortion. The portal remains softly visible and out of focus in the background.\n\noverall_soundscape:\n\nLow portal hum, soft wind, subtle movement from clothing or equipment, and drifting golden sparks. No speech.\n\nnon_diegetic_music:\n\nA restrained cinematic rise builds through the entrance and resolves as <Subject 1> holds the final stance.",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vgf6qx/assemble_the_multiverse_minimax_h3_r2v_is_awesome/",
+    "scope": "作者公开的多人及单人片段模板，保留人物占位符，不是所有片段逐条完整输入。",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "需替换 CHARACTER 占位符并提供匹配参考图。"
+  },
+  "references": [
+    {
+      "kind": "input_material",
+      "url": null,
+      "status": "missing",
+      "notes": "每段不同的角色参考图未随仓库保存。"
+    }
+  ],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1vgf6qx/assemble_the_multiverse_minimax_h3_r2v_is_awesome/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/assemble-the-multiverse-minimax-h3-r2v-is-awesome-v0-Z3hwa2swZTZrbGhoMTRlDiJiZRIDfmCroCK9574ugXIKhRX2h7Lm35sZ2jd3.png?width=640&crop=smart&format=pjpg&auto=webp&s=e18eea7d34e92cb36ef2cf87e84bb0ef720004e4",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vgf6qx/assemble_the_multiverse_minimax_h3_r2v_is_awesome/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1vgf6qx/assemble_the_multiverse_minimax_h3_r2v_is_awesome/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 需替换 CHARACTER 占位符并提供匹配参考图。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

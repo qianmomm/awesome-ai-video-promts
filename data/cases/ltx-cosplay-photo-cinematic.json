@@ -1,0 +1,87 @@
+{
+  "id": "ltx-cosplay-photo-cinematic",
+  "title": "把自己拍摄的 Cosplay 照片做成短片",
+  "summary_zh": "摄影师把自己拍摄并修图的 Cosplay 照片交给 LTX 做首尾帧动画，再在 CapCut 中拼接。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1u7ej9c/first_time_using_ltx23_fflf_its_amazing/",
+    "item_key": "main-video",
+    "locator": "作者原帖：First time using LTX2.3 FFLF. It's amazing!",
+    "published_at": "2026-06-16",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "peejay0812",
+    "url": "https://www.reddit.com/user/peejay0812/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "LTX",
+      "version": "2.3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1u7ej9c/first_time_using_ltx23_fflf_its_amazing/"
+    }
+  ],
+  "category": "图像动画与转场",
+  "tags": [
+    "图像动画与转场"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "本次可读原帖未取得对应视频的逐字生成 Prompt",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "原片是作者拍摄的真实照片，AI 负责视频和音频生成；未找到逐字 Prompt。"
+  },
+  "references": [],
+  "workflow_notes": [
+    "照片经 Lightroom 与 Photoshop 处理。",
+    "作者使用 LTX 2.3 首尾帧生成，声音也来自 LTX。",
+    "在 CapCut 中拼接；第二次生成提供了约 1–2 秒的帧作为上下文。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1u7ej9c/first_time_using_ltx23_fflf_its_amazing/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/first-time-using-ltx2-3-fflf-its-amazing-v0-M2tpcGlyeDBqbjdoMX-vbY7cXCM1onsg0YUg004huhD5Iu_3n77yZRH0XZ4z.png?width=640&crop=smart&format=pjpg&auto=webp&s=b1e4d8468de068822144ef06e1c2e898f28f6727",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1u7ej9c/first_time_using_ltx23_fflf_its_amazing/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1u7ej9c/first_time_using_ltx23_fflf_its_amazing/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 原片是作者拍摄的真实照片，AI 负责视频和音频生成；未找到逐字 Prompt。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

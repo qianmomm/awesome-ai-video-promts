@@ -7,5 +7,20 @@
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
 | [90 年代动画风：滑板少女的五镜头序列](<../cases/minimax-anime-skateboard.md>) | MiniMax | Reddit | 完整文本 |
+| [藏在盆栽后的蝙蝠侠：参考素材驱动的对白](<../cases/minimax-batman-plant-comedy.md>) | MiniMax | Reddit | 局部 Prompt |
+| [MiniMax H3｜用圈选地图指定场景](<../cases/minimax-circled-location-reference.md>) | MiniMax | Reddit | 完整文本 |
+| [MiniMax H3｜上下文循环生成长片](<../cases/minimax-context-loop-long-film.md>) | MiniMax | Reddit | Prompt 外链 |
+| [用参考图模拟数码绘画延时过程](<../cases/minimax-digital-speedpaint-timelapse.md>) | MiniMax | Reddit | 局部 Prompt |
+| [MiniMax｜多人实时续写荒诞短片](<../cases/minimax-live-group-storytelling.md>) | MiniMax | Reddit | 未找到 Prompt |
+| [MiniMax H3｜Looney Kombat 卡通格斗](<../cases/minimax-looney-kombat-parody.md>) | MiniMax | Reddit | 完整文本 |
+| [用呼吸、停顿与重音标签控制表演](<../cases/minimax-microexpression-dialogue.md>) | MiniMax | Reddit | 局部 Prompt |
+| [MiniMax H3｜多角色传送门集结](<../cases/minimax-multiverse-portal-arrival.md>) | MiniMax | Reddit | 局部 Prompt |
+| [MiniMax H3｜ComfyUI 25 秒歌唱测试](<../cases/minimax-native-comfy-singing.md>) | MiniMax | Reddit | 局部 Prompt |
+| [MiniMax H3｜倒水视频材质替换](<../cases/minimax-pouring-material-replacement.md>) | MiniMax | Reddit | Prompt 外链 |
+| [MiniMax H3｜倾倒物替换物理实验](<../cases/minimax-pouring-solids-physics.md>) | MiniMax | Reddit | Prompt 外链 |
+| [MiniMax H3｜多参考图街头追逐](<../cases/minimax-reference-car-chase.md>) | MiniMax | Reddit | 完整文本 |
 | [复古动画海报：人物入场与界面元素逐层出现](<../cases/minimax-retro-motion-poster.md>) | MiniMax | Reddit | 完整文本 |
+| [MiniMax 与 Seedance｜泳池派对 30 秒长镜头](<../cases/minimax-seedance-pool-longtake-comparison.md>) | MiniMax · Seedance | Reddit | 完整文本 |
 | [让分镜板直接驱动一段视频](<../cases/minimax-storyboard-reference.md>) | MiniMax | Reddit | 完整文本 |
+| [MiniMax H3｜角色对白与时间码喜剧](<../cases/minimax-walter-prompting-comedy.md>) | MiniMax | Reddit | 完整文本 |
+| [Runway 与 MiniMax｜ZUCKERBORG 音乐恶搞](<../cases/runway-minimax-zuckerborg-parody.md>) | Runway · MiniMax · Pika | Reddit | 未找到 Prompt |

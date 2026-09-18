@@ -1,0 +1,83 @@
+{
+  "id": "minimax-native-comfy-singing",
+  "title": "MiniMax H3｜ComfyUI 25 秒歌唱测试",
+  "summary_zh": "ComfyUI 作者展示 1080p、25 秒文生视频实验，并公开语音口音提示片段。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1vd9o0r/minimax_h3_1080p_25_seconds_text_to_video_in/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Minimax H3, 1080p 25 seconds, text to video in native ComfyUI (open weights coming soon)",
+    "published_at": "2026-08-02",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "comfyanonymous",
+    "url": "https://www.reddit.com/user/comfyanonymous/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "MiniMax",
+      "version": "H3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vd9o0r/minimax_h3_1080p_25_seconds_text_to_video_in/"
+    }
+  ],
+  "category": "音乐与动画",
+  "tags": [
+    "音乐与舞蹈"
+  ],
+  "prompt": {
+    "status": "partial",
+    "original": "singing with a cute japanese accent",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vd9o0r/minimax_h3_1080p_25_seconds_text_to_video_in/",
+    "scope": "作者确认使用的口音短语，非整条视频 Prompt。",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "生成规格和运行耗时来自作者自述；不将其视为所有设备的性能承诺。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1vd9o0r/minimax_h3_1080p_25_seconds_text_to_video_in/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/minimax-h3-1080p-25-seconds-text-to-video-in-native-comfyui-v0-a3J4YWZ3a3k3dGdoMa95vvBrJoVprGbuit3mKv8e4ZmSoX0PDlyoBo6JGGfc.png?width=640&crop=smart&format=pjpg&auto=webp&s=1e77f4878ead934f1738ca7fddd45ed25679fa27",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vd9o0r/minimax_h3_1080p_25_seconds_text_to_video_in/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1vd9o0r/minimax_h3_1080p_25_seconds_text_to_video_in/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 生成规格和运行耗时来自作者自述；不将其视为所有设备的性能承诺。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

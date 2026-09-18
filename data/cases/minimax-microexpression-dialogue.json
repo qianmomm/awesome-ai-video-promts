@@ -1,0 +1,83 @@
+{
+  "id": "minimax-microexpression-dialogue",
+  "title": "用呼吸、停顿与重音标签控制表演",
+  "summary_zh": "作者在虚构角色表演中尝试呼吸、停顿、重音与哼唱标签，公开片段指令和生成设置。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1wap0rb/pushing_ai_emotions_is_possible_through/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Pushing AI emotions is possible through microexpressions, tags and context",
+    "published_at": "2026-09-08",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "a-ijoe",
+    "url": "https://www.reddit.com/user/a-ijoe/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "MiniMax",
+      "version": "H3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1wap0rb/pushing_ai_emotions_is_possible_through/"
+    }
+  ],
+  "category": "对白与表演",
+  "tags": [
+    "对白与表演"
+  ],
+  "prompt": {
+    "status": "partial",
+    "original": "[Shot 1] The shot begins from the source <Video 1>. Extreme close-up of <Subject 1>, head and shoulders, face to the lens, perfectly symmetrical, shot on an anamorphic lens: wide close-up. A soft key light hits one side of his face, a close fill holds the other side, and a backlight rims his hair and shoulders off the white. The light wraps. Highlights on the forehead and cheeks roll off gently. He is Frank Underwood, portrayed by Kevin Spacey, in a suit and a red tie; his skin and wrinkles match <Picture 1>, soft, even, natural color, pores visible without harsh contrast. Behind him the background is an infinite white cyclorama. His head and shoulders stay in that same place in the frame for the whole take. He is already looking into the lens.\nHe stays on the lens, colder. <Subject 1> (S1) says, <d>[English] <breath> I think you're... <i>sorry</i>. <pause> You had the <i>real thing </i>. The real <i>me</i>. <inhale> But... <inhale> you decided to cancel me. <stutter> E-erase me from anywhere you could see me. <catches breath> And now, with this… MiniMax… <chuckle> you've decided to bring me back to... <i>life</i>. <long pause> </d>",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1wap0rb/pushing_ai_emotions_is_possible_through/",
+    "scope": "作者公开的首段表演 Prompt，非完整短片",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "这是 AI 角色化表演，不是演员真实发言；标签效果属于作者实验观察。后续哼唱片段还用到作者录制的旋律参考，不能只凭本条复现全片。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1wap0rb/pushing_ai_emotions_is_possible_through/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/pushing-ai-emotions-is-possible-through-microexpressions-v0-cXJtZGxqbGV4YW9oMcRcAhHqTs3dWZ_slYzRlR7Wv9rBqfVuNn1Xu5Cv_X4L.png?width=640&crop=smart&format=pjpg&auto=webp&s=0e76a5b39474c5ccdbbc407157d9bcb2055a2bd1",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1wap0rb/pushing_ai_emotions_is_possible_through/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1wap0rb/pushing_ai_emotions_is_possible_through/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 这是 AI 角色化表演，不是演员真实发言；标签效果属于作者实验观察。后续哼唱片段还用到作者录制的旋律参考，不能只凭本条复现全片。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

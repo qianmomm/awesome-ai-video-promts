@@ -6,21 +6,99 @@
 
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
+| [AniSora｜二次元角色 360° 转身](<../cases/anisora-anime-character-turnaround.md>) | AniSora | Reddit | 未找到 Prompt |
+| [Grok｜1922 年历史影像再创作](<../cases/grok-1922-archival-recreation.md>) | Grok Imagine | Reddit | 未找到 Prompt |
+| [Grok｜Golden Tears](<../cases/grok-golden-tears.md>) | Grok Imagine | Reddit | 未找到 Prompt |
+| [Grok｜Nano Banana 画面与 Suno 配乐](<../cases/grok-nano-banana-anime-music.md>) | Grok Imagine | Reddit | 未找到 Prompt |
+| [Grok｜末帧循环的超现实演变](<../cases/grok-recursive-last-frame-animation.md>) | Grok Imagine | Reddit | 未找到 Prompt |
+| [Grok｜Shadow of the Blade](<../cases/grok-shadow-of-blade.md>) | Grok Imagine | Reddit | 未找到 Prompt |
+| [Grok｜Uzumaki 动画再创作](<../cases/grok-uzumaki-animation.md>) | Grok Imagine | Reddit | 未找到 Prompt |
 | [洗手动作：混元文生视频与 Hailuo 图生视频](<../cases/hunyuan-hailuo-hand-washing.md>) | HunyuanVideo · Hailuo | Reddit | 未找到 Prompt |
+| [积木赛车：游戏概念与速度感](<../cases/kling-brick-racing-game.md>) | Kling | Reddit | 局部 Prompt |
 | [双车追逐：按秒安排动作与声音](<../cases/kling-car-combat-timeline.md>) | Kling | Reddit | 原文节选 |
+| [赛博朋克欧洲城市的游戏概念动画](<../cases/kling-cyberpunk-europe-game.md>) | Kling | Reddit | 局部 Prompt |
 | [壁炉旁读书：续写片段的表情指令](<../cases/kling-flapper-extension.md>) | Kling | Reddit | 局部 Prompt |
+| [Kling 与 Luma｜Bleat 惊悚短片](<../cases/kling-luma-bleat-horror-film.md>) | Kling · Luma | Reddit | 未找到 Prompt |
+| [薄雾武士村：简短运动指令串起镜头](<../cases/kling-misty-samurai-village.md>) | Kling | Reddit | 局部 Prompt |
+| [像素日本小镇：从游戏截图概念到动画](<../cases/kling-retro-japan-pixel-game.md>) | Kling | Reddit | 局部 Prompt |
+| [蒸汽朋克欧洲：游戏概念画面的动画化](<../cases/kling-steampunk-europe-game.md>) | Kling | Reddit | 局部 Prompt |
 | [城市追逐：人物、运镜与环境声的完整约束](<../cases/ltx-city-foot-chase.md>) | LTX | Reddit | 完整文本 |
+| [深夜悬崖城堡：从航拍切到指挥官视角](<../cases/ltx-cliff-fortress-sequence.md>) | LTX | Reddit | 完整文本 |
+| [LTX｜双角色电话喜剧剪辑](<../cases/ltx-comic-phone-conversation.md>) | LTX | Reddit | 完整文本 |
+| [把自己拍摄的 Cosplay 照片做成短片](<../cases/ltx-cosplay-photo-cinematic.md>) | LTX | Reddit | 未找到 Prompt |
+| [LTX 2.5｜赛博朋克屋顶快速推镜](<../cases/ltx-cyberpunk-rooftop-zoom.md>) | LTX | Reddit | 完整文本 |
+| [LTX｜Dispatch 多角色 LoRA 展示](<../cases/ltx-dispatch-character-lora.md>) | LTX | Reddit | 未找到 Prompt |
+| [LTX｜高分辨率图生视频测试](<../cases/ltx-high-resolution-i2v.md>) | LTX | Reddit | 未找到 Prompt |
+| [LTX 2.5｜本地十秒运动测试](<../cases/ltx-local-ten-second-motion-test.md>) | LTX | Reddit | 未找到 Prompt |
+| [LTX｜MP3 口型与 LoRA 强度对照](<../cases/ltx-mp3-lora-strength-comparison.md>) | LTX | Reddit | 局部 Prompt |
+| [多张参考图持续注入的视频序列](<../cases/ltx-multiple-reference-reinjection.md>) | LTX | Reddit | 未找到 Prompt |
+| [LTX｜竖屏图生视频与双阶段采样](<../cases/ltx-portrait-i2v-fp8-workflow.md>) | LTX | Reddit | 未找到 Prompt |
+| [LTX｜雨夜达卡谍战氛围短片](<../cases/ltx-rainy-dhaka-spy-montage.md>) | LTX | Reddit | 未找到 Prompt |
 | [屋顶冷幽默：按时间码编排双人对话](<../cases/ltx-rooftop-multishot-dialogue.md>) | LTX | Reddit | 完整文本 |
+| [LTX｜音频驱动奇幻乐队表演](<../cases/ltx-school-rock-audio.md>) | LTX | Reddit | 局部 Prompt |
+| [一句短提示词的惊悚片对白](<../cases/ltx-simple-thriller-dialogue.md>) | LTX | Reddit | 完整文本 |
 | [飞船维修独白：LTX 2.3 与 2.5 对照](<../cases/ltx-spaceship-dialogue-comparison.md>) | LTX | Reddit | 完整文本 |
+| [酒吧里的双人谍战对白](<../cases/ltx-spies-bar-dialogue.md>) | LTX | Reddit | 完整文本 |
+| [LTX｜非写实风格动画展示](<../cases/ltx-stylized-animation-showcase.md>) | LTX | Reddit | 未找到 Prompt |
+| [LTX｜关键帧与身份 LoRA 对话](<../cases/ltx-terminator-keyframe-dialogue.md>) | LTX | Reddit | 未找到 Prompt |
+| [90 年代影视质感：先统一图片再做动画](<../cases/luma-nineties-film-look.md>) | Luma | Reddit | 局部 Prompt |
 | [90 年代动画风：滑板少女的五镜头序列](<../cases/minimax-anime-skateboard.md>) | MiniMax | Reddit | 完整文本 |
+| [藏在盆栽后的蝙蝠侠：参考素材驱动的对白](<../cases/minimax-batman-plant-comedy.md>) | MiniMax | Reddit | 局部 Prompt |
+| [MiniMax H3｜用圈选地图指定场景](<../cases/minimax-circled-location-reference.md>) | MiniMax | Reddit | 完整文本 |
+| [MiniMax H3｜上下文循环生成长片](<../cases/minimax-context-loop-long-film.md>) | MiniMax | Reddit | Prompt 外链 |
+| [用参考图模拟数码绘画延时过程](<../cases/minimax-digital-speedpaint-timelapse.md>) | MiniMax | Reddit | 局部 Prompt |
+| [MiniMax｜多人实时续写荒诞短片](<../cases/minimax-live-group-storytelling.md>) | MiniMax | Reddit | 未找到 Prompt |
+| [MiniMax H3｜Looney Kombat 卡通格斗](<../cases/minimax-looney-kombat-parody.md>) | MiniMax | Reddit | 完整文本 |
+| [用呼吸、停顿与重音标签控制表演](<../cases/minimax-microexpression-dialogue.md>) | MiniMax | Reddit | 局部 Prompt |
+| [MiniMax H3｜多角色传送门集结](<../cases/minimax-multiverse-portal-arrival.md>) | MiniMax | Reddit | 局部 Prompt |
+| [MiniMax H3｜ComfyUI 25 秒歌唱测试](<../cases/minimax-native-comfy-singing.md>) | MiniMax | Reddit | 局部 Prompt |
+| [MiniMax H3｜倒水视频材质替换](<../cases/minimax-pouring-material-replacement.md>) | MiniMax | Reddit | Prompt 外链 |
+| [MiniMax H3｜倾倒物替换物理实验](<../cases/minimax-pouring-solids-physics.md>) | MiniMax | Reddit | Prompt 外链 |
+| [MiniMax H3｜多参考图街头追逐](<../cases/minimax-reference-car-chase.md>) | MiniMax | Reddit | 完整文本 |
 | [复古动画海报：人物入场与界面元素逐层出现](<../cases/minimax-retro-motion-poster.md>) | MiniMax | Reddit | 完整文本 |
+| [MiniMax 与 Seedance｜泳池派对 30 秒长镜头](<../cases/minimax-seedance-pool-longtake-comparison.md>) | MiniMax · Seedance | Reddit | 完整文本 |
 | [让分镜板直接驱动一段视频](<../cases/minimax-storyboard-reference.md>) | MiniMax | Reddit | 完整文本 |
+| [MiniMax H3｜角色对白与时间码喜剧](<../cases/minimax-walter-prompting-comedy.md>) | MiniMax | Reddit | 完整文本 |
 | [Electric Fury：图像、视频与音乐的组合](<../cases/pika-electric-fury.md>) | Pika | Reddit | 未找到 Prompt |
+| [Pika 2.1｜虚构人物音乐恶搞](<../cases/pika-fictional-people-music-parody.md>) | Pika | Reddit | 未找到 Prompt |
+| [Pika｜四分钟动画故事制作实验](<../cases/pika-four-minute-animated-story.md>) | Pika | Reddit | 未找到 Prompt |
+| [Pika｜Poke Power 音乐视觉](<../cases/pika-poke-power-music.md>) | Pika | Reddit | 未找到 Prompt |
+| [PixVerse｜反复调整角色表演的短片实验](<../cases/pixverse-filmmaking-second-attempt.md>) | PixVerse | Reddit | 未找到 Prompt |
+| [PixVerse｜Hauntingly Beautiful](<../cases/pixverse-hauntingly-beautiful.md>) | PixVerse | Reddit | 未找到 Prompt |
+| [PixVerse｜Shoggoth 怪物概念展示](<../cases/pixverse-shoggoth-creature-showcase.md>) | PixVerse | Reddit | 未找到 Prompt |
 | [同一静图的四种提示方式实验](<../cases/runway-image-prompt-comparison.md>) | Runway | Reddit | 未找到 Prompt |
+| [Runway 与 MiniMax｜ZUCKERBORG 音乐恶搞](<../cases/runway-minimax-zuckerborg-parody.md>) | Runway · MiniMax · Pika | Reddit | 未找到 Prompt |
+| [把 Sora 示例提示词交给其他视频工具](<../cases/runway-stable-video-shared-prompts.md>) | Runway · Stable Video | Reddit | 未找到 Prompt |
 | [实拍镜头的四种视频改写](<../cases/runway-video-restyling.md>) | Runway | Reddit | 未找到 Prompt |
+| [客机降落瞬间变成巨型机器人](<../cases/seedance-airliner-robot-transformation.md>) | Seedance | Reddit | 完整文本 |
+| [香蕉之歌：连续延长十次会怎样](<../cases/seedance-banana-song-extensions.md>) | Seedance | Reddit | 局部 Prompt |
 | [海边手机日记：用跳切节奏保留随手拍质感](<../cases/seedance-beach-phone-montage.md>) | Seedance | Reddit | 完整文本 |
+| [冰球场景：Seedance 2.0 与 Kling 3.0 对照](<../cases/seedance-kling-hockey-comparison.md>) | Seedance · Kling | Reddit | 未找到 Prompt |
+| [LYRA：人类消失后的机器人短片](<../cases/seedance-kling-lyra-robot-film.md>) | Seedance · Kling | Reddit | 未找到 Prompt |
+| [Seedance｜从上一段末帧延续场景](<../cases/seedance-last-frame-scene-continuation.md>) | Seedance | Reddit | 未找到 Prompt |
 | [清晨告别：人物准备出门与白猫的三个镜头](<../cases/seedance-morning-cat-farewell.md>) | Seedance | Reddit | 完整文本 |
+| [雨夜起跑：三段镜头建立赛车对峙](<../cases/seedance-rainy-race-start.md>) | Seedance | Reddit | 完整文本 |
+| [Seedance 2｜Silara 与 Voren](<../cases/seedance-silara-voren-animation.md>) | Seedance | Reddit | 未找到 Prompt |
+| [Seedance 2｜时间旅人冻结战场](<../cases/seedance-time-freeze-battlefield.md>) | Seedance | Reddit | 完整文本 |
+| [Seedance｜废土与陨石短片](<../cases/seedance-wasteland-meteor-film.md>) | Seedance | Reddit | 未找到 Prompt |
+| [Sora 2｜BORDERS 历史奇幻预告片](<../cases/sora-borders-historical-trailer.md>) | Sora | Reddit | 完整文本 |
+| [用荒诞场景测试 Sora 2 的物理理解](<../cases/sora-funny-physics-tests.md>) | Sora | Reddit | 未找到 Prompt |
+| [Sora｜无意义语言生成实验](<../cases/sora-nonsense-language-experiment.md>) | Sora | Reddit | 完整文本 |
+| [Sora｜庞贝视角的维苏威火山](<../cases/sora-pompeii-vesuvius-recreation.md>) | Sora | Reddit | 未找到 Prompt |
+| [地下避难所里的虚构生活 Vlog](<../cases/veo-bunker-life-vlog.md>) | Veo | Reddit | 未找到 Prompt |
+| [人类验证码部门：虚构访谈式喜剧](<../cases/veo-human-captcha-comedy.md>) | Veo | Reddit | 未找到 Prompt |
+| [Kira：围绕克隆与身份的长篇短片](<../cases/veo-kling-kira-cloning-film.md>) | Veo · Kling | Reddit | 未找到 Prompt |
+| [微距摄影风格的生成视频](<../cases/veo-macro-videography.md>) | Veo | Reddit | 未找到 Prompt |
 | [广告式叙事：开场独白的镜头 Prompt](<../cases/veo-pharma-ad-opening.md>) | Veo | Reddit | 局部 Prompt |
+| [Veo｜The Prompt Floor 伪纪录片](<../cases/veo-prompt-floor-mockumentary.md>) | Veo | Reddit | 未找到 Prompt |
+| [一句话尝试生成扬声器原理动画](<../cases/veo-speaker-educational-3d.md>) | Veo | Reddit | 完整文本 |
+| [虚构的伍德斯托克后台采访](<../cases/veo-woodstock-fictional-interviews.md>) | Veo | Reddit | 局部 Prompt |
+| [Vidu｜功夫分镜网格转视频](<../cases/vidu-kungfu-storygrid.md>) | Vidu | Reddit | 未找到 Prompt |
+| [Vidu Q3｜为影展制作的短片](<../cases/vidu-q3-festival-short.md>) | Vidu | Reddit | 未找到 Prompt |
+| [Wan｜重制七年前的 BeamNG 视频](<../cases/wan-beamng-video-remaster.md>) | Wan | Reddit | 局部 Prompt |
+| [Wan｜Big Smoke 点餐场景重制](<../cases/wan-big-smoke-order-remaster.md>) | Wan | Reddit | 未找到 Prompt |
 | [用深度图扩展视频画面](<../cases/wan-depth-video-outpainting.md>) | Wan | Reddit | 未找到 Prompt |
 | [摇滚手势：Wan 与 HunyuanVideo 同题对照](<../cases/wan-hunyuan-rock-band-comparison.md>) | Wan · HunyuanVideo | Reddit | 完整文本 |
+| [Wan｜Mafia 结局场景写实重制](<../cases/wan-mafia-ending-remaster.md>) | Wan | Reddit | 局部 Prompt |
 | [从短序列取帧：探索跨镜头角色一致性](<../cases/wan-multishot-character-consistency.md>) | Wan | Reddit | 未找到 Prompt |
+| [Wan｜Vice City 场景重制](<../cases/wan-vice-city-remaster.md>) | Wan | Reddit | 未找到 Prompt |

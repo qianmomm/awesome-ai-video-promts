@@ -1,0 +1,90 @@
+{
+  "id": "luma-nineties-film-look",
+  "title": "90 年代影视质感：先统一图片再做动画",
+  "summary_zh": "作者先用 Midjourney 统一 90 年代影视风格，再反复进行 Luma 图生视频，分享自己使用极简指令的做法。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1df5whe/some_more_tests_i_made_with_luma_dream_machine/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Some more tests I made with Luma Dream Machine",
+    "published_at": "2024-06-13",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Many-Ad-6225",
+    "url": "https://www.reddit.com/user/Many-Ad-6225/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Luma",
+      "version": "Dream Machine",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1df5whe/some_more_tests_i_made_with_luma_dream_machine/"
+    },
+    {
+      "name": "Midjourney",
+      "version": null,
+      "role": "image_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1df5whe/some_more_tests_i_made_with_luma_dream_machine/"
+    }
+  ],
+  "category": "广告与短片",
+  "tags": [
+    "广告与短片"
+  ],
+  "prompt": {
+    "status": "partial",
+    "original": "movie",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1df5whe/comment/l8irm12/",
+    "scope": "作者在评论披露的常用短指令示例，非所有片段逐一对应的 Prompt",
+    "locator": "原作者在原帖下公开的 Prompt 评论",
+    "notes": "作者说有时只输入 movie，并未说明每个镜头都使用同一指令；其对工具能力的评价是 2024 年当时体验。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1df5whe/some_more_tests_i_made_with_luma_dream_machine/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/some-more-tests-i-made-with-luma-dream-machine-v0-YzBsZ2I2NzZ0ZDZkMXcOMyCMSl_Y9R0a7FpqLnF9573W5EXDjafMQ5fHxq9v.png?width=640&crop=smart&format=pjpg&auto=webp&s=810e4b768a6d9dded5395138aba73dc283597ef6",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1df5whe/some_more_tests_i_made_with_luma_dream_machine/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1df5whe/some_more_tests_i_made_with_luma_dream_machine/",
+      "https://www.reddit.com/r/StableDiffusion/comments/1df5whe/comment/l8irm12/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 作者说有时只输入 movie，并未说明每个镜头都使用同一指令；其对工具能力的评价是 2024 年当时体验。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "veo-kling-kira-cloning-film",
+  "title": "Kira：围绕克隆与身份的长篇短片",
+  "summary_zh": "作者独立完成克隆与身份主题短片，在本人评论中按图像、视频、配音、口型与音乐拆解工具分工。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1lvtxbg/kira_i_used_ai_to_create_this_short_film_on_human/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Kira: I used AI to create this short film on human cloning (600 prompts, 12 days, $500 budget)",
+    "published_at": "2025-07-09",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Sourcecode12",
+    "url": "https://www.reddit.com/user/Sourcecode12/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Veo",
+      "version": "3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1lvtxbg/kira_i_used_ai_to_create_this_short_film_on_human/"
+    },
+    {
+      "name": "Kling",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1lvtxbg/kira_i_used_ai_to_create_this_short_film_on_human/"
+    },
+    {
+      "name": "Dreamina",
+      "version": null,
+      "role": "video_platform",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1lvtxbg/kira_i_used_ai_to_create_this_short_film_on_human/"
+    },
+    {
+      "name": "Higgsfield",
+      "version": null,
+      "role": "video_platform",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1lvtxbg/kira_i_used_ai_to_create_this_short_film_on_human/"
+    },
+    {
+      "name": "ElevenLabs",
+      "version": null,
+      "role": "audio_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1lvtxbg/kira_i_used_ai_to_create_this_short_film_on_human/"
+    },
+    {
+      "name": "Suno",
+      "version": null,
+      "role": "audio_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1lvtxbg/kira_i_used_ai_to_create_this_short_film_on_human/"
+    }
+  ],
+  "category": "广告与短片",
+  "tags": [
+    "广告与短片"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "本次可读原帖未取得对应视频的逐字生成 Prompt",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "未公开约 600 条逐镜头提示词；预算、制作天数和总时长均为作者自述。Reddit 展示的是受平台时长限制的版本，完整片入口保留在原帖。"
+  },
+  "references": [],
+  "workflow_notes": [
+    "视频环节使用 Flow/Veo 3、Dreamina、Higgsfield 与 Kling；后两类平台的具体底层版本未说明。",
+    "配音用 ElevenLabs，音乐用 Suno，声音效果用 MMAudio 与 ElevenLabs。",
+    "Dreamina、HeyGen 和 Veo 3 参与口型，ChatGPT 辅助优化提示词。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1lvtxbg/kira_i_used_ai_to_create_this_short_film_on_human/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/kira-i-used-ai-to-create-this-short-film-on-human-cloning-v0-cnY4cnUzd3B1d2JmMauLFYl5scj6zn93ITzOd3tgoLUXx-VGi49WFERnpxBy.png?width=640&crop=smart&format=pjpg&auto=webp&s=337cdee839faf5dc0093090e4a0a215f794c609b",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1lvtxbg/kira_i_used_ai_to_create_this_short_film_on_human/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1lvtxbg/kira_i_used_ai_to_create_this_short_film_on_human/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 未公开约 600 条逐镜头提示词；预算、制作天数和总时长均为作者自述。Reddit 展示的是受平台时长限制的版本，完整片入口保留在原帖。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

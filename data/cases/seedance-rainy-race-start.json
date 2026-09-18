@@ -1,0 +1,84 @@
+{
+  "id": "seedance-rainy-race-start",
+  "title": "雨夜起跑：三段镜头建立赛车对峙",
+  "summary_zh": "发布者展示赛车短片，并在评论提供由老将、挑战者和绿灯起跑三个段落组成的 15 秒 Prompt。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1r3kxdq/seedance_2_oneshotted_this_cinematic_piece_prompt/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Seedance 2 oneshotted this cinematic piece😱 (prompt in comment)",
+    "published_at": "2026-02-13",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "zeroludesigner",
+    "url": "https://www.reddit.com/user/zeroludesigner/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Seedance",
+      "version": "2",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1r3kxdq/seedance_2_oneshotted_this_cinematic_piece_prompt/"
+    }
+  ],
+  "category": "动作与运镜",
+  "tags": [
+    "动作与运镜"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "Style: Hollywood Professional Racing Movie (Le Mans Style), Cinematic Night, Rain, High Stakes Sport. Duration: 15s.\n\n[00-05s] Shot 1: The Veteran (Interior/Close-up). Rain lashes the windshield of a high-tech race car on a track. The Veteran driver (in helmet) looks over, calm and focused. Dashboard lights reflect on his visor. Dialogue Cue: He gives a subtle nod and mouths \"Let's go.\"\n\n[05-10s] Shot 2: The Challenger (Interior/Close-up). Cut to the rival car next to him. The younger driver grips the wheel tight, breathing heavily. Eyes wide with adrenaline. Dialogue Cue: He whispers \"Focus\" to himself.\n\n[10-15s] Shot 3: The Green Light (Wide Action). The starting lights turn Green. Both cars accelerate in perfect sync on the wet asphalt. Water sprays massively into the camera lens. Motion blur turns the stadium lights into long streaks of color.",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/aivideo/comments/1r3kxdq/comment/o55g9mq/",
+    "scope": "作者公开的视频生成指令",
+    "locator": "原作者在原帖下公开的 Prompt 评论",
+    "notes": "署名指该帖发布者。该文本也是公开流传的赛车模板，不将其认定为发布者独创；本次未复现。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1r3kxdq/seedance_2_oneshotted_this_cinematic_piece_prompt/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/seedance-2-oneshotted-this-cinematic-piece-prompt-in-comment-v0-M2xieWMyaDdmOGpnMctv2oZ930pJbOUkwNyoFiTCntiSoTZAelQQbxZT76Ag.png?width=640&crop=smart&format=pjpg&auto=webp&s=7efaa846cfa151d74fd2c9c28c7a589b48021e20",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1r3kxdq/seedance_2_oneshotted_this_cinematic_piece_prompt/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1r3kxdq/seedance_2_oneshotted_this_cinematic_piece_prompt/",
+      "https://www.reddit.com/r/aivideo/comments/1r3kxdq/comment/o55g9mq/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 署名指该帖发布者。该文本也是公开流传的赛车模板，不将其认定为发布者独创；本次未复现。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

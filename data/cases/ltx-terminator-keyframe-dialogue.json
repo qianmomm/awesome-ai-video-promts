@@ -1,0 +1,92 @@
+{
+  "id": "ltx-terminator-keyframe-dialogue",
+  "title": "LTX｜关键帧与身份 LoRA 对话",
+  "summary_zh": "用提示词接力、八张关键帧和身份 LoRA，制作虚构角色之间的两段连续对话。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1t5h7ud/ltx23_id_lors_prompt_relay_keyframes/",
+    "item_key": "main-video",
+    "locator": "作者原帖：LTX2.3 + ID LoRS + Prompt relay + Keyframes",
+    "published_at": "2026-05-06",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Brief-Leg-8831",
+    "url": "https://www.reddit.com/user/Brief-Leg-8831/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "LTX",
+      "version": "2.3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1t5h7ud/ltx23_id_lors_prompt_relay_keyframes/"
+    }
+  ],
+  "category": "对白与表演",
+  "tags": [
+    "对白与表演"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "本次可读原帖未取得对应视频的逐字生成 Prompt",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "作者公开工作流入口与结构说明，未在原帖贴出逐镜头 Prompt；声音为 AI 生成，不是演员新发言。"
+  },
+  "references": [
+    {
+      "kind": "input_material",
+      "url": null,
+      "status": "missing",
+      "notes": "角色图、八张关键帧与声音参考未随仓库保存。"
+    }
+  ],
+  "workflow_notes": [
+    "两段对话分别生成再拼接；每次镜头切换通常配合独立关键帧。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1t5h7ud/ltx23_id_lors_prompt_relay_keyframes/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/ltx2-3-id-lors-prompt-relay-keyframes-v0-dzVwNDJ1aGRpanpnMQYUYtK7W1faiRSLxAWLMfIX8HXo2zbxxCYFpJqRvJuX.png?width=640&crop=smart&format=pjpg&auto=webp&s=90a5ca86945b23a12eb690b7058d7c4cba8cf3d2",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1t5h7ud/ltx23_id_lors_prompt_relay_keyframes/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1t5h7ud/ltx23_id_lors_prompt_relay_keyframes/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 作者公开工作流入口与结构说明，未在原帖贴出逐镜头 Prompt；声音为 AI 生成，不是演员新发言。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

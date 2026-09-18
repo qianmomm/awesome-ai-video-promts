@@ -1,0 +1,84 @@
+{
+  "id": "sora-borders-historical-trailer",
+  "title": "Sora 2｜BORDERS 历史奇幻预告片",
+  "summary_zh": "一条长 Prompt 串联森林奔逃、边境村落、酒馆和战火场景，形成虚构书籍预告片。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1nv3llb/oneprompttrailer_borders_sora_2/",
+    "item_key": "main-video",
+    "locator": "作者原帖：One-prompt-trailer BORDERS (Sora 2)",
+    "published_at": "2025-10-01",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Storybook_Tobi",
+    "url": "https://www.reddit.com/user/Storybook_Tobi/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Sora",
+      "version": "2",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1nv3llb/oneprompttrailer_borders_sora_2/"
+    }
+  ],
+  "category": "广告与短片",
+  "tags": [
+    "预告片"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "Create an epic trailer with fast cuts for an epic book called BORDERS, taking place on the border between Ancient Rome and the germanic empire in the 3rd century. It starts with a Dark forest at dusk, mist between towering trees. Ganna, a barefoot girl in a rough linen dress, sprints through the undergrowth, breath visible in the cold. Cut to: a Roman frontier village — muddy streets, wooden huts, smoke rising, villagers shouting at a tax collector as soldiers push them back. Flash: black-painted warriors crawling on all fours, their teeth bared, eyes shining like beasts. Inside a tavern: Livius, a weary Roman agent with haunted eyes, downs a cup of wine, his hand trembling. Torches in the night: hooded figures chanting, a priestess raises a bloody dagger, shadows dancing on rough stone walls. The border — endless wooden palisades and watchtowers — lit by fire as horns echo through the valley. A vast Germanic army emerges from the fog, shields and spears raised. Final shot: Ganna and Livius back-to-back, silhouettes framed by fire and storm clouds, as the fate of Rome looms in the distance.",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/aivideo/comments/1nv3llb/comment/nhbv6qk/",
+    "scope": "作者公开的视频生成指令",
+    "locator": "原作者在原帖下公开的 Prompt 评论",
+    "notes": "这是虚构叙事，不作为古代历史细节的事实依据。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1nv3llb/oneprompttrailer_borders_sora_2/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/one-prompt-trailer-borders-sora-2-v0-bTNxamRicmF5Z3NmMbJ4wUZ-WEsBCd2YLksAGWCEAnRLd1MsUIXIMuGvDvqz.png?width=640&crop=smart&format=pjpg&auto=webp&s=d0fa86bf84e5e239f4b3b561538e290934554667",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1nv3llb/oneprompttrailer_borders_sora_2/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1nv3llb/oneprompttrailer_borders_sora_2/",
+      "https://www.reddit.com/r/aivideo/comments/1nv3llb/comment/nhbv6qk/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 这是虚构叙事，不作为古代历史细节的事实依据。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "veo-speaker-educational-3d",
+  "title": "一句话尝试生成扬声器原理动画",
+  "summary_zh": "作者把生成用的简短英文指令直接写在标题里，要求用 3D 视频解释扬声器发声。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1pzmt54/prompt_was_how_speaker_produces_audio_quick_video/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Prompt was \"How speaker produces audio quick video please educational 3D\"",
+    "published_at": "2025-12-30",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "SuEzAl",
+    "url": "https://www.reddit.com/user/SuEzAl/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Veo",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1pzmt54/prompt_was_how_speaker_produces_audio_quick_video/"
+    }
+  ],
+  "category": "提示方式实验",
+  "tags": [
+    "提示方式实验"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "How speaker produces audio quick video please educational 3D",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/aivideo/comments/1pzmt54/prompt_was_how_speaker_produces_audio_quick_video/",
+    "scope": "作者公开的视频生成指令",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "模型仅按原帖 Google Veo 分类记录，版本未知。作品作为提示方式实验，不将其画面解释当作已经核实的声学知识。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1pzmt54/prompt_was_how_speaker_produces_audio_quick_video/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/prompt-was-how-speaker-produces-audio-quick-video-please-v0-aTZhZnFheWZkZGFnMbSi2YOaAKxTpz5_Ay_cDOekU26arB5AbBbOraFdQnKT.png?width=640&crop=smart&format=pjpg&auto=webp&s=88e6860b8a5c4cff40aa964a67d3c9f503f45938",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1pzmt54/prompt_was_how_speaker_produces_audio_quick_video/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1pzmt54/prompt_was_how_speaker_produces_audio_quick_video/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 模型仅按原帖 Google Veo 分类记录，版本未知。作品作为提示方式实验，不将其画面解释当作已经核实的声学知识。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": "seedance-kling-lyra-robot-film",
+  "title": "LYRA：人类消失后的机器人短片",
+  "summary_zh": "作者以孤独机器人为主角制作三分钟短片，并披露 Seedance、Kling、Midjourney、ElevenLabs 和 Firefly 等工具。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1m130hj/i_made_this_ai_short_film_to_see_how_far_i_could/",
+    "item_key": "main-video",
+    "locator": "作者原帖：I made this AI Short Film to see how far I could push the current technology.",
+    "published_at": "2025-07-16",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Vegetable-Concern310",
+    "url": "https://www.reddit.com/user/Vegetable-Concern310/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Seedance",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1m130hj/i_made_this_ai_short_film_to_see_how_far_i_could/"
+    },
+    {
+      "name": "Kling",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1m130hj/i_made_this_ai_short_film_to_see_how_far_i_could/"
+    },
+    {
+      "name": "Midjourney",
+      "version": null,
+      "role": "workflow_tool",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1m130hj/i_made_this_ai_short_film_to_see_how_far_i_could/"
+    },
+    {
+      "name": "ElevenLabs",
+      "version": null,
+      "role": "audio_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1m130hj/i_made_this_ai_short_film_to_see_how_far_i_could/"
+    },
+    {
+      "name": "Adobe Firefly",
+      "version": null,
+      "role": "workflow_tool",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1m130hj/i_made_this_ai_short_film_to_see_how_far_i_could/"
+    }
+  ],
+  "category": "广告与短片",
+  "tags": [
+    "广告与短片"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "本次可读原帖未取得对应视频的逐字生成 Prompt",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "正文未公开逐镜头提示词，也未完整区分所有工具的具体用途。视频模型的数字版本未披露；不把 Firefly 自动认定为具体视频模型。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1m130hj/i_made_this_ai_short_film_to_see_how_far_i_could/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/i-made-this-ai-short-film-to-see-how-far-i-could-push-the-v0-a3E0dWJqcjR2NWRmMXLUDQCUtac7ELWDgdWzd1X9Rzj8GLkCahVhVsFFo-ox.png?width=640&crop=smart&format=pjpg&auto=webp&s=a079fc139c37780e463b38a3479ecff7deba21ab",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1m130hj/i_made_this_ai_short_film_to_see_how_far_i_could/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1m130hj/i_made_this_ai_short_film_to_see_how_far_i_could/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 正文未公开逐镜头提示词，也未完整区分所有工具的具体用途。视频模型的数字版本未披露；不把 Firefly 自动认定为具体视频模型。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

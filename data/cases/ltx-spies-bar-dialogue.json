@@ -1,0 +1,83 @@
+{
+  "id": "ltx-spies-bar-dialogue",
+  "title": "酒吧里的双人谍战对白",
+  "summary_zh": "作者用一个段落指定年代、场景、人物关系和对话目标，测试简短提示词对双人表演的影响。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1vm0po4/another_simple_prompt_ltx_25_text_to_video/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Another Simple Prompt - LTX 2.5 Text To Video",
+    "published_at": "2026-08-12",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "b-totherent",
+    "url": "https://www.reddit.com/user/b-totherent/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "LTX",
+      "version": "2.5",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vm0po4/another_simple_prompt_ltx_25_text_to_video/"
+    }
+  ],
+  "category": "对白与表演",
+  "tags": [
+    "对白与表演"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "R-rated 1990s serious intense adult thriller, professionally directed and clearly blocked. exciting cinematography, In an elegant high-end bar, a passionate 28-year-old Latina spy dances closely with a mysterious 30-year-old American Spy. They hold intense eye contact and trade seductive dialogue about which of them is more attractive, each trying to out-charm the other as they dance closely",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vm0po4/another_simple_prompt_ltx_25_text_to_video/",
+    "scope": "作者公开的视频生成指令",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "这是作者提供的完整输入文本，未披露种子或是否使用自动增强。人物均在原词中明确为成年人。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1vm0po4/another_simple_prompt_ltx_25_text_to_video/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/another-simple-prompt-ltx-2-5-text-to-video-v0-aTBoMmdtbHdtdWloMVMRpUiadUM_3ZuvT5xS2KIykXgGvCy3Pug3yv7Qmysf.png?width=640&crop=smart&format=pjpg&auto=webp&s=f343e5e27b9b007329b278385cc9461eafde7f64",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vm0po4/another_simple_prompt_ltx_25_text_to_video/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1vm0po4/another_simple_prompt_ltx_25_text_to_video/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 这是作者提供的完整输入文本，未披露种子或是否使用自动增强。人物均在原词中明确为成年人。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

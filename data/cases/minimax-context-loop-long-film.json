@@ -1,0 +1,92 @@
+{
+  "id": "minimax-context-loop-long-film",
+  "title": "MiniMax H3｜上下文循环生成长片",
+  "summary_zh": "利用上一段的 22 帧、角色参考图和逐段审核，衔接一分钟以上的本地视频。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1vkfb49/longform_videos_1_min_long_are_very_possible_with/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Long-Form videos (1+ min long) are very possible with H3 locally! Here's mine",
+    "published_at": "2026-08-10",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "crinklypaper",
+    "url": "https://www.reddit.com/user/crinklypaper/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "MiniMax",
+      "version": "H3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vkfb49/longform_videos_1_min_long_are_very_possible_with/"
+    }
+  ],
+  "category": "广告与短片",
+  "tags": [
+    "叙事短片"
+  ],
+  "prompt": {
+    "status": "link_only",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://pastebin.com/ig2G0KU9",
+    "scope": "作者提供外部 Prompt 链接，尚未读取外部文本",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "作者提供完整 Prompt 外链，本文未读取外部文本；工作流与制作说明已在原帖核对。"
+  },
+  "references": [
+    {
+      "kind": "input_material",
+      "url": null,
+      "status": "missing",
+      "notes": "两张 GPT 生成角色参考表未归档。"
+    }
+  ],
+  "workflow_notes": [
+    "共用前缀定义角色和风格；每段以静止节拍收尾，审核或重生成后拼接音画。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1vkfb49/longform_videos_1_min_long_are_very_possible_with/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://preview.redd.it/a7gs09lfeiih1.jpg?vthumb=1&s=a7267bfcb806b80ec7de30d64c0982f3cddd99df",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vkfb49/longform_videos_1_min_long_are_very_possible_with/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1vkfb49/longform_videos_1_min_long_are_very_possible_with/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 作者提供完整 Prompt 外链，本文未读取外部文本；工作流与制作说明已在原帖核对。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

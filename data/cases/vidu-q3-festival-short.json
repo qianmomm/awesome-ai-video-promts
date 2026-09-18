@@ -1,0 +1,83 @@
+{
+  "id": "vidu-q3-festival-short",
+  "title": "Vidu Q3｜为影展制作的短片",
+  "summary_zh": "作者分享自己使用 Vidu Q3 制作、面向影展的短片。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1tu1lbv/my_short_film_made_with_vidu_q3_for_a_festival/",
+    "item_key": "main-video",
+    "locator": "作者原帖：My short film made with vidu Q3 for a festival",
+    "published_at": "2026-06-01",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Kittenela",
+    "url": "https://www.reddit.com/user/Kittenela/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Vidu",
+      "version": "Q3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1tu1lbv/my_short_film_made_with_vidu_q3_for_a_festival/"
+    }
+  ],
+  "category": "广告与短片",
+  "tags": [
+    "叙事短片"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "本次可读原帖未取得对应视频的逐字生成 Prompt",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "作者标题明确写 Vidu Q3，而平台分类误标或另标 Sora；本条按作者明确自述记录 Vidu，不额外推断使用 Sora。影展入选情况未核实。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1tu1lbv/my_short_film_made_with_vidu_q3_for_a_festival/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/my-short-film-made-with-vidu-q3-for-a-festival-v0-NXlsMDJycHF1cDRoMfoN7E-gBkVGRq9FMF_h5xa91oEYv-rj6JItQHZAITDK.png?width=640&crop=smart&format=pjpg&auto=webp&s=b46d68e417b2bc352d4f1c34cac4284d262d1352",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1tu1lbv/my_short_film_made_with_vidu_q3_for_a_festival/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1tu1lbv/my_short_film_made_with_vidu_q3_for_a_festival/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 作者标题明确写 Vidu Q3，而平台分类误标或另标 Sora；本条按作者明确自述记录 Vidu，不额外推断使用 Sora。影展入选情况未核实。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

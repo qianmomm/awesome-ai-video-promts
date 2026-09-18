@@ -6,7 +6,13 @@
 
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
+| [把自己拍摄的 Cosplay 照片做成短片](<../cases/ltx-cosplay-photo-cinematic.md>) | LTX | Reddit | 未找到 Prompt |
+| [多张参考图持续注入的视频序列](<../cases/ltx-multiple-reference-reinjection.md>) | LTX | Reddit | 未找到 Prompt |
+| [LTX｜竖屏图生视频与双阶段采样](<../cases/ltx-portrait-i2v-fp8-workflow.md>) | LTX | Reddit | 未找到 Prompt |
+| [MiniMax H3｜用圈选地图指定场景](<../cases/minimax-circled-location-reference.md>) | MiniMax | Reddit | 完整文本 |
+| [用参考图模拟数码绘画延时过程](<../cases/minimax-digital-speedpaint-timelapse.md>) | MiniMax | Reddit | 局部 Prompt |
 | [复古动画海报：人物入场与界面元素逐层出现](<../cases/minimax-retro-motion-poster.md>) | MiniMax | Reddit | 完整文本 |
 | [多张照片之间的连续变形](<../cases/seedance-fluid-morphs.md>) | Seedance | Blog | 完整文本 |
 | [越野车辆：一张图开始的运动](<../cases/seedance-offroad-image.md>) | Seedance | Blog | 完整文本 |
 | [油画中的水流运动](<../cases/seedance-oil-painting.md>) | Seedance | Blog | 完整文本 |
+| [微距摄影风格的生成视频](<../cases/veo-macro-videography.md>) | Veo | Reddit | 未找到 Prompt |

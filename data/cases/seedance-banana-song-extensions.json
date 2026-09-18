@@ -1,0 +1,83 @@
+{
+  "id": "seedance-banana-song-extensions",
+  "title": "香蕉之歌：连续延长十次会怎样",
+  "summary_zh": "作者用同一句香蕉歌曲提示词反复延长视频，展示连续续写后声音和画面逐渐偏离的现象。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1vlnf91/i_hit_extend_video_10_times_using_the_prompt_a/",
+    "item_key": "main-video",
+    "locator": "作者原帖：I hit extend video 10 times using the prompt 'a song about bananas', things get weird",
+    "published_at": "2026-08-11",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "AndyRiffeth",
+    "url": "https://www.reddit.com/user/AndyRiffeth/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Seedance",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1vlnf91/i_hit_extend_video_10_times_using_the_prompt_a/"
+    }
+  ],
+  "category": "提示方式实验",
+  "tags": [
+    "提示方式实验"
+  ],
+  "prompt": {
+    "status": "partial",
+    "original": "a song about bananas",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/aivideo/comments/1vlnf91/i_hit_extend_video_10_times_using_the_prompt_a/",
+    "scope": "标题公开的延长指令；未取得完整初始生成设置",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "模型仅按原帖 Seedance 分类记录，版本未公开。作者描述的质量退化是这次实验现象，不作为模型一般规律。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1vlnf91/i_hit_extend_video_10_times_using_the_prompt_a/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/i-hit-extend-video-10-times-using-the-prompt-a-song-about-v0-ejN6NnMxMWUyc2loMY9k2KNrLj6IgXkFG_SAK4cxFgMvLf8hMX75ygpoVWs2.png?width=640&crop=smart&format=pjpg&auto=webp&s=521bc3b179495824b973e835120f9b41b944d18a",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1vlnf91/i_hit_extend_video_10_times_using_the_prompt_a/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1vlnf91/i_hit_extend_video_10_times_using_the_prompt_a/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 模型仅按原帖 Seedance 分类记录，版本未公开。作者描述的质量退化是这次实验现象，不作为模型一般规律。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

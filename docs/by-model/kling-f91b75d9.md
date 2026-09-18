@@ -6,5 +6,14 @@
 
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
+| [积木赛车：游戏概念与速度感](<../cases/kling-brick-racing-game.md>) | Kling | Reddit | 局部 Prompt |
 | [双车追逐：按秒安排动作与声音](<../cases/kling-car-combat-timeline.md>) | Kling | Reddit | 原文节选 |
+| [赛博朋克欧洲城市的游戏概念动画](<../cases/kling-cyberpunk-europe-game.md>) | Kling | Reddit | 局部 Prompt |
 | [壁炉旁读书：续写片段的表情指令](<../cases/kling-flapper-extension.md>) | Kling | Reddit | 局部 Prompt |
+| [Kling 与 Luma｜Bleat 惊悚短片](<../cases/kling-luma-bleat-horror-film.md>) | Kling · Luma | Reddit | 未找到 Prompt |
+| [薄雾武士村：简短运动指令串起镜头](<../cases/kling-misty-samurai-village.md>) | Kling | Reddit | 局部 Prompt |
+| [像素日本小镇：从游戏截图概念到动画](<../cases/kling-retro-japan-pixel-game.md>) | Kling | Reddit | 局部 Prompt |
+| [蒸汽朋克欧洲：游戏概念画面的动画化](<../cases/kling-steampunk-europe-game.md>) | Kling | Reddit | 局部 Prompt |
+| [冰球场景：Seedance 2.0 与 Kling 3.0 对照](<../cases/seedance-kling-hockey-comparison.md>) | Seedance · Kling | Reddit | 未找到 Prompt |
+| [LYRA：人类消失后的机器人短片](<../cases/seedance-kling-lyra-robot-film.md>) | Seedance · Kling | Reddit | 未找到 Prompt |
+| [Kira：围绕克隆与身份的长篇短片](<../cases/veo-kling-kira-cloning-film.md>) | Veo · Kling | Reddit | 未找到 Prompt |

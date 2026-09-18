@@ -1,0 +1,84 @@
+{
+  "id": "seedance-time-freeze-battlefield",
+  "title": "Seedance 2｜时间旅人冻结战场",
+  "summary_zh": "单镜头跟随人物穿过战场，用响指、冲击波和环境声切换表现时间暂停与恢复。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1so7u9l/the_time_traveller_made_with_seedance_2_prompt/",
+    "item_key": "main-video",
+    "locator": "作者原帖：THE TIME TRAVELLER - MADE WITH SEEDANCE 2, prompt below",
+    "published_at": "2026-04-17",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Txoriante",
+    "url": "https://www.reddit.com/user/Txoriante/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Seedance",
+      "version": "2",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1so7u9l/the_time_traveller_made_with_seedance_2_prompt/"
+    }
+  ],
+  "category": "广告与短片",
+  "tags": [
+    "叙事短片"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "Main character consistent. Cinematic 15s, ultra-realistic, hyper-detailed 8K photorealistic with subsurface scattering on skin, realistic metallic reflections, intricate fabric weaves, visible sweat beads and blood droplets, Arri Alexa Mini, 50mm, daylight, shallow depth. One continuous tracking shot, no cuts.\nCamera tracks backward in front of him on a rugged mountain battlefield as he walks confidently through the chaos, warriors from two opposing armies clashing fiercely—one side in gleaming bronze armor with crimson plumes and red tunics, the other in dark iron chainmail with tattered dark-green leather and fur accents—arrows flying thick through the air. He raises his hand and snaps.\nA white shockwave bursts out with air distortion, spreading and freezing everything: warriors mid-swing, arrows mid-air, dust and debris suspended. Silence. Light particles shimmer.\nCamera continues tracking as he walks through the frozen world, calm and smug. He touches a floating arrow; it stays still but gives a deep echoing twang. He keeps walking.\nHe stops at a fierce female soldier in ornate bronze armor, her hair frozen mid-air beneath her helmet, sword raised in mid-strike. He admires her, nods, whispers: “Cool isn’t it ?.”\nHe reaches into his jacket, takes out a cigarette, places it in his mouth, lights it. Only flame and smoke move. He exhales, smirks, snaps again.\nA reverse shockwave restores everything: warriors from both armies surge forward, arrows fly, dust and debris swirl. Battle sounds return. Camera keeps tracking as he walks away, then slowly rises to a wide overhead. Fade out.",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/aivideo/comments/1so7u9l/comment/ogr28sa/",
+    "scope": "作者公开的视频生成指令",
+    "locator": "原作者在原帖下公开的 Prompt 评论",
+    "notes": "作者公开 15 秒连续镜头指令；其中 8K 为期望描述，不代表实际输出分辨率。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1so7u9l/the_time_traveller_made_with_seedance_2_prompt/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/the-time-traveller-made-with-seedance-2-prompt-below-v0-ZWtnMWxlYXZkc3ZnMcSqj4U8QdMAeZ2eCLJBh4QKX6hKb7jik4oa-o4qPeKS.png?width=640&crop=smart&format=pjpg&auto=webp&s=b6a63284c94ac34cd12f7a1ceb6f1e02545d1ea3",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1so7u9l/the_time_traveller_made_with_seedance_2_prompt/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1so7u9l/the_time_traveller_made_with_seedance_2_prompt/",
+      "https://www.reddit.com/r/aivideo/comments/1so7u9l/comment/ogr28sa/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 作者公开 15 秒连续镜头指令；其中 8K 为期望描述，不代表实际输出分辨率。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

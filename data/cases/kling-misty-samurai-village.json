@@ -1,0 +1,93 @@
+{
+  "id": "kling-misty-samurai-village",
+  "title": "薄雾武士村：简短运动指令串起镜头",
+  "summary_zh": "作者先用 ChatGPT 组织分镜、Midjourney 生成村庄画面，再在 Kling 中用简短运动词把静图做成短片。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1jr7ock/midjourney_v7_breathtaking_image_quality_im_in_awe/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Midjourney v7 - Breathtaking Image Quality - I'm in Awe",
+    "published_at": "2025-04-04",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "NightsRadiant",
+    "url": "https://www.reddit.com/user/NightsRadiant/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Kling",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1jr7ock/midjourney_v7_breathtaking_image_quality_im_in_awe/"
+    },
+    {
+      "name": "Midjourney",
+      "version": "7",
+      "role": "image_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1jr7ock/midjourney_v7_breathtaking_image_quality_im_in_awe/"
+    }
+  ],
+  "category": "广告与短片",
+  "tags": [
+    "广告与短片"
+  ],
+  "prompt": {
+    "status": "partial",
+    "original": "slow zoom in, slow motion",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/aivideo/comments/1jr7ock/midjourney_v7_breathtaking_image_quality_im_in_awe/",
+    "scope": "作者披露的常用视频镜头指令之一，非整片 Prompt",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "正文还公开了分镜规划示例和另一条 walking forward, slow motion；本条只收录其明确给出的一个视频指令。未取得所有输入图与逐镜头对应表。"
+  },
+  "references": [],
+  "workflow_notes": [
+    "ChatGPT 辅助生成 20 个镜头的初稿，再迭代景别。",
+    "Midjourney v7 生成画面，Topaz Gigapixel 以 2x Standard 放大。",
+    "Kling 生成运动片段；作者另提供 YouTube 发布链接。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1jr7ock/midjourney_v7_breathtaking_image_quality_im_in_awe/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/midjourney-v7-breathtaking-image-quality-im-in-awe-v0-a29wMTg2dWRjc3NlMakvKVpjYE_I5x7Avc9JuQDrVLriVS7Pvo7rVCil-NYs.png?width=640&crop=smart&format=pjpg&auto=webp&s=c105cbd778bec615143242653786d98ffbc16f53",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1jr7ock/midjourney_v7_breathtaking_image_quality_im_in_awe/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1jr7ock/midjourney_v7_breathtaking_image_quality_im_in_awe/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 正文还公开了分镜规划示例和另一条 walking forward, slow motion；本条只收录其明确给出的一个视频指令。未取得所有输入图与逐镜头对应表。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "ltx-school-rock-audio",
+  "title": "LTX｜音频驱动奇幻乐队表演",
+  "summary_zh": "把音轨拆成四段，分别生成奇幻角色演唱与演奏画面，再拼接成表演片段。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1qb2cfz/i_recreated_a_school_of_rock_scene_with_ltx2/",
+    "item_key": "main-video",
+    "locator": "作者原帖：I recreated a “School of Rock” scene with LTX-2 audio input i2v (4× ~20s clips)",
+    "published_at": "2026-01-12",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Totem_House_30",
+    "url": "https://www.reddit.com/user/Totem_House_30/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "LTX",
+      "version": "2",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1qb2cfz/i_recreated_a_school_of_rock_scene_with_ltx2/"
+    },
+    {
+      "name": "Z-Image",
+      "version": null,
+      "role": "image_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1qb2cfz/i_recreated_a_school_of_rock_scene_with_ltx2/"
+    },
+    {
+      "name": "FLUX",
+      "version": "2",
+      "role": "image_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1qb2cfz/i_recreated_a_school_of_rock_scene_with_ltx2/"
+    }
+  ],
+  "category": "音乐与动画",
+  "tags": [
+    "音乐与舞蹈"
+  ],
+  "prompt": {
+    "status": "partial",
+    "original": "“the vampire speaks the words with perfect lip-sync, while doing…”, or \"the monster strums along to the guitar part while...\"etc",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1qb2cfz/i_recreated_a_school_of_rock_scene_with_ltx2/",
+    "scope": "作者举出的口型和演奏动作措辞，不是四段视频完整 Prompt。",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "作者将《School of Rock》场景改编为 AI 画面；输入音轨和角色图仍是复现依赖。"
+  },
+  "references": [
+    {
+      "kind": "input_material",
+      "url": null,
+      "status": "missing",
+      "notes": "输入音轨与 Z-Image / FLUX 2 静帧未归档。"
+    }
+  ],
+  "workflow_notes": [
+    "音频拆为四段；逐段 audio input + i2v 生成，再拼接。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1qb2cfz/i_recreated_a_school_of_rock_scene_with_ltx2/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/i-recreated-a-school-of-rock-scene-with-ltx-2-audio-input-v0-Z3U1YnRjbXFreWNnMTYepC_8XwJFv6XZQWwEPoQN8yw_nfkAVRaRHuqNS_p3.png?width=640&crop=smart&format=pjpg&auto=webp&s=ff8436092a5d39e672e82385b8db507ed2dc2d42",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1qb2cfz/i_recreated_a_school_of_rock_scene_with_ltx2/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1qb2cfz/i_recreated_a_school_of_rock_scene_with_ltx2/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 作者将《School of Rock》场景改编为 AI 画面；输入音轨和角色图仍是复现依赖。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

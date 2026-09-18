@@ -6,4 +6,24 @@
 
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
+| [AniSora｜二次元角色 360° 转身](<../cases/anisora-anime-character-turnaround.md>) | AniSora | Reddit | 未找到 Prompt |
+| [Grok｜Nano Banana 画面与 Suno 配乐](<../cases/grok-nano-banana-anime-music.md>) | Grok Imagine | Reddit | 未找到 Prompt |
+| [Grok｜Uzumaki 动画再创作](<../cases/grok-uzumaki-animation.md>) | Grok Imagine | Reddit | 未找到 Prompt |
+| [赛博朋克欧洲城市的游戏概念动画](<../cases/kling-cyberpunk-europe-game.md>) | Kling | Reddit | 局部 Prompt |
+| [像素日本小镇：从游戏截图概念到动画](<../cases/kling-retro-japan-pixel-game.md>) | Kling | Reddit | 局部 Prompt |
+| [蒸汽朋克欧洲：游戏概念画面的动画化](<../cases/kling-steampunk-europe-game.md>) | Kling | Reddit | 局部 Prompt |
+| [LTX｜Dispatch 多角色 LoRA 展示](<../cases/ltx-dispatch-character-lora.md>) | LTX | Reddit | 未找到 Prompt |
+| [LTX｜MP3 口型与 LoRA 强度对照](<../cases/ltx-mp3-lora-strength-comparison.md>) | LTX | Reddit | 局部 Prompt |
+| [LTX｜音频驱动奇幻乐队表演](<../cases/ltx-school-rock-audio.md>) | LTX | Reddit | 局部 Prompt |
+| [LTX｜非写实风格动画展示](<../cases/ltx-stylized-animation-showcase.md>) | LTX | Reddit | 未找到 Prompt |
+| [MiniMax H3｜Looney Kombat 卡通格斗](<../cases/minimax-looney-kombat-parody.md>) | MiniMax | Reddit | 完整文本 |
+| [MiniMax H3｜多角色传送门集结](<../cases/minimax-multiverse-portal-arrival.md>) | MiniMax | Reddit | 局部 Prompt |
+| [MiniMax H3｜ComfyUI 25 秒歌唱测试](<../cases/minimax-native-comfy-singing.md>) | MiniMax | Reddit | 局部 Prompt |
+| [MiniMax H3｜多参考图街头追逐](<../cases/minimax-reference-car-chase.md>) | MiniMax | Reddit | 完整文本 |
 | [Electric Fury：图像、视频与音乐的组合](<../cases/pika-electric-fury.md>) | Pika | Reddit | 未找到 Prompt |
+| [Pika 2.1｜虚构人物音乐恶搞](<../cases/pika-fictional-people-music-parody.md>) | Pika | Reddit | 未找到 Prompt |
+| [Pika｜四分钟动画故事制作实验](<../cases/pika-four-minute-animated-story.md>) | Pika | Reddit | 未找到 Prompt |
+| [Pika｜Poke Power 音乐视觉](<../cases/pika-poke-power-music.md>) | Pika | Reddit | 未找到 Prompt |
+| [PixVerse｜Shoggoth 怪物概念展示](<../cases/pixverse-shoggoth-creature-showcase.md>) | PixVerse | Reddit | 未找到 Prompt |
+| [Runway 与 MiniMax｜ZUCKERBORG 音乐恶搞](<../cases/runway-minimax-zuckerborg-parody.md>) | Runway · MiniMax · Pika | Reddit | 未找到 Prompt |
+| [Seedance 2｜Silara 与 Voren](<../cases/seedance-silara-voren-animation.md>) | Seedance | Reddit | 未找到 Prompt |

@@ -1,0 +1,83 @@
+{
+  "id": "grok-golden-tears",
+  "title": "Grok｜Golden Tears",
+  "summary_zh": "创作者 Nimentrix 发布的 Golden Tears 视觉作品，原帖保留视频和创作者讨论。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1r05mxz/golden_tears_grok_imagine/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Golden Tears - Grok Imagine",
+    "published_at": "2026-02-09",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Nimentrix",
+    "url": "https://www.reddit.com/user/Nimentrix/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Grok Imagine",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1r05mxz/golden_tears_grok_imagine/"
+    }
+  ],
+  "category": "广告与短片",
+  "tags": [
+    "艺术与视觉"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "本次可读原帖未取得对应视频的逐字生成 Prompt",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "模型依据标题和原帖分类；评论提到 Photoshop、Blender 的个人经验，不据此推断它们参与本条制作。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1r05mxz/golden_tears_grok_imagine/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/golden-tears-grok-imagine-v0-N2pyN3N5Mnk5aGlnMQZ8N3BC_FLiMNgmf6N4L0uQuXmheG3j1HwFTcIjqJSM.png?width=640&crop=smart&format=pjpg&auto=webp&s=ab60d54005a8d598780693fa1b6f4c2da38821c9",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1r05mxz/golden_tears_grok_imagine/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1r05mxz/golden_tears_grok_imagine/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 模型依据标题和原帖分类；评论提到 Photoshop、Blender 的个人经验，不据此推断它们参与本条制作。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

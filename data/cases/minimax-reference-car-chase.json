@@ -1,0 +1,90 @@
+{
+  "id": "minimax-reference-car-chase",
+  "title": "MiniMax H3｜多参考图街头追逐",
+  "summary_zh": "通过角色、画风和分镜参考图串联街头追逐与汽车逃脱，公开三段续写指令。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1vgu4mi/pushing_minimax_h3_references_to_the_limit/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Pushing MiniMax H3 References to the limit",
+    "published_at": "2026-08-06",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "SillyLilithh",
+    "url": "https://www.reddit.com/user/SillyLilithh/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "MiniMax",
+      "version": "H3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vgu4mi/pushing_minimax_h3_references_to_the_limit/"
+    }
+  ],
+  "category": "音乐与动画",
+  "tags": [
+    "动画与角色"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "<Subject 1> is the woman in <Picture 1>. <Subject 2> is the art style and general environment of <Picture 2> and <Picture 3>. <Subject 3> is the character in <Picture 4>. [Shot 1] The video starts with a side view of <Subject 1> walking forwards on the side walk. In the background, we hear distant footstep sounds gradually getting closer and closer. <scenetrans> [Shot 2] At 00:03.000, the camera cuts to a front view of <Subject 1> turning around to see what the noise is. She sees <Subject 3> running at her with malicious intent. She is far away, about a block away, but she is rapidly approaching. The camera then zooms in from the current position to a wide angle close up that shows <Subject 3> running fastly towards <Subject 1>. The camera tracks the fast, exaggerated movement of <Subject 1>. <cutoff> [Shot 3] At 00:07.000, the camera cuts to a side view of <Subject 1>. She turns around, away from the person chasing her. [Shot 4] At 00:08.000, the camera cuts to a back view of <Subject 1> running quickly towards a car that is parked just ahead. She runs to the driver's seat. [Shot 5] At 00:09.500, the camera cuts to a close up view of the hand of <Subject 1> opening the car door. <cutoff> [Shot 6] At 00:11.00, the camera cuts to a closeup view of <Subject 1> hand turning on the car engine by turning the keys. <cutoff> [Shot 7] At 00:11.80, the camera cuts to <Subject 1> foot slamming on the gas pedal. <cutoff> [Shot 8] At 00:12.70, the camera cuts to the back view of the car accelerating and driving off, while <Subject 3> sprints behind the car, trying to catch up to her.\n\noverall_soundscape: City traffic noises and cars. We hear her footsteps as she walks.\n\nThe video is entirely animated in the art style seen in <Subject 2>.\n\nPrompt (second shot continuation):\n\n<Subject 1> is the woman in <Picture 1>. <Subject 2> is the art style and general environment of <Picture 2>. <Subject 3> is the character in <Picture 4>. <Subject 4> is the woman in <Picture 5>. <Picture 3> is the first frame of [Shot 1], showing a back view of the car accelerating and driving away while <Subject 3> sprints behind the car, trying to catch up to her. <scenetrans> [Shot 2] At 00:02.000, the camera cuts to a front view of <Subject 1> in the car driving away from <Subject 3> who is still trying to catch up to the car. She glances up at the rear-view mirror, trying to see how far away <Subject 3> is. [Shot 3] At 00:04.000, the camera zooms in from the current position slightly to focus on <Subject 3> through the back glass of the car, who is still sprinting and chasing the vehicle, and attempting to catch up with the vehicle. <Subject 3> is facing the camera while <Subject 3> is running. <Picture 6> is the first frame of [Shot 4] At 00:06.000, the camera cuts to a side view of <Subject 1> still driving the car, and she then gives out a large, breathy sigh of relief. She blinks. <Picture 7> is the first frame of [Shot 5] At 00:07.500, the camera cuts to a low angle inside the car's interior, looking up at <Subject 1> and the car interior. There is a large thunk sound, because <Subject 3> jumped on top of the roof of the car, making a dent into the roof's interior. <Subject 3> then digs her fingers deep into the car's roof, and rips open an opening into the roof. <Subject 3> looks at <Subject 1>. <Subject 1> is startled, and while she is still driving, she looks back at <Subject 3>. <cutoff> [Shot 6] At 00:10.000, the camera cuts to a back view of <Subject 4> laying down completly flat on her belly with a sniper rifle propped up on a bipod. She is facing towards the direction of <Subject 1> vehicle. She is on top of a rooftop of a tall building, looking down at the chaos <Subject 3> is causing. <Subject 4> is looking through the sniper's scope. In the background, we see <Subject 3> ontop of the vehicle, while <Subject 1> is still driving the vehicle. The car is driving from left to right. [Shot 7] At 00:12.00, the camera cuts to a point of view shot of <Subject 4> looking through the sniper scope. The sniper scope is zoomed in at <Subject 3> and <Subject 1> driving the car. The sniper scope tracks the car still driving. <Subject 4> aims at <Subject 3> head. [Shot 8] At 00:14.00, the camera cuts to a closeup of <Subject 4> hand pulling the sniper rifle's trigger.\n\noverall_soundscape: Quiet city traffic and cars moving play throughout the video. Urban city ambience.\n\nThe video is entirely animated in the art style seen in <Subject 2>.\n\nPrompt (third shot continuation):\n\n<Subject 1> is the woman in <Picture 1>. <Subject 2> is the art style and general environment of <Picture 2>. <Subject 3> is the character in <Picture 4>. <Subject 4> is the woman in <Picture 5>. <Picture 3> is the first frame of [Shot 1] showing a low angle inside the blue car's interior, looking up at <Subject 1> and the car interior. She is driving the car. There is a large thunk sound, because <Subject 3> jumped on top of the roof of the car, making a dent into the roof's interior. <Subject 3> then digs her fingers deep into the car's roof, and rips open an opening into the roof. <Subject 3> looks at <Subject 1>. <Subject 1> is startled, and while she is still driving, she looks back at <Subject 3>. <cutoff> <Picture 6> is the first frame of [Shot 2] At 00:03.500, showing a back view of <Subject 4> laying down completly flat on her belly with a sniper rifle propped up on a bipod. She is facing towards the direction of <Subject 1> vehicle. She is on top of a rooftop of a tall building, looking down at the chaos <Subject 3> is causing. <Subject 4> is looking through the sniper's scope. In the background, we see <Subject 3> ontop of the vehicle, while <Subject 1> is still driving the vehicle. The car is driving from left to right. [Shot 3] At 00:04.500, the camera cuts to a point of view shot of <Subject 4> looking through the sniper scope. The sniper scope is zoomed in at <Subject 3> and <Subject 1> driving the car. The sniper scope tracks the car still driving. <Subject 4> aims at <Subject 3> head. [Shot 4] At 00:06.500, the camera cuts to a closeup of <Subject 4> hand pulling the sniper rifle's trigger, causing the sniper to shoot. [Shot 5] At 00:07.500, the camera cuts back to the same low angle shot inside the car's interior, looking up at <Subject 1>, who is still driving and looking back at <Subject 3>, with <Subject 3> still on the roof of the car, and the same opening in the roof still present. <Subject 3> sniper' bullet comes from the side and hits <Subject 3> head, making <Subject 3> tumble and slide off the roof of the car, hitting the car's back glass, and then landing limp on the road. <Subject 1> continues to drive, and she looks ahead, and breathes a big sigh, and wipes the sweat off of her forehead.\n\noverall_soundscape: Quiet city traffic and cars moving play throughout the video. Urban city ambience.\n\nThe video is entirely animated in the art style seen in <Subject 2>.",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vgu4mi/pushing_minimax_h3_references_to_the_limit/",
+    "scope": "作者公开的三段连续生成 Prompt，保留第二、第三段标签。",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "包含虚构动作剧情；文字中的 Picture 编号依赖对应参考图。"
+  },
+  "references": [
+    {
+      "kind": "input_material",
+      "url": null,
+      "status": "missing",
+      "notes": "多张角色、画风、环境与首帧参考图未随本仓库保存。"
+    }
+  ],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1vgu4mi/pushing_minimax_h3_references_to_the_limit/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/pushing-minimax-h3-references-to-the-limit-v0-dDUzdWUxbTNtb2hoMUeq-TgE9teW6IGFXbzX2tLbVhglagacWVp5lgq5YMM7.png?width=640&crop=smart&format=pjpg&auto=webp&s=5c46376194e2add102913d930962bdb022b85ff3",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vgu4mi/pushing_minimax_h3_references_to_the_limit/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1vgu4mi/pushing_minimax_h3_references_to_the_limit/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 包含虚构动作剧情；文字中的 Picture 编号依赖对应参考图。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

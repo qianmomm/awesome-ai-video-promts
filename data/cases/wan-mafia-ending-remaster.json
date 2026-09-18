@@ -1,0 +1,92 @@
+{
+  "id": "wan-mafia-ending-remaster",
+  "title": "Wan｜Mafia 结局场景写实重制",
+  "summary_zh": "作者将 Mafia 游戏结局的帧画面写实化，再以深度条件控制生成运动。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1qvexdj/i_made_the_ending_of_mafia_in_realism/",
+    "item_key": "main-video",
+    "locator": "作者原帖：I made the ending of Mafia in realism",
+    "published_at": "2026-02-04",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "RedBizon",
+    "url": "https://www.reddit.com/user/RedBizon/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Wan",
+      "version": "2.1",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1qvexdj/i_made_the_ending_of_mafia_in_realism/"
+    },
+    {
+      "name": "FLUX",
+      "version": "2 Klein 9B",
+      "role": "image_editing",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1qvexdj/i_made_the_ending_of_mafia_in_realism/"
+    }
+  ],
+  "category": "视频重绘",
+  "tags": [
+    "视频编辑与重绘"
+  ],
+  "prompt": {
+    "status": "partial",
+    "original": "Realism",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1qvexdj/comment/o3h98a4/",
+    "scope": "用于 FLUX 2 Klein Edit 的图像编辑词，不是视频生成 Prompt。",
+    "locator": "原作者在原帖下公开的 Prompt 评论",
+    "notes": "这是对游戏场景的 AI 改编；人脸替换是虚构表演，不是相关演员真实出演。"
+  },
+  "references": [],
+  "workflow_notes": [
+    "FLUX 2 Klein 编辑帧画面，作者随后换脸，再用 Wan 2.1 + Depth 生成。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1qvexdj/i_made_the_ending_of_mafia_in_realism/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/i-made-the-ending-of-mafia-in-realism-v0-OHF0bXZhaWtvZWhnMWImr_qWBxH5FlW6TFEnHys4_BQPGTAUlfcYTeYTUvHM.png?width=640&crop=smart&format=pjpg&auto=webp&s=c858931a08bb232cb662a7682e39dd91c1ecb403",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1qvexdj/i_made_the_ending_of_mafia_in_realism/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1qvexdj/i_made_the_ending_of_mafia_in_realism/",
+      "https://www.reddit.com/r/StableDiffusion/comments/1qvexdj/comment/o3h98a4/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 这是对游戏场景的 AI 改编；人脸替换是虚构表演，不是相关演员真实出演。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

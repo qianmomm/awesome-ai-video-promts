@@ -1,0 +1,102 @@
+{
+  "id": "ltx-comic-phone-conversation",
+  "title": "LTX｜双角色电话喜剧剪辑",
+  "summary_zh": "分别生成学生与施工人员的虚构电话对白，再手动剪接成喜剧场景。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1q5y8q7/ltx2_is_genuinely_impressive/",
+    "item_key": "main-video",
+    "locator": "作者原帖：LTX-2 is genuinely impressive",
+    "published_at": "2026-01-06",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Dr_Karminski",
+    "url": "https://www.reddit.com/user/Dr_Karminski/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "LTX",
+      "version": "2",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1q5y8q7/ltx2_is_genuinely_impressive/"
+    },
+    {
+      "name": "LTX",
+      "version": "Pro",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1q5y8q7/ltx2_is_genuinely_impressive/"
+    },
+    {
+      "name": "Nano Banana",
+      "version": "Pro",
+      "role": "image_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1q5y8q7/ltx2_is_genuinely_impressive/"
+    }
+  ],
+  "category": "对白与表演",
+  "tags": [
+    "对白与表演"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "A young schoolgirl, sitting at a desk cluttered with stacks of homework, speaks with a high-pitched, childish voice that is trying very hard to sound serious and business-like. She stares at an open textbook with a frown, holds the phone receiver tightly to her ear, and says \"I want you to help me destory my school.\" She pauses as if listening, tapping her pencil on the desk, looking thoughtful, then asks \"Could you blow it up or knock it down?\" She nods decisively, her expression turning slightly mischievous yet determined, and says \"I'll blow it up. That'll be better. Could you make sure that all my teachers in there when you knock it down?\" She looks down at her homework with deep resentment, pouting, and complains \"Nobody likes them, They give me extra homework on a friday and everthing.\" She leans back in her chair, looking out the window casually, and says \"From Dublin.\" Then, with a deadpan expression, she adds \"The one that's about to fall down.\" Finally, she furrows her brows, trying to sound like an adult negotiating a deal, and demands \"Give me a ballpark finger.\"\n\nA middle-aged construction worker wearing a casual shirt, sitting in a busy office with a colleague visible at a nearby desk, speaks with a rough but warm and amused tone. He answers the phone while looking at a blueprint, looking slightly confused, and says \"Hello?\" He leans forward, raising an eyebrow in disbelief, and asks \"Do you want to blow it up?\" He shrugs his shoulders, smiling slightly, and says \"Whatever you want done?\" He scratches his head, suppressing a chuckle, and says \"dunno if we'll get away with that, too.\" He then bursts into laughter, swivels his chair to look at his colleague with a wide grin, signaling that this is a funny call, and asks \"Where are you calling from?\" He listens, nodding, and asks \"What school in Dublin?\" He laughs heartily again, shaking his head at the absurdity, and says \"There's a lot of schools in Dublin that are abbout to fall down.\" He picks up a pen, pretending to take notes while grinning, and says \"It depends how bit it is.\" Finally, he laughs out loud, covers the mouthpiece to talk to his colleague while pointing at the phone, and repeats the girl's mistake: \"He is... Give me a ballpark finger.\"",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1q5y8q7/ltx2_is_genuinely_impressive/",
+    "scope": "作者公开的两组角色对白指令，实际分镜单独生成后剪辑。",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "虚构恶作剧对白，不是真实威胁；最后一段作者说明使用官方 Pro 版本，其余通过官方 Hugging Face Space，Pro 具体底层版本未披露。"
+  },
+  "references": [
+    {
+      "kind": "input_material",
+      "url": null,
+      "status": "missing",
+      "notes": "作者重复使用同一组 Nano Banana Pro 角色图，原文件未归档。"
+    }
+  ],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1q5y8q7/ltx2_is_genuinely_impressive/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/ltx-2-is-genuinely-impressive-v0-ejUweTBzMGg4dGJnMS9JTAPpPcih2NBbzYWehQorZzf8KKLqH2s6oLuyF7pp.png?width=640&crop=smart&format=pjpg&auto=webp&s=1de862d216a06ba42c3712a071b95986dd399b7b",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1q5y8q7/ltx2_is_genuinely_impressive/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1q5y8q7/ltx2_is_genuinely_impressive/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 虚构恶作剧对白，不是真实威胁；最后一段作者说明使用官方 Pro 版本，其余通过官方 Hugging Face Space，Pro 具体底层版本未披露。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

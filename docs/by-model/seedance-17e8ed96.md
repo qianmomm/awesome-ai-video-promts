@@ -6,8 +6,18 @@
 
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
+| [MiniMax 与 Seedance｜泳池派对 30 秒长镜头](<../cases/minimax-seedance-pool-longtake-comparison.md>) | MiniMax · Seedance | Reddit | 完整文本 |
+| [客机降落瞬间变成巨型机器人](<../cases/seedance-airliner-robot-transformation.md>) | Seedance | Reddit | 完整文本 |
+| [香蕉之歌：连续延长十次会怎样](<../cases/seedance-banana-song-extensions.md>) | Seedance | Reddit | 局部 Prompt |
 | [海边手机日记：用跳切节奏保留随手拍质感](<../cases/seedance-beach-phone-montage.md>) | Seedance | Reddit | 完整文本 |
 | [多张照片之间的连续变形](<../cases/seedance-fluid-morphs.md>) | Seedance | Blog | 完整文本 |
+| [冰球场景：Seedance 2.0 与 Kling 3.0 对照](<../cases/seedance-kling-hockey-comparison.md>) | Seedance · Kling | Reddit | 未找到 Prompt |
+| [LYRA：人类消失后的机器人短片](<../cases/seedance-kling-lyra-robot-film.md>) | Seedance · Kling | Reddit | 未找到 Prompt |
+| [Seedance｜从上一段末帧延续场景](<../cases/seedance-last-frame-scene-continuation.md>) | Seedance | Reddit | 未找到 Prompt |
 | [清晨告别：人物准备出门与白猫的三个镜头](<../cases/seedance-morning-cat-farewell.md>) | Seedance | Reddit | 完整文本 |
 | [越野车辆：一张图开始的运动](<../cases/seedance-offroad-image.md>) | Seedance | Blog | 完整文本 |
 | [油画中的水流运动](<../cases/seedance-oil-painting.md>) | Seedance | Blog | 完整文本 |
+| [雨夜起跑：三段镜头建立赛车对峙](<../cases/seedance-rainy-race-start.md>) | Seedance | Reddit | 完整文本 |
+| [Seedance 2｜Silara 与 Voren](<../cases/seedance-silara-voren-animation.md>) | Seedance | Reddit | 未找到 Prompt |
+| [Seedance 2｜时间旅人冻结战场](<../cases/seedance-time-freeze-battlefield.md>) | Seedance | Reddit | 完整文本 |
+| [Seedance｜废土与陨石短片](<../cases/seedance-wasteland-meteor-film.md>) | Seedance | Reddit | 未找到 Prompt |

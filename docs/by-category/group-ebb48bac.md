@@ -7,4 +7,8 @@
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
 | [实拍镜头的四种视频改写](<../cases/runway-video-restyling.md>) | Runway | Reddit | 未找到 Prompt |
+| [Wan｜重制七年前的 BeamNG 视频](<../cases/wan-beamng-video-remaster.md>) | Wan | Reddit | 局部 Prompt |
+| [Wan｜Big Smoke 点餐场景重制](<../cases/wan-big-smoke-order-remaster.md>) | Wan | Reddit | 未找到 Prompt |
 | [用深度图扩展视频画面](<../cases/wan-depth-video-outpainting.md>) | Wan | Reddit | 未找到 Prompt |
+| [Wan｜Mafia 结局场景写实重制](<../cases/wan-mafia-ending-remaster.md>) | Wan | Reddit | 局部 Prompt |
+| [Wan｜Vice City 场景重制](<../cases/wan-vice-city-remaster.md>) | Wan | Reddit | 未找到 Prompt |

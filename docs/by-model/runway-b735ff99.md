@@ -7,4 +7,6 @@
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
 | [同一静图的四种提示方式实验](<../cases/runway-image-prompt-comparison.md>) | Runway | Reddit | 未找到 Prompt |
+| [Runway 与 MiniMax｜ZUCKERBORG 音乐恶搞](<../cases/runway-minimax-zuckerborg-parody.md>) | Runway · MiniMax · Pika | Reddit | 未找到 Prompt |
+| [把 Sora 示例提示词交给其他视频工具](<../cases/runway-stable-video-shared-prompts.md>) | Runway · Stable Video | Reddit | 未找到 Prompt |
 | [实拍镜头的四种视频改写](<../cases/runway-video-restyling.md>) | Runway | Reddit | 未找到 Prompt |

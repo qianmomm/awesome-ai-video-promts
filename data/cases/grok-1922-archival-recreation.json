@@ -1,0 +1,93 @@
+{
+  "id": "grok-1922-archival-recreation",
+  "title": "Grok｜1922 年历史影像再创作",
+  "summary_zh": "把旧纪录片逐镜头抽帧，编辑为现代摄影风格，再用 Grok 制作运动画面并配旁白。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1pfit8t/ai_recreation_of_1922_archival_footage_using_free/",
+    "item_key": "main-video",
+    "locator": "作者原帖：AI re-creation of 1922 archival footage using free video AI tools - Nanobanana and Grok Imagine",
+    "published_at": "2025-12-06",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "No_Designer_2900",
+    "url": "https://www.reddit.com/user/No_Designer_2900/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Grok Imagine",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1pfit8t/ai_recreation_of_1922_archival_footage_using_free/"
+    },
+    {
+      "name": "Gemini",
+      "version": "2.5 Flash",
+      "role": "image_editing",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1pfit8t/ai_recreation_of_1922_archival_footage_using_free/"
+    }
+  ],
+  "category": "广告与短片",
+  "tags": [
+    "历史场景再创作"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "本次可读原帖未取得对应视频的逐字生成 Prompt",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "作者明确这是 AI 再创作而不是原始影像修复；新增细节不能作为历史证据。"
+  },
+  "references": [],
+  "workflow_notes": [
+    "Gemini 2.5 Flash（Nano Banana）编辑单帧；Grok Imagine 动画化；字幕翻译后用于旁白，最终剪辑。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1pfit8t/ai_recreation_of_1922_archival_footage_using_free/",
+    "alternate_urls": [
+      "https://youtu.be/ismC6wiGK9Q"
+    ],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/ai-re-creation-of-1922-archival-footage-using-free-video-ai-v0-YXZkeW8wMGY2ajVnMVLcvYsNbUmAKuyHKt-f0DMGc4jdPoAGA7sZTP4IIdFJ.png?width=640&crop=smart&format=pjpg&auto=webp&s=aa3fad6ef1491e2720950485c4848bbb27268ec9",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1pfit8t/ai_recreation_of_1922_archival_footage_using_free/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1pfit8t/ai_recreation_of_1922_archival_footage_using_free/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 作者明确这是 AI 再创作而不是原始影像修复；新增细节不能作为历史证据。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

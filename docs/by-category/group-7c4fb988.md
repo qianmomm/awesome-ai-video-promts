@@ -7,6 +7,17 @@
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
 | [洗手动作：混元文生视频与 Hailuo 图生视频](<../cases/hunyuan-hailuo-hand-washing.md>) | HunyuanVideo · Hailuo | Reddit | 未找到 Prompt |
+| [积木赛车：游戏概念与速度感](<../cases/kling-brick-racing-game.md>) | Kling | Reddit | 局部 Prompt |
 | [双车追逐：按秒安排动作与声音](<../cases/kling-car-combat-timeline.md>) | Kling | Reddit | 原文节选 |
 | [城市追逐：人物、运镜与环境声的完整约束](<../cases/ltx-city-foot-chase.md>) | LTX | Reddit | 完整文本 |
+| [LTX 2.5｜赛博朋克屋顶快速推镜](<../cases/ltx-cyberpunk-rooftop-zoom.md>) | LTX | Reddit | 完整文本 |
+| [LTX｜高分辨率图生视频测试](<../cases/ltx-high-resolution-i2v.md>) | LTX | Reddit | 未找到 Prompt |
+| [LTX 2.5｜本地十秒运动测试](<../cases/ltx-local-ten-second-motion-test.md>) | LTX | Reddit | 未找到 Prompt |
 | [90 年代动画风：滑板少女的五镜头序列](<../cases/minimax-anime-skateboard.md>) | MiniMax | Reddit | 完整文本 |
+| [MiniMax H3｜倒水视频材质替换](<../cases/minimax-pouring-material-replacement.md>) | MiniMax | Reddit | Prompt 外链 |
+| [MiniMax H3｜倾倒物替换物理实验](<../cases/minimax-pouring-solids-physics.md>) | MiniMax | Reddit | Prompt 外链 |
+| [客机降落瞬间变成巨型机器人](<../cases/seedance-airliner-robot-transformation.md>) | Seedance | Reddit | 完整文本 |
+| [冰球场景：Seedance 2.0 与 Kling 3.0 对照](<../cases/seedance-kling-hockey-comparison.md>) | Seedance · Kling | Reddit | 未找到 Prompt |
+| [Seedance｜从上一段末帧延续场景](<../cases/seedance-last-frame-scene-continuation.md>) | Seedance | Reddit | 未找到 Prompt |
+| [雨夜起跑：三段镜头建立赛车对峙](<../cases/seedance-rainy-race-start.md>) | Seedance | Reddit | 完整文本 |
+| [Vidu｜功夫分镜网格转视频](<../cases/vidu-kungfu-storygrid.md>) | Vidu | Reddit | 未找到 Prompt |

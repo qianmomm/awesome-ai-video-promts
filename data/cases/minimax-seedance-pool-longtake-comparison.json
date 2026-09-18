@@ -1,0 +1,92 @@
+{
+  "id": "minimax-seedance-pool-longtake-comparison",
+  "title": "MiniMax 与 Seedance｜泳池派对 30 秒长镜头",
+  "summary_zh": "作者取公开 Seedance 视频的指令，在 MiniMax H3 中测试相同的室内到泳池连续镜头。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1vjoj7s/seedance_25_vs_minimax_h3_same_prompt_30s/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Seedance 2.5 vs Minimax H3. Same prompt 30s single-generation-no cuts.",
+    "published_at": "2026-08-09",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "beatlepol",
+    "url": "https://www.reddit.com/user/beatlepol/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "MiniMax",
+      "version": "H3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vjoj7s/seedance_25_vs_minimax_h3_same_prompt_30s/"
+    },
+    {
+      "name": "Seedance",
+      "version": "2.5",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vjoj7s/seedance_25_vs_minimax_h3_same_prompt_30s/"
+    }
+  ],
+  "category": "提示方式实验",
+  "tags": [
+    "模型对比"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "integrated_multimodal_description: Photorealistic live-action, cinematic film style\n\nSEQUENCE SHOT. NO CUT.\n\nSingle unbroken handheld take throughout, 30 seconds total.\n\nYoung Caucasian woman, chin-length auburn bob haircut, green eyes, wearing a yellow and green Brazil national football jersey and white denim shorts, sitting pensively on a sofa inside a large bright suburban Parisian house, summer daytime, sunlight through the windows, young adults dancing and laughing around her holding drinks, loud music implied by energetic crowd movement.\n\n0-4s: She rises from the sofa empty-handed and walks toward a kitchen table lined with alcohol bottles and glasses. The handheld camera follows closely behind her shoulder with slight natural shake.\n\n4-8s: She pours herself a glass of champagne and takes a sip. The camera remains close behind her.\n\n8-13s: She moves through the dancing and laughing crowd toward a large glass bay window. Some guests are standing while others sit and talk on the sofas. The camera continues following her without a cut.\n\n13-16s: She steps into the garden, revealing a large pool filled with young adults swimming and laughing. The camera smoothly rotates from behind her to face her. She looks toward the pool, smiles, and places her champagne glass on a small table beside a lounge chair.\n\n16-20s: She removes her jersey and places it on the back of the lounge chair, then removes her white denim shorts and places them on the chair, revealing a swimsuit underneath. The camera holds a medium frontal shot with slight handheld movement.\n\n20-24s: She walks toward the pool as the camera moves behind her again. She then breaks into a run, with the handheld camera following closely and matching her pace.\n\n24-27s: She dives into the pool while shouting “take care,” landing among the other swimmers. The camera dives into the water with her and remains briefly submerged.\n\n27-30s: She resurfaces laughing and joins the people nearby. The camera rises into the air, revealing a wide aerial view of the house, garden, and pool.\n\nBright natural summer daylight, warm sunlit color palette, candid documentary energy, and slight handheld lens wobble throughout.\n\nMaintain her exact hairstyle, green eyes, Brazil jersey, and white denim shorts until she changes into the swimsuit. Maintain the same swimsuit for the rest of the sequence. Background party guests and swimmers should remain generic and unnamed. No text overlays, flickering, ghosting, morphing artifacts, or hard cuts. Natural skin tones and stable continuous handheld motion throughout.",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vjoj7s/comment/p2mvpgj/",
+    "scope": "作者公开的视频生成指令",
+    "locator": "原作者在原帖下公开的 Prompt 评论",
+    "notes": "作者明确表示 Prompt 非本人原创，Seedance 片段来自其看到的公开示例；本帖作者实际重做 MiniMax 版本。署名为比较帖发布者，不认定其拥有全部作品。"
+  },
+  "references": [],
+  "workflow_notes": [
+    "原帖上方为 Seedance、下方为 MiniMax；作者报告 MiniMax T2V 30 秒、20 steps、0.7 MP。"
+  ],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1vjoj7s/seedance_25_vs_minimax_h3_same_prompt_30s/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/seedance-2-5-vs-minimax-h3-same-prompt-30s-single-v0-aGRzNWxkbmRjY2loMZybLJNxP4Ym_JdpkNAiQmeyoL5NN6XvMfm9MQidRrB6.png?width=640&crop=smart&format=pjpg&auto=webp&s=6582ca38cef31775e0532bd77a18600214b015d4",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vjoj7s/seedance_25_vs_minimax_h3_same_prompt_30s/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1vjoj7s/seedance_25_vs_minimax_h3_same_prompt_30s/",
+      "https://www.reddit.com/r/StableDiffusion/comments/1vjoj7s/comment/p2mvpgj/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 作者明确表示 Prompt 非本人原创，Seedance 片段来自其看到的公开示例；本帖作者实际重做 MiniMax 版本。署名为比较帖发布者，不认定其拥有全部作品。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

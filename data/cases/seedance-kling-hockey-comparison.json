@@ -1,0 +1,89 @@
+{
+  "id": "seedance-kling-hockey-comparison",
+  "title": "冰球场景：Seedance 2.0 与 Kling 3.0 对照",
+  "summary_zh": "作者比较同类冰球场景的镜头连续性与球员运动，并在评论讨论多球、球门位置和穿模等问题。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1shvn42/seedance_2_0_vs_kling_3_0_prompt_to_prompt/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Seedance 2_0 vs Kling 3_0 - prompt to prompt",
+    "published_at": "2026-04-10",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "chronochroma_ai",
+    "url": "https://www.reddit.com/user/chronochroma_ai/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Seedance",
+      "version": "2.0",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1shvn42/seedance_2_0_vs_kling_3_0_prompt_to_prompt/"
+    },
+    {
+      "name": "Kling",
+      "version": "3.0",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1shvn42/seedance_2_0_vs_kling_3_0_prompt_to_prompt/"
+    }
+  ],
+  "category": "动作与运镜",
+  "tags": [
+    "动作与运镜"
+  ],
+  "prompt": {
+    "status": "not_found",
+    "original": null,
+    "language": null,
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": null,
+    "scope": "本次可读原帖未取得对应视频的逐字生成 Prompt",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "标题称 prompt to prompt，但本次未从可读文字取得实际 Prompt；不把单次结果当成模型整体排名。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1shvn42/seedance_2_0_vs_kling_3_0_prompt_to_prompt/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/seedance-2-0-vs-kling-3-0-prompt-to-prompt-v0-Znl3aGI4cjl0ZXVnMX79NuMmr4HGf8I5ojXax24mbF7tT34488kjAPba2k9l.png?width=640&crop=smart&format=pjpg&auto=webp&s=2c1a0386aa68d415a56f9332058815a26f40f753",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1shvn42/seedance_2_0_vs_kling_3_0_prompt_to_prompt/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1shvn42/seedance_2_0_vs_kling_3_0_prompt_to_prompt/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 标题称 prompt to prompt，但本次未从可读文字取得实际 Prompt；不把单次结果当成模型整体排名。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

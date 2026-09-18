@@ -6,5 +6,12 @@
 
 | 案例 | 视频模型 | 平台 | Prompt |
 |---|---|---|---|
+| [地下避难所里的虚构生活 Vlog](<../cases/veo-bunker-life-vlog.md>) | Veo | Reddit | 未找到 Prompt |
+| [人类验证码部门：虚构访谈式喜剧](<../cases/veo-human-captcha-comedy.md>) | Veo | Reddit | 未找到 Prompt |
+| [Kira：围绕克隆与身份的长篇短片](<../cases/veo-kling-kira-cloning-film.md>) | Veo · Kling | Reddit | 未找到 Prompt |
+| [微距摄影风格的生成视频](<../cases/veo-macro-videography.md>) | Veo | Reddit | 未找到 Prompt |
 | [广告式叙事：开场独白的镜头 Prompt](<../cases/veo-pharma-ad-opening.md>) | Veo | Reddit | 局部 Prompt |
+| [Veo｜The Prompt Floor 伪纪录片](<../cases/veo-prompt-floor-mockumentary.md>) | Veo | Reddit | 未找到 Prompt |
+| [一句话尝试生成扬声器原理动画](<../cases/veo-speaker-educational-3d.md>) | Veo | Reddit | 完整文本 |
 | [小剧场脱口秀：把笑话交给模型](<../cases/veo-standup-fofr.md>) | Veo | X | 完整文本 |
+| [虚构的伍德斯托克后台采访](<../cases/veo-woodstock-fictional-interviews.md>) | Veo | Reddit | 局部 Prompt |

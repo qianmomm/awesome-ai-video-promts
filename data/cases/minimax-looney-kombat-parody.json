@@ -1,0 +1,83 @@
+{
+  "id": "minimax-looney-kombat-parody",
+  "title": "MiniMax H3｜Looney Kombat 卡通格斗",
+  "summary_zh": "用完整时间码指令设计兔八哥与格斗游戏角色的喜剧对战，包含 HUD、表情和卡通音效。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/StableDiffusion/comments/1vk3ej3/looney_kombat/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Looney Kombat",
+    "published_at": "2026-08-09",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Behonkiss",
+    "url": "https://www.reddit.com/user/Behonkiss/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "MiniMax",
+      "version": "H3",
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vk3ej3/looney_kombat/"
+    }
+  ],
+  "category": "音乐与动画",
+  "tags": [
+    "动画与角色"
+  ],
+  "prompt": {
+    "status": "full",
+    "original": "integrated_multimodal_description: A cinematic playable fighting-game sequence combining realistic modern 3D rendering with a strongly cel-shaded cartoon character, presented as an authentic classic Mortal Kombat-style side-view match. A single continuous lateral gameplay camera keeps both fighters visible full-body from head to toe on a dark ancient stone arena with dramatic torchlight, deep shadows, subtle smoke, and a flat fighting plane. The presentation has the visual language of a classic Mortal Kombat game while using modern detailed 3D rendering.\n\nBUGS BUNNY stands on the LEFT side. His entire character model is deliberately cel-shaded in a Fortnite-like 3D cartoon style to preserve a strongly 2D animated appearance: clean graphic shapes, simplified painted surfaces, expressive facial animation, smooth cel shading, exaggerated cartoon proportions, and 2D-animation-inspired movement. He must remain unmistakably Bugs Bunny: gray fur, white muzzle, long ears, buck teeth, white gloves, large feet, expressive eyes, and his classic relaxed, mischievous personality. His movements combine readable Mortal Kombat fighting-game animation with elastic Looney Tunes cartoon physics.\n\nSCORPION stands on the RIGHT side. He is unmistakably the iconic Mortal Kombat fighter Scorpion: a muscular male ninja wearing his traditional yellow-and-black armored ninja outfit, black undersuit, armored shoulder and forearm pieces, yellow segmented armor, black boots, hood, and his distinctive yellow-and-black face mask. His eyes glow intensely beneath the hood. His appearance is realistic, detailed, intimidating, and dramatically lit, creating a deliberate visual contrast against Bugs Bunny's cel-shaded cartoon appearance. Scorpion moves with serious, disciplined martial-arts choreography and authentic Mortal Kombat-style ninja combat.\n\nTheir identities, proportions, costumes, colors, and visual styles remain completely consistent throughout the entire video.\n\nA classic Mortal Kombat HUD remains permanently visible across the top of the screen, with two horizontal health bars labeled \"BUGS BUNNY\" on the left and \"SCORPION\" on the right.\n\nAt the very beginning, both fighters hold recognizable idle fighting animations. Bugs casually stands in a relaxed stance while Scorpion holds a disciplined ninja fighting stance. A huge centered arcade message reading \"FIGHT!\" appears.\n\nAt approximately 00:01.000, Scorpion immediately attacks with his signature aggressive fighting style. He rapidly advances toward Bugs and performs a fast martial-arts punch followed by a high kick. Bugs casually bends his torso backward at an impossible cartoon angle, allowing both attacks to pass harmlessly over him. His ears flop backward from the force of the attacks while his expression remains completely bored and amused.\n\nAt approximately 00:03.000, Scorpion fires his iconic kunai-tipped rope spear toward Bugs while shouting his recognizable attack cry. Bugs catches the incoming spear effortlessly with one gloved hand. He looks at the spear, looks at Scorpion, then gives a mischievous grin.\n\nBugs suddenly pulls the rope toward himself, but instead of being pulled toward Scorpion, he produces an enormous cream pie from nowhere and throws it directly into Scorpion's masked face. The pie splatters across Scorpion's mask and yellow armor in exaggerated Looney Tunes fashion. Scorpion recoils in stunned disbelief.\n\nAt approximately 00:05.000, Scorpion recovers and performs his iconic teleportation attack, disappearing in a burst of flame and reappearing behind Bugs. Bugs casually looks over his shoulder as though he already knew Scorpion was there.\n\nScorpion attempts a powerful punch. Bugs instantly points downward. A perfectly circular cartoon hole suddenly appears in the stone floor beneath Scorpion. Scorpion falls straight through the hole before his attack can connect.\n\nAt approximately 00:07.000, Scorpion suddenly emerges from an identical hole elsewhere in the arena and charges directly toward Bugs. Bugs instantly produces a bright red matador cape and holds it dramatically in front of himself like a bullfighter.\n\nScorpion charges directly through the cape. Immediately behind the cape is an enormous cartoon anvil that Bugs has somehow positioned there. Scorpion crashes into the anvil with an enormous metallic CLANG and exaggerated but non-graphic cartoon impact reaction. The anvil remains perfectly intact.\n\nAt approximately 00:09.000, Scorpion staggers upright, visibly furious. Bugs casually pulls a gigantic cartoon mallet from behind his back, raises it overhead, and delivers one enormous exaggerated BONK to Scorpion. Scorpion is launched vertically upward and disappears briefly off the top of the screen.\n\nAt approximately 00:10.500, Scorpion crashes back onto the stone floor. His health bar instantly drains to zero.\n\nThe huge centered arcade message \"FINISH HIM!\" appears.\n\nBugs looks down at Scorpion, then directly toward the CAMERA. He raises one eyebrow and gives an unmistakably smug Bugs Bunny grin.\n\nAt approximately 00:12.000, Bugs pulls out a gigantic cream pie and slowly walks toward the camera holding it with both hands.\n\nAt approximately 00:13.000, Bugs casually throws the pie directly toward the CAMERA. The pie rapidly expands toward the lens and completely covers the screen in a giant comedic splat.\n\nAt approximately 00:14.000, the pie splatter falls away, revealing Bugs Bunny standing in his classic relaxed victory pose, calmly chewing a carrot. Scorpion remains defeated in the background.\n\nA huge centered arcade message reads \"FATALITY.\" Bugs slowly raises one eyebrow, takes another bite of his carrot, and gives the camera a smug knowing smile.\n\nThe contrast between the characters is essential: Scorpion fights with deadly seriousness, fire, teleportation, martial arts, and his signature spear, while Bugs Bunny treats the entire Mortal Kombat battle as a ridiculous Looney Tunes cartoon. Bugs' attacks must feel like classic Looney Tunes visual gags rather than conventional superpowers. His pies, cartoon holes, impossible props, matador cape, anvil, mallet, exaggerated impacts, and impossible physical reactions should have authentic classic cartoon comedic timing.\n\nNo realistic gore, blood, dismemberment, or gruesome injury. All impacts are non-graphic and comedic. Do not turn Bugs into a realistic rabbit or a realistic anthropomorphic animal. Do not make Bugs' movements realistic. Preserve the cel-shaded Fortnite-like 3D model and strong 2D/cartoon appearance throughout.\n\noverall_soundscape: Authentic Mortal Kombat-style arcade audio combined with classic Looney Tunes cartoon sound effects. Dark arena ambience, crackling torches, subtle crowd noise, dramatic martial-arts whooshes, Scorpion's kunai rope-spear sound, fiery teleportation sound, exaggerated cartoon boings and whistles, loud pie splat, hollow cartoon falling sound, enormous metallic anvil CLANG, gigantic mallet BONK, and comedic pie splat against the camera. The deep male arcade announcer dramatically declares \"FIGHT!\", \"FINISH HIM!\", and \"FATALITY!\" Bugs' own dialogue is minimal and primarily communicated through facial expressions and physical comedy.\n\nnon_diegetic_music: Dark, percussion-heavy 1990s arcade fighting-game music with ominous synthesized bass and dramatic martial-arts rhythms. The music remains completely serious during Scorpion's attacks, creating deliberate comedic contrast with Bugs' increasingly absurd cartoon behavior. Brief comedic musical accents accompany Bugs' pie, hole, anvil, and mallet gags before the music returns to a dramatic arcade victory flourish during the final \"FATALITY\" pose.",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/StableDiffusion/comments/1vk3ej3/looney_kombat/",
+    "scope": "作者公开的视频生成指令",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "虚构同人恶搞；Prompt 明确要求非血腥卡通打击效果，不能据此声称原 IP 授权。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/StableDiffusion/comments/1vk3ej3/looney_kombat/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/looney-kombat-v0-NjFsYjl0bHVlZmloMQM942_ZZXvrg5c2DIvgVll5bleRt0x2-a2f9Af5qgCV.png?width=640&crop=smart&format=pjpg&auto=webp&s=19f6634b99eb122b3bee762896b8a21e3a419de4",
+      "evidence_url": "https://www.reddit.com/r/StableDiffusion/comments/1vk3ej3/looney_kombat/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/StableDiffusion/comments/1vk3ej3/looney_kombat/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 虚构同人恶搞；Prompt 明确要求非血腥卡通打击效果，不能据此声称原 IP 授权。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

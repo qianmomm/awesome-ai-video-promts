@@ -1,0 +1,89 @@
+{
+  "id": "kling-retro-japan-pixel-game",
+  "title": "像素日本小镇：从游戏截图概念到动画",
+  "summary_zh": "以等距视角、樱花、列车和游戏界面构建像素小镇；作者公开了三段画面提示词及工具流程。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1kpn474/retro_video_games_in_japan_prompts_included/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Retro Video Games In Japan (Prompts Included)",
+    "published_at": "2025-05-18",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Vegetable_Writer_443",
+    "url": "https://www.reddit.com/user/Vegetable_Writer_443/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Kling",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1kpn474/retro_video_games_in_japan_prompts_included/"
+    },
+    {
+      "name": "Midjourney",
+      "version": null,
+      "role": "image_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1kpn474/retro_video_games_in_japan_prompts_included/"
+    }
+  ],
+  "category": "音乐与动画",
+  "tags": [
+    "音乐与动画"
+  ],
+  "prompt": {
+    "status": "partial",
+    "original": "Isometric pixel art depiction of a traditional Japanese village during cherry blossom season, sakura petals gently falling. The player’s inventory and equipment status are displayed on the left side, with a stamina gauge and skill cooldown timers integrated along the bottom. The camera angle shows the player character practicing samurai sword techniques in the village square, with pixelated villagers observing. Soft ambient lighting complements the pastel color palette. Resolution 1920x1080, 16:9. --ar 6:5 --stylize 400 --v 7\n\nA cozy retro Japanese town in pixel art style, viewed from an isometric angle. Cherry blossoms drift across the screen as a small train chugs along elevated tracks. The HUD displays a minimap in the top-right corner, a health bar in the top-left, and a dialogue box at the bottom. Neon signs flicker with kanji characters, casting warm glows on the cobblestone streets. --ar 6:5 --stylize 400 --v 7\n\nIsometric pixel art screenshot of a cozy retro Japanese street at dusk, featuring narrow alleyways lined with neon-lit ramen shops and wooden houses with paper lanterns. The player character, a pixelated traveler in a kimono, stands near a small shrine emitting soft glowing light. HUD includes a health bar shaped like a koi fish, inventory slots with traditional items, and a mini-map showing nearby NPCs. Screen resolution 1280x720, with a warm orange and purple sky gradient, subtle rain effect with pixel rain drops, and UI showing quest notifications in Japanese calligraphy style. --ar 6:5 --stylize 400 --v 7",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/aivideo/comments/1kpn474/retro_video_games_in_japan_prompts_included/",
+    "scope": "作者公开的部分 Midjourney 画面 Prompt，非完整视频运动指令",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "作者本人评论确认图像用 Midjourney、动画通过 Prompt Catalyst；Kling 来自原帖分类，数字版本未披露。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1kpn474/retro_video_games_in_japan_prompts_included/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/retro-video-games-in-japan-prompts-included-v0-ZGxoZ21hdXNhazFmMUF-n8cDUA657XJUI3Tr6FF8wzDpDnc6GByqOyB1GFmI.png?width=640&crop=smart&format=pjpg&auto=webp&s=7209bcb6327040cdd68546f715815af028e1dc06",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1kpn474/retro_video_games_in_japan_prompts_included/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1kpn474/retro_video_games_in_japan_prompts_included/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 作者本人评论确认图像用 Midjourney、动画通过 Prompt Catalyst；Kling 来自原帖分类，数字版本未披露。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}

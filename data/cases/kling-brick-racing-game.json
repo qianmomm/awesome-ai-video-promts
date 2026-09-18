@@ -1,0 +1,83 @@
+{
+  "id": "kling-brick-racing-game",
+  "title": "积木赛车：游戏概念与速度感",
+  "summary_zh": "作者展示积木风赛车游戏概念动画，公开初始画面的机位、HUD、粒子与塑料材质提示词。",
+  "platform": "Reddit",
+  "source": {
+    "url": "https://www.reddit.com/r/aivideo/comments/1lltow9/lego_racing_games_prompts_included/",
+    "item_key": "main-video",
+    "locator": "作者原帖：Lego Racing Games (Prompts Included)",
+    "published_at": "2025-06-27",
+    "access": "accessible"
+  },
+  "author": {
+    "name": "Vegetable_Writer_443",
+    "url": "https://www.reddit.com/user/Vegetable_Writer_443/"
+  },
+  "collected_at": "2026-09-18",
+  "models": [
+    {
+      "name": "Kling",
+      "version": null,
+      "role": "video_generation",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1lltow9/lego_racing_games_prompts_included/"
+    }
+  ],
+  "category": "动作与运镜",
+  "tags": [
+    "动作与运镜"
+  ],
+  "prompt": {
+    "status": "partial",
+    "original": "Lego-style racing game screenshot captured at 1920x1080 resolution with a third-person rear camera angle, focusing on a colorful, blocky racecar speeding through a vibrant city track. Dynamic motion blur and dust particle effects emphasize velocity. HUD displays a detailed lap timer, mini-map with track layout, player position, and speedometer in a futuristic lego-themed interface. Health bar and turbo boost meter are visible in the corners, with flashing indicators during active boost. Bright daylight lighting with sharp shadows highlights the plastic textures of lego bricks. --ar 6:5 --stylize 400",
+    "language": "en",
+    "translation_zh": null,
+    "recreated": null,
+    "source_url": "https://www.reddit.com/r/aivideo/comments/1lltow9/lego_racing_games_prompts_included/",
+    "scope": "作者公开的首段画面设计 Prompt，非完整视频运动指令",
+    "locator": "作者正文及可读的本人评论",
+    "notes": "正文通过 Prompt Catalyst 制作动画，模型按原帖 Kling 分类记录。原帖前两段画面 Prompt 重复，本案例只引用第一段，不拆成多个案例。"
+  },
+  "references": [],
+  "workflow_notes": [],
+  "video": {
+    "page_url": "https://www.reddit.com/r/aivideo/comments/1lltow9/lego_racing_games_prompts_included/",
+    "alternate_urls": [],
+    "playback": "unchecked",
+    "checked_at": null,
+    "notes": "已读取原帖和视频展示信息；本次未完整播放逐帧核对，不将封面可见等同于播放成功。",
+    "display": {
+      "embed_url": null,
+      "poster_url": "https://external-preview.redd.it/lego-racing-games-prompts-included-v0-eWFnajMxOTUwaDlmMRd51P7cM2kcJBgM_QEyQuqBEa0abT7ZGM5bjzYvhoOJ.png?width=640&crop=smart&format=pjpg&auto=webp&s=56f4f5b1b02facfc304c4ee2753817deb69e7d86",
+      "evidence_url": "https://www.reddit.com/r/aivideo/comments/1lltow9/lego_racing_games_prompts_included/",
+      "checked_at": "2026-09-18",
+      "notes": "封面直接取自该原帖主视频播放器的 poster 属性；README 与详情页点击同一封面进入作者原帖。"
+    }
+  },
+  "verification": {
+    "level": "primary",
+    "checked_at": "2026-09-18",
+    "evidence_urls": [
+      "https://www.reddit.com/r/aivideo/comments/1lltow9/lego_racing_games_prompts_included/"
+    ],
+    "ai_evidence": "原帖标题、正文、作者评论或作品分类标注相关 AI 视频模型；本条公开原帖为核验依据。 正文通过 Prompt Catalyst 制作动画，模型按原帖 Kling 分类记录。原帖前两段画面 Prompt 重复，本案例只引用第一段，不拆成多个案例。",
+    "notes": [
+      "已核对原帖作者、作品标题、发布时间与主视频封面。模型版本按作者自述记录，未读取生成后台。",
+      "正文和 Prompt 中提到的其他模型名称不自动计入本作品的生成模型。"
+    ]
+  },
+  "review": {
+    "status": "approved",
+    "reviewed_at": "2026-09-18"
+  },
+  "rights": {
+    "status": "link_only",
+    "evidence_url": null,
+    "notes": "保留原作者署名与原帖链接。页面引用外部托管的视频封面，未向本仓库上传第三方媒体。引用不表示已取得转载或商用许可，第三方内容不适用本仓库 MIT 许可。"
+  },
+  "reproduction": {
+    "status": "not_attempted",
+    "evidence_url": null,
+    "notes": "未进行模型调用或复现；未披露的参数、种子和素材不补造。"
+  }
+}
